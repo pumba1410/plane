@@ -1,0 +1,70 @@
+name: Build HU frontend images
+
+# Builds the three i18n-bearing frontend images (web, space, admin) from this
+# fork — with the added Hungarian locale — and pushes them to GHCR under the
+# fork owner. These are drop-in replacements for the upstream
+# artifacts.plane.so/makeplane/plane-{frontend,space,admin} images.
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Image tag to push"
+        required: true
+        default: "v1.3.1-hu"
+  push:
+    branches:
+      - hu-v1.3.1
+
+concurrency:
+  group: build-hu-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  packages: write
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - app: web
+            dockerfile: apps/web/Dockerfile.web
+            image: plane-frontend
+          - app: space
+            dockerfile: apps/space/Dockerfile.space
+            image: plane-space
+          - app: admin
+            dockerfile: apps/admin/Dockerfile.admin
+            image: plane-admin
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Login to GHCR
+        uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Resolve tag
+        id: tag
+        run: echo "value=${{ github.event.inputs.tag || 'v1.3.1-hu' }}" >> "$GITHUB_OUTPUT"
+
+      - name: Build and push ${{ matrix.image }}
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: ${{ matrix.dockerfile }}
+          push: true
+          platforms: linux/amd64
+          tags: ghcr.io/${{ github.repository_owner }}/${{ matrix.image }}:${{ steps.tag.outputs.value }}
+          cache-from: type=gha,scope=${{ matrix.app }}
+          cache-to: type=gha,mode=max,scope=${{ matrix.app }}
