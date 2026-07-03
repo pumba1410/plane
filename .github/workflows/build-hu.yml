@@ -12,9 +12,6 @@ on:
         description: "Image tag to push"
         required: true
         default: "v1.3.1-hu"
-  push:
-    branches:
-      - hu-v1.3.1
 
 concurrency:
   group: build-hu-${{ github.ref }}

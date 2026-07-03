@@ -5,2747 +5,2693 @@
  */
 
 export default {
-  submit: "Submit",
-  cancel: "Cancel",
-  loading: "Loading",
-  error: "Error",
-  success: "Success",
-  warning: "Warning",
-  info: "Info",
-  close: "Close",
-  yes: "Yes",
-  no: "No",
-  ok: "OK",
-  name: "Name",
-  description: "Description",
-  search: "Search",
-  add_member: "Add member",
-  adding_members: "Adding members",
-  remove_member: "Remove member",
-  add_members: "Add members",
-  adding_member: "Adding members",
-  remove_members: "Remove members",
-  add: "Add",
-  adding: "Adding",
-  remove: "Remove",
-  add_new: "Add new",
-  remove_selected: "Remove selected",
-  first_name: "First name",
-  last_name: "Last name",
-  email: "Email",
-  display_name: "Display name",
-  role: "Role",
-  timezone: "Timezone",
-  avatar: "Avatar",
-  cover_image: "Cover image",
-  password: "Password",
-  change_cover: "Change cover",
-  language: "Language",
-  saving: "Saving",
-  save_changes: "Save changes",
-  deactivate_account: "Deactivate account",
-  deactivate_account_description:
-    "When deactivating an account, all of the data and resources within that account will be permanently removed and cannot be recovered.",
-  profile_settings: "Profile settings",
-  your_account: "Your account",
-  security: "Security",
-  activity: "Activity",
-  preferences: "Preferences",
-  language_and_time: "Language & Time",
-  notifications: "Notifications",
-  workspaces: "Workspaces",
-  create_workspace: "Create workspace",
-  invitations: "Invitations",
-  summary: "Summary",
-  assigned: "Assigned",
-  created: "Created",
-  subscribed: "Subscribed",
-  you_do_not_have_the_permission_to_access_this_page: "You do not have the permission to access this page.",
-  something_went_wrong_please_try_again: "Something went wrong. Please try again.",
-  load_more: "Load more",
-  select_or_customize_your_interface_color_scheme: "Select or customize your interface color scheme.",
-  timezone_setting: "Current timezone setting.",
-  language_setting: "Choose the language used in the user interface.",
-  settings_moved_to_preferences: "Timezone & Language settings have been moved to preferences.",
-  go_to_preferences: "Go to preferences",
-  theme: "Theme",
-  system_preference: "System preference",
-  light: "Light",
-  dark: "Dark",
-  light_contrast: "Light high contrast",
-  dark_contrast: "Dark high contrast",
-  custom: "Custom theme",
-  select_your_theme: "Select your theme",
-  customize_your_theme: "Customize your theme",
-  background_color: "Background color",
-  text_color: "Text color",
-  primary_color: "Primary(Theme) color",
-  sidebar_background_color: "Sidebar background color",
-  sidebar_text_color: "Sidebar text color",
-  set_theme: "Set theme",
-  enter_a_valid_hex_code_of_6_characters: "Enter a valid hex code of 6 characters",
-  background_color_is_required: "Background color is required",
-  text_color_is_required: "Text color is required",
-  primary_color_is_required: "Primary color is required",
-  sidebar_background_color_is_required: "Sidebar background color is required",
-  sidebar_text_color_is_required: "Sidebar text color is required",
-  updating_theme: "Updating theme",
-  theme_updated_successfully: "Theme updated successfully",
-  failed_to_update_the_theme: "Failed to update the theme",
-  email_notifications: "Email notifications",
-  stay_in_the_loop_on_issues_you_are_subscribed_to_enable_this_to_get_notified:
-    "Stay in the loop on Work items you are subscribed to. Enable this to get notified.",
-  email_notification_setting_updated_successfully: "Email notification setting updated successfully",
-  failed_to_update_email_notification_setting: "Failed to update email notification setting",
-  notify_me_when: "Notify me when",
-  property_changes: "Property changes",
-  property_changes_description:
-    "Notify me when work items' properties like assignees, priority, estimates or anything else changes.",
-  state_change: "State change",
-  state_change_description: "Notify me when the work items moves to a different state",
-  issue_completed: "Work item completed",
-  issue_completed_description: "Notify me only when a work item is completed",
-  comments: "Comments",
-  comments_description: "Notify me when someone leaves a comment on the work item",
-  mentions: "Mentions",
-  mentions_description: "Notify me only when someone mentions me in the comments or description",
-  old_password: "Old password",
-  general_settings: "General settings",
-  sign_out: "Sign out",
-  signing_out: "Signing out",
-  active_cycles: "Active cycles",
-  active_cycles_description:
-    "Monitor cycles across projects, track high-priority work items, and zoom in cycles that need attention.",
-  on_demand_snapshots_of_all_your_cycles: "On-demand snapshots of all your cycles",
-  upgrade: "Upgrade",
-  "10000_feet_view": "10,000-feet view of all active cycles.",
-  "10000_feet_view_description":
-    "Zoom out to see running cycles across all your projects at once instead of going from Cycle to Cycle in each project.",
-  get_snapshot_of_each_active_cycle: "Get a snapshot of each active cycle.",
-  get_snapshot_of_each_active_cycle_description:
-    "Track high-level metrics for all active cycles, see their state of progress, and get a sense of scope against deadlines.",
-  compare_burndowns: "Compare burndowns.",
-  compare_burndowns_description:
-    "Monitor how each of your teams are performing with a peek into each cycle's burndown report.",
-  quickly_see_make_or_break_issues: "Quickly see make-or-break work items.",
-  quickly_see_make_or_break_issues_description:
-    "Preview high-priority work items for each cycle against due dates. See all of them per cycle in one click.",
-  zoom_into_cycles_that_need_attention: "Zoom into cycles that need attention.",
-  zoom_into_cycles_that_need_attention_description:
-    "Investigate the state of any cycle that doesn't conform to expectations in one click.",
-  stay_ahead_of_blockers: "Stay ahead of blockers.",
-  stay_ahead_of_blockers_description:
-    "Spot challenges from one project to another and see inter-cycle dependencies that aren't obvious from any other view.",
-  analytics: "Analytics",
-  workspace_invites: "Workspace invites",
-  enter_god_mode: "Enter god mode",
-  workspace_logo: "Workspace logo",
-  new_issue: "New work item",
-  your_work: "Your work",
-  drafts: "Drafts",
-  projects: "Projects",
-  views: "Views",
-  workspace: "Workspace",
-  archives: "Archives",
-  settings: "Settings",
-  failed_to_move_favorite: "Failed to move favorite",
-  favorites: "Favorites",
-  no_favorites_yet: "No favorites yet",
-  create_folder: "Create folder",
-  new_folder: "New folder",
-  favorite_updated_successfully: "Favorite updated successfully",
-  favorite_created_successfully: "Favorite created successfully",
-  folder_already_exists: "Folder already exists",
-  folder_name_cannot_be_empty: "Folder name cannot be empty",
-  something_went_wrong: "Something went wrong",
-  failed_to_reorder_favorite: "Failed to reorder favorite",
-  favorite_removed_successfully: "Favorite removed successfully",
-  failed_to_create_favorite: "Failed to create favorite",
-  failed_to_rename_favorite: "Failed to rename favorite",
-  project_link_copied_to_clipboard: "Project link copied to clipboard",
-  link_copied: "Link copied",
-  add_project: "Add project",
-  create_project: "Create project",
-  failed_to_remove_project_from_favorites: "Couldn't remove the project from favorites. Please try again.",
-  project_created_successfully: "Project created successfully",
-  project_created_successfully_description: "Project created successfully. You can now start adding work items to it.",
-  project_name_already_taken: "The project name is already taken.",
-  project_identifier_already_taken: "The project identifier is already taken.",
-  project_cover_image_alt: "Project cover image",
-  name_is_required: "Name is required",
-  title_should_be_less_than_255_characters: "Title should be less than 255 characters",
-  project_name: "Project name",
-  project_id_must_be_at_least_1_character: "Project ID must at least be of 1 character",
-  project_id_must_be_at_most_5_characters: "Project ID must at most be of 5 characters",
-  project_id: "Project ID",
-  project_id_tooltip_content: "Helps you identify work items in the project uniquely. Max 10 characters.",
-  description_placeholder: "Description",
-  only_alphanumeric_non_latin_characters_allowed: "Only Alphanumeric & Non-latin characters are allowed.",
-  project_id_is_required: "Project ID is required",
-  project_id_allowed_char: "Only Alphanumeric & Non-latin characters are allowed.",
-  project_id_min_char: "Project ID must at least be of 1 character",
-  project_id_max_char: "Project ID must at most be of 10 characters",
-  project_description_placeholder: "Enter project description",
-  select_network: "Select network",
-  lead: "Lead",
-  date_range: "Date range",
-  private: "Private",
-  public: "Public",
-  accessible_only_by_invite: "Accessible only by invite",
-  anyone_in_the_workspace_except_guests_can_join: "Anyone in the workspace except Guests can join",
-  creating: "Creating",
-  creating_project: "Creating project",
-  adding_project_to_favorites: "Adding project to favorites",
-  project_added_to_favorites: "Project added to favorites",
-  couldnt_add_the_project_to_favorites: "Couldn't add the project to favorites. Please try again.",
-  removing_project_from_favorites: "Removing project from favorites",
-  project_removed_from_favorites: "Project removed from favorites",
-  couldnt_remove_the_project_from_favorites: "Couldn't remove the project from favorites. Please try again.",
-  add_to_favorites: "Add to favorites",
-  remove_from_favorites: "Remove from favorites",
-  publish_project: "Publish project",
-  publish: "Publish",
-  copy_link: "Copy link",
-  leave_project: "Leave project",
-  join_the_project_to_rearrange: "Join the project to rearrange",
-  drag_to_rearrange: "Drag to rearrange",
-  congrats: "Congrats!",
-  open_project: "Open project",
-  issues: "Work items",
-  cycles: "Cycles",
-  modules: "Modules",
-  pages: "Pages",
-  intake: "Intake",
-  time_tracking: "Time Tracking",
-  work_management: "Work management",
-  projects_and_issues: "Projects and work items",
-  projects_and_issues_description: "Toggle these on or off this project.",
-  cycles_description:
-    "Timebox work per project and adjust the time period as needed. One cycle can be 2 weeks, the next 1 week.",
-  modules_description: "Organize work into sub-projects with dedicated leads and assignees.",
-  views_description: "Save custom sorts, filters, and display options or share them with your team.",
-  pages_description: "Create and edit free-form content; notes, docs, anything.",
-  intake_description: "Let non-members share bugs, feedback, and suggestions; without disrupting your workflow.",
-  time_tracking_description: "Log time spent on work items and projects.",
-  work_management_description: "Manage your work and projects with ease.",
-  documentation: "Documentation",
-  contact_sales: "Contact sales",
-  hyper_mode: "Hyper Mode",
-  keyboard_shortcuts: "Keyboard shortcuts",
-  whats_new: "What's new?",
-  version: "Version",
-  we_are_having_trouble_fetching_the_updates: "We are having trouble fetching the updates.",
-  our_changelogs: "our changelogs",
-  for_the_latest_updates: "for the latest updates.",
-  please_visit: "Please visit",
-  docs: "Docs",
-  full_changelog: "Full changelog",
-  support: "Support",
-  forum: "Forum",
-  powered_by_plane_pages: "Powered by Plane Pages",
-  please_select_at_least_one_invitation: "Please select at least one invitation.",
-  please_select_at_least_one_invitation_description: "Please select at least one invitation to join the workspace.",
-  we_see_that_someone_has_invited_you_to_join_a_workspace: "We see that someone has invited you to join a workspace",
-  join_a_workspace: "Join a workspace",
-  we_see_that_someone_has_invited_you_to_join_a_workspace_description:
-    "We see that someone has invited you to join a workspace",
-  join_a_workspace_description: "Join a workspace",
-  accept_and_join: "Accept & Join",
-  go_home: "Go Home",
-  no_pending_invites: "No pending invites",
-  you_can_see_here_if_someone_invites_you_to_a_workspace: "You can see here if someone invites you to a workspace",
-  back_to_home: "Back to home",
-  workspace_name: "workspace-name",
-  deactivate_your_account: "Deactivate your account",
-  deactivate_your_account_description:
-    "Once deactivated, you can't be assigned work items and be billed for your workspace. To reactivate your account, you will need an invite to a workspace at this email address.",
-  deactivating: "Deactivating",
-  confirm: "Confirm",
-  confirming: "Confirming",
-  draft_created: "Draft created",
-  issue_created_successfully: "Work item created successfully",
-  draft_creation_failed: "Draft creation failed",
-  issue_creation_failed: "Work item creation failed",
-  draft_issue: "Draft work item",
-  issue_updated_successfully: "Work item updated successfully",
-  issue_could_not_be_updated: "Work item could not be updated",
-  create_a_draft: "Create a draft",
-  save_to_drafts: "Save to Drafts",
-  save: "Save",
-  update: "Update",
-  updating: "Updating",
-  create_new_issue: "Create new work item",
-  editor_is_not_ready_to_discard_changes: "Editor is not ready to discard changes",
-  failed_to_move_issue_to_project: "Failed to move work item to project",
-  create_more: "Create more",
-  add_to_project: "Add to project",
-  discard: "Discard",
-  duplicate_issue_found: "Duplicate work item found",
-  duplicate_issues_found: "Duplicate work items found",
-  no_matching_results: "No matching results",
-  title_is_required: "Title is required",
-  title: "Title",
-  state: "State",
-  priority: "Priority",
-  none: "None",
-  urgent: "Urgent",
-  high: "High",
-  medium: "Medium",
-  low: "Low",
-  members: "Members",
-  assignee: "Assignee",
-  assignees: "Assignees",
-  you: "You",
-  labels: "Labels",
-  create_new_label: "Create new label",
-  start_date: "Start date",
-  end_date: "End date",
-  due_date: "Due date",
-  estimate: "Estimate",
-  change_parent_issue: "Change parent work item",
-  remove_parent_issue: "Remove parent work item",
-  add_parent: "Add parent",
-  loading_members: "Loading members",
-  view_link_copied_to_clipboard: "View link copied to clipboard.",
-  required: "Required",
-  optional: "Optional",
-  Cancel: "Cancel",
-  edit: "Edit",
-  archive: "Archive",
-  restore: "Restore",
-  open_in_new_tab: "Open in new tab",
-  delete: "Delete",
-  deleting: "Deleting",
-  make_a_copy: "Make a copy",
-  move_to_project: "Move to project",
-  good: "Good",
-  morning: "morning",
-  afternoon: "afternoon",
-  evening: "evening",
-  show_all: "Show all",
-  show_less: "Show less",
-  no_data_yet: "No Data yet",
-  syncing: "Syncing",
-  add_work_item: "Add work item",
-  advanced_description_placeholder: "Press '/' for commands",
-  create_work_item: "Create work item",
-  attachments: "Attachments",
-  declining: "Declining",
-  declined: "Declined",
-  decline: "Decline",
-  unassigned: "Unassigned",
-  work_items: "Work items",
-  add_link: "Add link",
-  points: "Points",
-  no_assignee: "No assignee",
-  no_assignees_yet: "No assignees yet",
-  no_labels_yet: "No labels yet",
-  ideal: "Ideal",
-  current: "Current",
-  no_matching_members: "No matching members",
-  leaving: "Leaving",
-  removing: "Removing",
-  leave: "Leave",
-  refresh: "Refresh",
-  refreshing: "Refreshing",
-  refresh_status: "Refresh status",
-  prev: "Prev",
-  next: "Next",
-  re_generating: "Re-generating",
-  re_generate: "Re-generate",
-  re_generate_key: "Re-generate key",
-  export: "Export",
-  member: "{count, plural, one{# member} other{# members}}",
-  new_password_must_be_different_from_old_password: "New password must be different from old password",
-  edited: "edited",
-  bot: "Bot",
-  settings_description:
-    "Manage your account, workspace, and project preferences all in one place. Switch between tabs to easily configure.",
-  back_to_workspace: "Back to workspace",
-  project_view: {
-    sort_by: {
-      created_at: "Created at",
-      updated_at: "Updated at",
-      name: "Name",
-    },
+  "submit": "Beküldés",
+  "cancel": "Mégse",
+  "loading": "Betöltés",
+  "error": "Hiba",
+  "success": "Siker",
+  "warning": "Figyelmeztetés",
+  "info": "Információ",
+  "close": "Bezárás",
+  "yes": "Igen",
+  "no": "Nem",
+  "ok": "OK",
+  "name": "Név",
+  "description": "Leírás",
+  "search": "Keresés",
+  "add_member": "Tag hozzáadása",
+  "adding_members": "Tagok hozzáadása",
+  "remove_member": "Tag eltávolítása",
+  "add_members": "Tagok hozzáadása",
+  "adding_member": "Tagok hozzáadása",
+  "remove_members": "Tagok eltávolítása",
+  "add": "Hozzáadás",
+  "adding": "Hozzáadás",
+  "remove": "Eltávolítás",
+  "add_new": "Új hozzáadása",
+  "remove_selected": "Kijelöltek eltávolítása",
+  "first_name": "Keresztnév",
+  "last_name": "Vezetéknév",
+  "email": "E-mail",
+  "display_name": "Megjelenítendő név",
+  "role": "Szerepkör",
+  "timezone": "Időzóna",
+  "avatar": "Profilkép",
+  "cover_image": "Borítókép",
+  "password": "Jelszó",
+  "change_cover": "Borító módosítása",
+  "language": "Nyelv",
+  "saving": "Mentés",
+  "save_changes": "Módosítások mentése",
+  "deactivate_account": "Fiók deaktiválása",
+  "deactivate_account_description": "A fiók deaktiválásakor az abban található összes adat és erőforrás véglegesen törlődik, és nem állítható vissza.",
+  "profile_settings": "Profilbeállítások",
+  "your_account": "Fiókod",
+  "security": "Biztonság",
+  "activity": "Tevékenység",
+  "preferences": "Preferenciák",
+  "language_and_time": "Nyelv és idő",
+  "notifications": "Értesítések",
+  "workspaces": "Munkaterületek",
+  "create_workspace": "Munkaterület létrehozása",
+  "invitations": "Meghívók",
+  "summary": "Összegzés",
+  "assigned": "Kiosztva",
+  "created": "Létrehozva",
+  "subscribed": "Feliratkozva",
+  "you_do_not_have_the_permission_to_access_this_page": "Nincs jogosultságod ehhez az oldalhoz.",
+  "something_went_wrong_please_try_again": "Hiba történt. Kérjük, próbáld újra.",
+  "load_more": "Továbbiak betöltése",
+  "select_or_customize_your_interface_color_scheme": "Válaszd ki vagy szabd testre a felület színsémáját.",
+  "timezone_setting": "Jelenlegi időzóna-beállítás.",
+  "language_setting": "Válaszd ki a felhasználói felület nyelvét.",
+  "settings_moved_to_preferences": "Az időzóna- és nyelvi beállítások átkerültek a preferenciák közé.",
+  "go_to_preferences": "Ugrás a preferenciákhoz",
+  "theme": "Téma",
+  "system_preference": "Rendszerbeállítás",
+  "light": "Világos",
+  "dark": "Sötét",
+  "light_contrast": "Világos, nagy kontraszt",
+  "dark_contrast": "Sötét, nagy kontraszt",
+  "custom": "Egyéni téma",
+  "select_your_theme": "Válaszd ki a témát",
+  "customize_your_theme": "Téma testreszabása",
+  "background_color": "Háttérszín",
+  "text_color": "Szövegszín",
+  "primary_color": "Elsődleges (téma) szín",
+  "sidebar_background_color": "Oldalsáv háttérszíne",
+  "sidebar_text_color": "Oldalsáv szövegszíne",
+  "set_theme": "Téma beállítása",
+  "enter_a_valid_hex_code_of_6_characters": "Adj meg egy érvényes, 6 karakteres hexakódot",
+  "background_color_is_required": "A háttérszín megadása kötelező",
+  "text_color_is_required": "A szövegszín megadása kötelező",
+  "primary_color_is_required": "Az elsődleges szín megadása kötelező",
+  "sidebar_background_color_is_required": "Az oldalsáv háttérszínének megadása kötelező",
+  "sidebar_text_color_is_required": "Az oldalsáv szövegszínének megadása kötelező",
+  "updating_theme": "Téma frissítése",
+  "theme_updated_successfully": "A téma sikeresen frissült",
+  "failed_to_update_the_theme": "Nem sikerült frissíteni a témát",
+  "email_notifications": "E-mail értesítések",
+  "stay_in_the_loop_on_issues_you_are_subscribed_to_enable_this_to_get_notified": "Maradj naprakész azokról a munkaelemekről, amelyekre feliratkoztál. Kapcsold be az értesítések fogadásához.",
+  "email_notification_setting_updated_successfully": "Az e-mail-értesítési beállítás sikeresen frissült",
+  "failed_to_update_email_notification_setting": "Nem sikerült frissíteni az e-mail-értesítési beállítást",
+  "notify_me_when": "Értesíts, ha",
+  "property_changes": "Tulajdonságváltozások",
+  "property_changes_description": "Értesíts, ha egy munkaelem tulajdonságai – például felelős, prioritás, becslés vagy bármi más – megváltoznak.",
+  "state_change": "Állapotváltozás",
+  "state_change_description": "Értesíts, ha egy munkaelem másik állapotba kerül",
+  "issue_completed": "Munkaelem befejezve",
+  "issue_completed_description": "Csak akkor értesíts, ha egy munkaelem befejeződik",
+  "comments": "Hozzászólások",
+  "comments_description": "Értesíts, ha valaki hozzászólást ír a munkaelemhez",
+  "mentions": "Említések",
+  "mentions_description": "Csak akkor értesíts, ha valaki megemlít a hozzászólásokban vagy a leírásban",
+  "old_password": "Régi jelszó",
+  "general_settings": "Általános beállítások",
+  "sign_out": "Kijelentkezés",
+  "signing_out": "Kijelentkezés folyamatban",
+  "active_cycles": "Aktív ciklusok",
+  "active_cycles_description": "Kövesd nyomon a ciklusokat a projekteken átívelően, figyeld a magas prioritású munkaelemeket, és nagyíts rá a figyelmet igénylő ciklusokra.",
+  "on_demand_snapshots_of_all_your_cycles": "Igény szerinti pillanatképek az összes ciklusodról",
+  "upgrade": "Frissítés",
+  "10000_feet_view": "Madártávlati áttekintés az összes aktív ciklusról.",
+  "10000_feet_view_description": "Nagyíts ki, hogy egyszerre lásd az összes futó ciklust minden projektedben, ahelyett hogy projektenként ciklusról ciklusra kellene lépkedned.",
+  "get_snapshot_of_each_active_cycle": "Kapj pillanatképet minden aktív ciklusról.",
+  "get_snapshot_of_each_active_cycle_description": "Kövesd nyomon az összes aktív ciklus magas szintű mutatóit, lásd az előrehaladásuk állapotát, és mérd fel a terjedelmüket a határidőkhöz képest.",
+  "compare_burndowns": "Hasonlítsd össze a burndown-diagramokat.",
+  "compare_burndowns_description": "Kövesd nyomon a csapataid teljesítményét egy pillantással az egyes ciklusok burndown-jelentésére.",
+  "quickly_see_make_or_break_issues": "Gyorsan lásd a sorsdöntő munkaelemeket.",
+  "quickly_see_make_or_break_issues_description": "Tekintsd meg előre az egyes ciklusok magas prioritású munkaelemeit a határidőkhöz képest. Egy kattintással láthatod mindegyiket ciklusonként.",
+  "zoom_into_cycles_that_need_attention": "Nagyíts rá a figyelmet igénylő ciklusokra.",
+  "zoom_into_cycles_that_need_attention_description": "Egy kattintással vizsgáld meg bármely, az elvárásoknak nem megfelelő ciklus állapotát.",
+  "stay_ahead_of_blockers": "Járj a blokkoló tényezők előtt.",
+  "stay_ahead_of_blockers_description": "Vedd észre a projektek közötti kihívásokat, és lásd a ciklusok közötti függőségeket, amelyek egyetlen más nézetből sem nyilvánvalóak.",
+  "analytics": "Elemzés",
+  "workspace_invites": "Munkaterület-meghívók",
+  "enter_god_mode": "Belépés az Isten módba",
+  "workspace_logo": "Munkaterület logója",
+  "new_issue": "Új munkaelem",
+  "your_work": "Munkáid",
+  "drafts": "Piszkozatok",
+  "projects": "Projektek",
+  "views": "Nézetek",
+  "workspace": "Munkaterület",
+  "archives": "Archívum",
+  "settings": "Beállítások",
+  "failed_to_move_favorite": "Nem sikerült áthelyezni a kedvencet",
+  "favorites": "Kedvencek",
+  "no_favorites_yet": "Még nincsenek kedvencek",
+  "create_folder": "Mappa létrehozása",
+  "new_folder": "Új mappa",
+  "favorite_updated_successfully": "A kedvenc sikeresen frissült",
+  "favorite_created_successfully": "A kedvenc sikeresen létrejött",
+  "folder_already_exists": "A mappa már létezik",
+  "folder_name_cannot_be_empty": "A mappa neve nem lehet üres",
+  "something_went_wrong": "Hiba történt",
+  "failed_to_reorder_favorite": "Nem sikerült átrendezni a kedvencet",
+  "favorite_removed_successfully": "A kedvenc sikeresen eltávolítva",
+  "failed_to_create_favorite": "Nem sikerült létrehozni a kedvencet",
+  "failed_to_rename_favorite": "Nem sikerült átnevezni a kedvencet",
+  "project_link_copied_to_clipboard": "A projekt hivatkozása a vágólapra másolva",
+  "link_copied": "Hivatkozás másolva",
+  "add_project": "Projekt hozzáadása",
+  "create_project": "Projekt létrehozása",
+  "failed_to_remove_project_from_favorites": "Nem sikerült eltávolítani a projektet a kedvencek közül. Kérjük, próbáld újra.",
+  "project_created_successfully": "A projekt sikeresen létrejött",
+  "project_created_successfully_description": "A projekt sikeresen létrejött. Mostantól munkaelemeket adhatsz hozzá.",
+  "project_name_already_taken": "Ez a projektnév már foglalt.",
+  "project_identifier_already_taken": "Ez a projektazonosító már foglalt.",
+  "project_cover_image_alt": "Projekt borítóképe",
+  "name_is_required": "A név megadása kötelező",
+  "title_should_be_less_than_255_characters": "A cím legfeljebb 255 karakter lehet",
+  "project_name": "Projekt neve",
+  "project_id_must_be_at_least_1_character": "A projektazonosítónak legalább 1 karakter hosszúnak kell lennie",
+  "project_id_must_be_at_most_5_characters": "A projektazonosító legfeljebb 5 karakter hosszú lehet",
+  "project_id": "Projektazonosító",
+  "project_id_tooltip_content": "Segít egyedileg azonosítani a munkaelemeket a projektben. Legfeljebb 10 karakter.",
+  "description_placeholder": "Leírás",
+  "only_alphanumeric_non_latin_characters_allowed": "Csak alfanumerikus és nem latin karakterek engedélyezettek.",
+  "project_id_is_required": "A projektazonosító megadása kötelező",
+  "project_id_allowed_char": "Csak alfanumerikus és nem latin karakterek engedélyezettek.",
+  "project_id_min_char": "A projektazonosítónak legalább 1 karakter hosszúnak kell lennie",
+  "project_id_max_char": "A projektazonosító legfeljebb 10 karakter hosszú lehet",
+  "project_description_placeholder": "Add meg a projekt leírását",
+  "select_network": "Hálózat kiválasztása",
+  "lead": "Vezető",
+  "date_range": "Dátumtartomány",
+  "private": "Privát",
+  "public": "Nyilvános",
+  "accessible_only_by_invite": "Csak meghívóval érhető el",
+  "anyone_in_the_workspace_except_guests_can_join": "A munkaterület bármely tagja csatlakozhat, a vendégek kivételével",
+  "creating": "Létrehozás",
+  "creating_project": "Projekt létrehozása",
+  "adding_project_to_favorites": "Projekt hozzáadása a kedvencekhez",
+  "project_added_to_favorites": "A projekt hozzáadva a kedvencekhez",
+  "couldnt_add_the_project_to_favorites": "Nem sikerült hozzáadni a projektet a kedvencekhez. Kérjük, próbáld újra.",
+  "removing_project_from_favorites": "Projekt eltávolítása a kedvencek közül",
+  "project_removed_from_favorites": "A projekt eltávolítva a kedvencek közül",
+  "couldnt_remove_the_project_from_favorites": "Nem sikerült eltávolítani a projektet a kedvencek közül. Kérjük, próbáld újra.",
+  "add_to_favorites": "Hozzáadás a kedvencekhez",
+  "remove_from_favorites": "Eltávolítás a kedvencek közül",
+  "publish_project": "Projekt közzététele",
+  "publish": "Közzététel",
+  "copy_link": "Hivatkozás másolása",
+  "leave_project": "Kilépés a projektből",
+  "join_the_project_to_rearrange": "Csatlakozz a projekthez az átrendezéshez",
+  "drag_to_rearrange": "Húzd az átrendezéshez",
+  "congrats": "Gratulálunk!",
+  "open_project": "Projekt megnyitása",
+  "issues": "Munkaelemek",
+  "cycles": "Ciklusok",
+  "modules": "Modulok",
+  "pages": "Oldalak",
+  "intake": "Beérkezők",
+  "time_tracking": "Időkövetés",
+  "work_management": "Munkairányítás",
+  "projects_and_issues": "Projektek és munkaelemek",
+  "projects_and_issues_description": "Kapcsold be vagy ki ezeket a projektben.",
+  "cycles_description": "Időkeretezd a munkát projektenként, és igazítsd az időszakot szükség szerint. Az egyik ciklus lehet 2 hét, a következő 1 hét.",
+  "modules_description": "Szervezd a munkát alprojektekbe, saját vezetőkkel és felelősökkel.",
+  "views_description": "Mentsd el az egyéni rendezéseket, szűrőket és megjelenítési beállításokat, vagy oszd meg őket a csapatoddal.",
+  "pages_description": "Hozz létre és szerkessz szabadformátumú tartalmat: jegyzeteket, dokumentumokat, bármit.",
+  "intake_description": "Engedd, hogy a nem tagok is megosszák a hibákat, visszajelzéseket és javaslatokat, anélkül hogy megzavarnák a munkafolyamatodat.",
+  "time_tracking_description": "Rögzítsd a munkaelemekre és projektekre fordított időt.",
+  "work_management_description": "Kezeld könnyedén a munkádat és a projekteket.",
+  "documentation": "Dokumentáció",
+  "contact_sales": "Kapcsolatfelvétel az értékesítéssel",
+  "hyper_mode": "Hiper mód",
+  "keyboard_shortcuts": "Billentyűparancsok",
+  "whats_new": "Mi újság?",
+  "version": "Verzió",
+  "we_are_having_trouble_fetching_the_updates": "Hiba történt a frissítések lekérése közben.",
+  "our_changelogs": "a változásnaplóinkhoz",
+  "for_the_latest_updates": "a legújabb frissítésekért.",
+  "please_visit": "Látogass el",
+  "docs": "Dokumentáció",
+  "full_changelog": "Teljes változásnapló",
+  "support": "Támogatás",
+  "forum": "Fórum",
+  "powered_by_plane_pages": "Működteti: Plane Pages",
+  "please_select_at_least_one_invitation": "Válassz ki legalább egy meghívást.",
+  "please_select_at_least_one_invitation_description": "Válassz ki legalább egy meghívást a munkaterülethez való csatlakozáshoz.",
+  "we_see_that_someone_has_invited_you_to_join_a_workspace": "Úgy látjuk, valaki meghívott, hogy csatlakozz egy munkaterülethez",
+  "join_a_workspace": "Csatlakozás munkaterülethez",
+  "we_see_that_someone_has_invited_you_to_join_a_workspace_description": "Úgy látjuk, valaki meghívott, hogy csatlakozz egy munkaterülethez",
+  "join_a_workspace_description": "Csatlakozás munkaterülethez",
+  "accept_and_join": "Elfogadás és csatlakozás",
+  "go_home": "Kezdőlapra",
+  "no_pending_invites": "Nincs függőben lévő meghívás",
+  "you_can_see_here_if_someone_invites_you_to_a_workspace": "Itt láthatod, ha valaki meghív egy munkaterületre",
+  "back_to_home": "Vissza a kezdőlapra",
+  "workspace_name": "workspace-name",
+  "deactivate_your_account": "Fiók deaktiválása",
+  "deactivate_your_account_description": "Deaktiválás után nem rendelhetők hozzád munkaelemek, és nem számlázható a munkaterületed. A fiók újraaktiválásához meghívásra lesz szükséged egy munkaterületre ezzel az e-mail-címmel.",
+  "deactivating": "Deaktiválás",
+  "confirm": "Megerősítés",
+  "confirming": "Megerősítés folyamatban",
+  "draft_created": "Piszkozat létrehozva",
+  "issue_created_successfully": "A munkaelem sikeresen létrejött",
+  "draft_creation_failed": "A piszkozat létrehozása sikertelen",
+  "issue_creation_failed": "A munkaelem létrehozása sikertelen",
+  "draft_issue": "Piszkozat munkaelem",
+  "issue_updated_successfully": "A munkaelem sikeresen frissült",
+  "issue_could_not_be_updated": "A munkaelemet nem sikerült frissíteni",
+  "create_a_draft": "Piszkozat létrehozása",
+  "save_to_drafts": "Mentés piszkozatként",
+  "save": "Mentés",
+  "update": "Frissítés",
+  "updating": "Frissítés folyamatban",
+  "create_new_issue": "Új munkaelem létrehozása",
+  "editor_is_not_ready_to_discard_changes": "A szerkesztő még nem áll készen a módosítások elvetésére",
+  "failed_to_move_issue_to_project": "Nem sikerült áthelyezni a munkaelemet a projektbe",
+  "create_more": "Több létrehozása",
+  "add_to_project": "Hozzáadás projekthez",
+  "discard": "Elvetés",
+  "duplicate_issue_found": "Duplikált munkaelem található",
+  "duplicate_issues_found": "Duplikált munkaelemek találhatók",
+  "no_matching_results": "Nincs egyező találat",
+  "title_is_required": "A cím megadása kötelező",
+  "title": "Cím",
+  "state": "Állapot",
+  "priority": "Prioritás",
+  "none": "Nincs",
+  "urgent": "Sürgős",
+  "high": "Magas",
+  "medium": "Közepes",
+  "low": "Alacsony",
+  "members": "Tagok",
+  "assignee": "Felelős",
+  "assignees": "Felelősök",
+  "you": "Te",
+  "labels": "Címkék",
+  "create_new_label": "Új címke létrehozása",
+  "start_date": "Kezdődátum",
+  "end_date": "Végdátum",
+  "due_date": "Határidő",
+  "estimate": "Becslés",
+  "change_parent_issue": "Szülő munkaelem módosítása",
+  "remove_parent_issue": "Szülő munkaelem eltávolítása",
+  "add_parent": "Szülő hozzáadása",
+  "loading_members": "Tagok betöltése",
+  "view_link_copied_to_clipboard": "A nézet hivatkozása vágólapra másolva.",
+  "required": "Kötelező",
+  "optional": "Opcionális",
+  "Cancel": "Mégse",
+  "edit": "Szerkesztés",
+  "archive": "Archiválás",
+  "restore": "Visszaállítás",
+  "open_in_new_tab": "Megnyitás új lapon",
+  "delete": "Törlés",
+  "deleting": "Törlés folyamatban",
+  "make_a_copy": "Másolat készítése",
+  "move_to_project": "Áthelyezés projektbe",
+  "good": "Jó",
+  "morning": "reggelt",
+  "afternoon": "napot",
+  "evening": "estét",
+  "show_all": "Összes megjelenítése",
+  "show_less": "Kevesebb megjelenítése",
+  "no_data_yet": "Még nincs adat",
+  "syncing": "Szinkronizálás",
+  "add_work_item": "Munkaelem hozzáadása",
+  "advanced_description_placeholder": "Nyomd meg a '/' billentyűt a parancsokhoz",
+  "create_work_item": "Munkaelem létrehozása",
+  "attachments": "Mellékletek",
+  "declining": "Elutasítás folyamatban",
+  "declined": "Elutasítva",
+  "decline": "Elutasítás",
+  "unassigned": "Nincs hozzárendelve",
+  "work_items": "Munkaelemek",
+  "add_link": "Hivatkozás hozzáadása",
+  "points": "Pontok",
+  "no_assignee": "Nincs felelős",
+  "no_assignees_yet": "Még nincs felelős",
+  "no_labels_yet": "Még nincs címke",
+  "ideal": "Ideális",
+  "current": "Jelenlegi",
+  "no_matching_members": "Nincs egyező tag",
+  "leaving": "Kilépés folyamatban",
+  "removing": "Eltávolítás folyamatban",
+  "leave": "Kilépés",
+  "refresh": "Frissítés",
+  "refreshing": "Frissítés folyamatban",
+  "refresh_status": "Állapot frissítése",
+  "prev": "Előző",
+  "next": "Következő",
+  "re_generating": "Újragenerálás folyamatban",
+  "re_generate": "Újragenerálás",
+  "re_generate_key": "Kulcs újragenerálása",
+  "export": "Exportálás",
+  "member": "{count, plural, one{# tag} other{# tag}}",
+  "new_password_must_be_different_from_old_password": "Az új jelszónak különböznie kell a régi jelszótól",
+  "edited": "szerkesztve",
+  "bot": "Bot",
+  "settings_description": "Kezeld a fiók-, munkaterület- és projektbeállításaidat egy helyen. Válts a fülek között a könnyű beállításhoz.",
+  "back_to_workspace": "Vissza a munkaterülethez",
+  "project_view": {
+    "sort_by": {
+      "created_at": "Létrehozva",
+      "updated_at": "Frissítve",
+      "name": "Név"
+    }
   },
-  toast: {
-    success: "Success!",
-    error: "Error!",
+  "toast": {
+    "success": "Siker!",
+    "error": "Hiba!"
   },
-  links: {
-    toasts: {
-      created: {
-        title: "Link created",
-        message: "The link has been successfully created",
+  "links": {
+    "toasts": {
+      "created": {
+        "title": "Hivatkozás létrehozva",
+        "message": "A hivatkozás sikeresen létrejött"
       },
-      not_created: {
-        title: "Link not created",
-        message: "The link could not be created",
+      "not_created": {
+        "title": "A hivatkozás nem jött létre",
+        "message": "A hivatkozást nem sikerült létrehozni"
       },
-      updated: {
-        title: "Link updated",
-        message: "The link has been successfully updated",
+      "updated": {
+        "title": "Hivatkozás frissítve",
+        "message": "A hivatkozás sikeresen frissült"
       },
-      not_updated: {
-        title: "Link not updated",
-        message: "The link could not be updated",
+      "not_updated": {
+        "title": "A hivatkozás nem frissült",
+        "message": "A hivatkozást nem sikerült frissíteni"
       },
-      removed: {
-        title: "Link removed",
-        message: "The link has been successfully removed",
+      "removed": {
+        "title": "Hivatkozás eltávolítva",
+        "message": "A hivatkozás sikeresen eltávolítva"
       },
-      not_removed: {
-        title: "Link not removed",
-        message: "The link could not be removed",
-      },
-    },
+      "not_removed": {
+        "title": "A hivatkozás nem lett eltávolítva",
+        "message": "A hivatkozást nem sikerült eltávolítani"
+      }
+    }
   },
-  home: {
-    empty: {
-      quickstart_guide: "Your quickstart guide",
-      not_right_now: "Not right now",
-      create_project: {
-        title: "Create a project",
-        description: "Most things start with a project in Plane.",
-        cta: "Get started",
+  "home": {
+    "empty": {
+      "quickstart_guide": "Gyorsindítási útmutatód",
+      "not_right_now": "Most nem",
+      "create_project": {
+        "title": "Projekt létrehozása",
+        "description": "A Plane-ben a legtöbb minden egy projekttel kezdődik.",
+        "cta": "Kezdés"
       },
-      invite_team: {
-        title: "Invite your team",
-        description: "Build, ship, and manage with coworkers.",
-        cta: "Get them in",
+      "invite_team": {
+        "title": "Hívd meg a csapatodat",
+        "description": "Építs, szállíts és irányíts a munkatársaiddal együtt.",
+        "cta": "Hívd be őket"
       },
-      configure_workspace: {
-        title: "Set up your workspace.",
-        description: "Turn features on or off or go beyond that.",
-        cta: "Configure this workspace",
+      "configure_workspace": {
+        "title": "Állítsd be a munkaterületedet.",
+        "description": "Kapcsolj be vagy ki funkciókat, vagy menj még tovább.",
+        "cta": "Munkaterület beállítása"
       },
-      personalize_account: {
-        title: "Make Plane yours.",
-        description: "Choose your picture, colors, and more.",
-        cta: "Personalize now",
+      "personalize_account": {
+        "title": "Tedd magadévá a Plane-t.",
+        "description": "Válaszd ki a profilképed, a színeket és még sok mást.",
+        "cta": "Személyre szabás most"
       },
-      widgets: {
-        title: "It's Quiet Without Widgets, Turn Them On",
-        description: "It looks like all your widgets are turned off. Enable them\nnow to enhance your experience!",
-        primary_button: {
-          text: "Manage widgets",
-        },
-      },
+      "widgets": {
+        "title": "Csendes itt widgetek nélkül, kapcsold be őket",
+        "description": "Úgy tűnik, minden widgeted ki van kapcsolva. Kapcsold be\nőket most, hogy jobb élményben legyen részed!",
+        "primary_button": {
+          "text": "Widgetek kezelése"
+        }
+      }
     },
-    quick_links: {
-      empty: "Save links to work things that you'd like handy.",
-      add: "Add quick Link",
-      title: "Quicklink",
-      title_plural: "Quicklinks",
+    "quick_links": {
+      "empty": "Mentsd el azokat a munkával kapcsolatos hivatkozásokat, amelyeket kéznél szeretnél tartani.",
+      "add": "Gyorshivatkozás hozzáadása",
+      "title": "Gyorshivatkozás",
+      "title_plural": "Gyorshivatkozások"
     },
-    recents: {
-      title: "Recents",
-      empty: {
-        project: "Your recent projects will appear here once you visit one.",
-        page: "Your recent pages will appear here once you visit one.",
-        issue: "Your recent work items will appear here once you visit one.",
-        default: "You don't have any recents yet.",
+    "recents": {
+      "title": "Legutóbbiak",
+      "empty": {
+        "project": "A legutóbbi projektjeid itt fognak megjelenni, amint meglátogatsz egyet.",
+        "page": "A legutóbbi oldalaid itt fognak megjelenni, amint meglátogatsz egyet.",
+        "issue": "A legutóbbi munkaelemeid itt fognak megjelenni, amint megnyitsz egyet.",
+        "default": "Még nincsenek legutóbbi elemeid."
       },
-      filters: {
-        all: "All",
-        projects: "Projects",
-        pages: "Pages",
-        issues: "Work items",
-      },
+      "filters": {
+        "all": "Összes",
+        "projects": "Projektek",
+        "pages": "Oldalak",
+        "issues": "Munkaelemek"
+      }
     },
-    new_at_plane: {
-      title: "New at Plane",
+    "new_at_plane": {
+      "title": "Újdonságok a Plane-ben"
     },
-    quick_tutorial: {
-      title: "Quick tutorial",
+    "quick_tutorial": {
+      "title": "Gyors bemutató"
     },
-    widget: {
-      reordered_successfully: "Widget reordered successfully.",
-      reordering_failed: "Error occurred while reordering widget.",
+    "widget": {
+      "reordered_successfully": "A widget sorrendje sikeresen módosult.",
+      "reordering_failed": "Hiba történt a widget átrendezése közben."
     },
-    manage_widgets: "Manage widgets",
-    title: "Home",
-    star_us_on_github: "Star us on GitHub",
+    "manage_widgets": "Widgetek kezelése",
+    "title": "Kezdőlap",
+    "star_us_on_github": "Csillagozz meg minket a GitHubon"
   },
-  link: {
-    modal: {
-      url: {
-        text: "URL",
-        required: "URL is invalid",
-        placeholder: "Type or paste a URL",
+  "link": {
+    "modal": {
+      "url": {
+        "text": "URL",
+        "required": "Az URL érvénytelen",
+        "placeholder": "Írj be vagy illessz be egy URL-t"
       },
-      title: {
-        text: "Display title",
-        placeholder: "What you'd like to see this link as",
-      },
-    },
+      "title": {
+        "text": "Megjelenítendő cím",
+        "placeholder": "Hogyan szeretnéd látni ezt a hivatkozást"
+      }
+    }
   },
-  common: {
-    all: "All",
-    no_items_in_this_group: "No items in this group",
-    drop_here_to_move: "Drop here to move",
-    states: "States",
-    state: "State",
-    state_groups: "State groups",
-    state_group: "State group",
-    priorities: "Priorities",
-    priority: "Priority",
-    team_project: "Team project",
-    project: "Project",
-    cycle: "Cycle",
-    cycles: "Cycles",
-    module: "Module",
-    modules: "Modules",
-    labels: "Labels",
-    label: "Label",
-    admins: "Admins",
-    users: "Users",
-    guests: "Guests",
-    assignees: "Assignees",
-    assignee: "Assignee",
-    created_by: "Created by",
-    none: "None",
-    link: "Link",
-    estimates: "Estimates",
-    estimate: "Estimate",
-    created_at: "Created at",
-    completed_at: "Completed at",
-    layout: "Layout",
-    filters: "Filters",
-    display: "Display",
-    load_more: "Load more",
-    activity: "Activity",
-    analytics: "Analytics",
-    dates: "Dates",
-    success: "Success!",
-    something_went_wrong: "Something went wrong",
-    error: {
-      label: "Error!",
-      message: "Some error occurred. Please try again.",
+  "common": {
+    "all": "Összes",
+    "no_items_in_this_group": "Nincs elem ebben a csoportban",
+    "drop_here_to_move": "Ejtsd ide az áthelyezéshez",
+    "states": "Állapotok",
+    "state": "Állapot",
+    "state_groups": "Állapotcsoportok",
+    "state_group": "Állapotcsoport",
+    "priorities": "Prioritások",
+    "priority": "Prioritás",
+    "team_project": "Csapatprojekt",
+    "project": "Projekt",
+    "cycle": "Ciklus",
+    "cycles": "Ciklusok",
+    "module": "Modul",
+    "modules": "Modulok",
+    "labels": "Címkék",
+    "label": "Címke",
+    "admins": "Rendszergazdák",
+    "users": "Felhasználók",
+    "guests": "Vendégek",
+    "assignees": "Felelősök",
+    "assignee": "Felelős",
+    "created_by": "Létrehozta",
+    "none": "Nincs",
+    "link": "Hivatkozás",
+    "estimates": "Becslések",
+    "estimate": "Becslés",
+    "created_at": "Létrehozva",
+    "completed_at": "Befejezés dátuma",
+    "layout": "Elrendezés",
+    "filters": "Szűrők",
+    "display": "Megjelenítés",
+    "load_more": "Továbbiak betöltése",
+    "activity": "Tevékenység",
+    "analytics": "Analitika",
+    "dates": "Dátumok",
+    "success": "Siker!",
+    "something_went_wrong": "Hiba történt",
+    "error": {
+      "label": "Hiba!",
+      "message": "Hiba történt. Kérjük, próbáld újra."
     },
-    group_by: "Group by",
-    epic: "Epic",
-    epics: "Epics",
-    work_item: "Work item",
-    work_items: "Work items",
-    sub_work_item: "Sub-work item",
-    add: "Add",
-    warning: "Warning",
-    updating: "Updating",
-    adding: "Adding",
-    update: "Update",
-    creating: "Creating",
-    create: "Create",
-    cancel: "Cancel",
-    description: "Description",
-    title: "Title",
-    attachment: "Attachment",
-    general: "General",
-    features: "Features",
-    automation: "Automation",
-    project_name: "Project name",
-    project_id: "Project ID",
-    project_timezone: "Project Timezone",
-    created_on: "Created on",
-    update_project: "Update project",
-    identifier_already_exists: "Identifier already exists",
-    add_more: "Add more",
-    defaults: "Defaults",
-    add_label: "Add label",
-    customize_time_range: "Customize time range",
-    loading: "Loading",
-    attachments: "Attachments",
-    property: "Property",
-    properties: "Properties",
-    parent: "Parent",
-    page: "Page",
-    remove: "Remove",
-    archiving: "Archiving",
-    archive: "Archive",
-    access: {
-      public: "Public",
-      private: "Private",
+    "group_by": "Csoportosítás",
+    "epic": "Epik",
+    "epics": "Epikek",
+    "work_item": "Munkaelem",
+    "work_items": "Munkaelemek",
+    "sub_work_item": "Almunkaelem",
+    "add": "Hozzáadás",
+    "warning": "Figyelmeztetés",
+    "updating": "Frissítés...",
+    "adding": "Hozzáadás...",
+    "update": "Frissítés",
+    "creating": "Létrehozás...",
+    "create": "Létrehozás",
+    "cancel": "Mégse",
+    "description": "Leírás",
+    "title": "Cím",
+    "attachment": "Melléklet",
+    "general": "Általános",
+    "features": "Funkciók",
+    "automation": "Automatizálás",
+    "project_name": "Projekt neve",
+    "project_id": "Projekt azonosító",
+    "project_timezone": "Projekt időzónája",
+    "created_on": "Létrehozva",
+    "update_project": "Projekt frissítése",
+    "identifier_already_exists": "Az azonosító már létezik",
+    "add_more": "Több hozzáadása",
+    "defaults": "Alapértelmezések",
+    "add_label": "Címke hozzáadása",
+    "customize_time_range": "Időtartomány testreszabása",
+    "loading": "Betöltés",
+    "attachments": "Mellékletek",
+    "property": "Tulajdonság",
+    "properties": "Tulajdonságok",
+    "parent": "Szülő",
+    "page": "Oldal",
+    "remove": "Eltávolítás",
+    "archiving": "Archiválás...",
+    "archive": "Archiválás",
+    "access": {
+      "public": "Nyilvános",
+      "private": "Privát"
     },
-    done: "Done",
-    sub_work_items: "Sub-work items",
-    comment: "Comment",
-    workspace_level: "Workspace level",
-    order_by: {
-      label: "Order by",
-      manual: "Manual",
-      last_created: "Last created",
-      last_updated: "Last updated",
-      start_date: "Start date",
-      due_date: "Due date",
-      asc: "Ascending",
-      desc: "Descending",
-      updated_on: "Updated on",
+    "done": "Kész",
+    "sub_work_items": "Almunkaelemek",
+    "comment": "Hozzászólás",
+    "workspace_level": "Munkaterület szintje",
+    "order_by": {
+      "label": "Rendezés",
+      "manual": "Manuális",
+      "last_created": "Utoljára létrehozott",
+      "last_updated": "Utoljára frissített",
+      "start_date": "Kezdődátum",
+      "due_date": "Határidő",
+      "asc": "Növekvő",
+      "desc": "Csökkenő",
+      "updated_on": "Frissítve"
     },
-    sort: {
-      asc: "Ascending",
-      desc: "Descending",
-      created_on: "Created on",
-      updated_on: "Updated on",
+    "sort": {
+      "asc": "Növekvő",
+      "desc": "Csökkenő",
+      "created_on": "Létrehozva",
+      "updated_on": "Frissítve"
     },
-    comments: "Comments",
-    updates: "Updates",
-    clear_all: "Clear all",
-    copied: "Copied!",
-    link_copied: "Link copied!",
-    link_copied_to_clipboard: "Link copied to clipboard",
-    copied_to_clipboard: "Work item link copied to clipboard",
-    is_copied_to_clipboard: "Work item is copied to clipboard",
-    no_links_added_yet: "No links added yet",
-    add_link: "Add link",
-    links: "Links",
-    go_to_workspace: "Go to workspace",
-    progress: "Progress",
-    optional: "Optional",
-    join: "Join",
-    go_back: "Go back",
-    continue: "Continue",
-    resend: "Resend",
-    relations: "Relations",
-    errors: {
-      default: {
-        title: "Error!",
-        message: "Something went wrong. Please try again.",
+    "comments": "Hozzászólások",
+    "updates": "Frissítések",
+    "clear_all": "Összes törlése",
+    "copied": "Másolva!",
+    "link_copied": "Hivatkozás másolva!",
+    "link_copied_to_clipboard": "Hivatkozás vágólapra másolva",
+    "copied_to_clipboard": "A munkaelem hivatkozása vágólapra másolva",
+    "is_copied_to_clipboard": "A munkaelem vágólapra másolva",
+    "no_links_added_yet": "Még nincs hozzáadott hivatkozás",
+    "add_link": "Hivatkozás hozzáadása",
+    "links": "Hivatkozások",
+    "go_to_workspace": "Ugrás a munkaterületre",
+    "progress": "Előrehaladás",
+    "optional": "Opcionális",
+    "join": "Csatlakozás",
+    "go_back": "Vissza",
+    "continue": "Folytatás",
+    "resend": "Újraküldés",
+    "relations": "Kapcsolatok",
+    "errors": {
+      "default": {
+        "title": "Hiba!",
+        "message": "Hiba történt. Kérjük, próbáld újra."
       },
-      required: "This field is required",
-      entity_required: "{entity} is required",
-      restricted_entity: "{entity} is restricted",
+      "required": "Ez a mező kötelező",
+      "entity_required": "{entity} kötelező",
+      "restricted_entity": "{entity} korlátozott"
     },
-    update_link: "Update link",
-    attach: "Attach",
-    create_new: "Create new",
-    add_existing: "Add existing",
-    type_or_paste_a_url: "Type or paste a URL",
-    url_is_invalid: "URL is invalid",
-    display_title: "Display title",
-    link_title_placeholder: "What you'd like to see this link as",
-    url: "URL",
-    side_peek: "Side Peek",
-    modal: "Modal",
-    full_screen: "Full Screen",
-    close_peek_view: "Close the peek view",
-    toggle_peek_view_layout: "Toggle peek view layout",
-    options: "Options",
-    duration: "Duration",
-    today: "Today",
-    week: "Week",
-    month: "Month",
-    quarter: "Quarter",
-    press_for_commands: "Press '/' for commands",
-    click_to_add_description: "Click to add description",
-    on_track: "On-Track",
-    off_track: "Off-Track",
-    at_risk: "At risk",
-    timeline: "Timeline",
-    completion: "Completion",
-    upcoming: "Upcoming",
-    completed: "Completed",
-    in_progress: "In progress",
-    planned: "Planned",
-    paused: "Paused",
-    search: {
-      label: "Search",
-      placeholder: "Type to search",
-      no_matches_found: "No matches found",
-      no_matching_results: "No matching results",
+    "update_link": "Hivatkozás frissítése",
+    "attach": "Csatolás",
+    "create_new": "Új létrehozása",
+    "add_existing": "Meglévő hozzáadása",
+    "type_or_paste_a_url": "Írj be vagy illessz be egy URL-t",
+    "url_is_invalid": "Az URL érvénytelen",
+    "display_title": "Megjelenítendő cím",
+    "link_title_placeholder": "Hogyan szeretnéd látni ezt a hivatkozást",
+    "url": "URL",
+    "side_peek": "Oldalsó nézet",
+    "modal": "Modális ablak",
+    "full_screen": "Teljes képernyő",
+    "close_peek_view": "Betekintő nézet bezárása",
+    "toggle_peek_view_layout": "Betekintő nézet elrendezésének váltása",
+    "options": "Lehetőségek",
+    "duration": "Időtartam",
+    "today": "Ma",
+    "week": "Hét",
+    "month": "Hónap",
+    "quarter": "Negyedév",
+    "press_for_commands": "Nyomd meg a „/” billentyűt a parancsokhoz",
+    "click_to_add_description": "Kattints a leírás hozzáadásához",
+    "on_track": "Ütemben",
+    "off_track": "Csúszásban",
+    "at_risk": "Kockázatos",
+    "timeline": "Idővonal",
+    "completion": "Teljesítés",
+    "upcoming": "Közelgő",
+    "completed": "Befejezve",
+    "in_progress": "Folyamatban",
+    "planned": "Tervezett",
+    "paused": "Szüneteltetve",
+    "search": {
+      "label": "Keresés",
+      "placeholder": "Gépelj a kereséshez",
+      "no_matches_found": "Nincs találat",
+      "no_matching_results": "Nincs egyező találat"
     },
-    actions: {
-      edit: "Edit",
-      make_a_copy: "Make a copy",
-      open_in_new_tab: "Open in new tab",
-      copy_link: "Copy link",
-      archive: "Archive",
-      restore: "Restore",
-      delete: "Delete",
-      remove_relation: "Remove relation",
-      subscribe: "Subscribe",
-      unsubscribe: "Unsubscribe",
-      clear_sorting: "Clear sorting",
-      show_weekends: "Show weekends",
-      enable: "Enable",
-      disable: "Disable",
-      copy_markdown: "Copy markdown",
+    "actions": {
+      "edit": "Szerkesztés",
+      "make_a_copy": "Másolat készítése",
+      "open_in_new_tab": "Megnyitás új lapon",
+      "copy_link": "Hivatkozás másolása",
+      "archive": "Archiválás",
+      "restore": "Visszaállítás",
+      "delete": "Törlés",
+      "remove_relation": "Kapcsolat eltávolítása",
+      "subscribe": "Feliratkozás",
+      "unsubscribe": "Leiratkozás",
+      "clear_sorting": "Rendezés törlése",
+      "show_weekends": "Hétvégék megjelenítése",
+      "enable": "Engedélyezés",
+      "disable": "Letiltás",
+      "copy_markdown": "Markdown másolása"
     },
-    name: "Name",
-    discard: "Discard",
-    confirm: "Confirm",
-    confirming: "Confirming",
-    read_the_docs: "Read the docs",
-    default: "Default",
-    active: "Active",
-    enabled: "Enabled",
-    disabled: "Disabled",
-    mandate: "Mandate",
-    mandatory: "Mandatory",
-    yes: "Yes",
-    no: "No",
-    please_wait: "Please wait",
-    enabling: "Enabling",
-    disabling: "Disabling",
-    beta: "Beta",
-    or: "or",
-    next: "Next",
-    back: "Back",
-    cancelling: "Cancelling",
-    configuring: "Configuring",
-    clear: "Clear",
-    import: "Import",
-    connect: "Connect",
-    authorizing: "Authorizing",
-    processing: "Processing",
-    no_data_available: "No data available",
-    from: "from {name}",
-    authenticated: "Authenticated",
-    select: "Select",
-    upgrade: "Upgrade",
-    add_seats: "Add Seats",
-    projects: "Projects",
-    workspace: "Workspace",
-    workspaces: "Workspaces",
-    team: "Team",
-    teams: "Teams",
-    entity: "Entity",
-    entities: "Entities",
-    task: "Task",
-    tasks: "Tasks",
-    section: "Section",
-    sections: "Sections",
-    edit: "Edit",
-    connecting: "Connecting",
-    connected: "Connected",
-    disconnect: "Disconnect",
-    disconnecting: "Disconnecting",
-    installing: "Installing",
-    install: "Install",
-    reset: "Reset",
-    live: "Live",
-    change_history: "Change History",
-    coming_soon: "Coming soon",
-    member: "Member",
-    members: "Members",
-    you: "You",
-    upgrade_cta: {
-      higher_subscription: "Upgrade to higher subscription",
-      talk_to_sales: "Talk to Sales",
+    "name": "Név",
+    "discard": "Elvetés",
+    "confirm": "Megerősítés",
+    "confirming": "Megerősítés...",
+    "read_the_docs": "Dokumentáció elolvasása",
+    "default": "Alapértelmezett",
+    "active": "Aktív",
+    "enabled": "Engedélyezve",
+    "disabled": "Letiltva",
+    "mandate": "Kötelezővé tétel",
+    "mandatory": "Kötelező",
+    "yes": "Igen",
+    "no": "Nem",
+    "please_wait": "Kérjük, várj",
+    "enabling": "Engedélyezés...",
+    "disabling": "Letiltás...",
+    "beta": "Béta",
+    "or": "vagy",
+    "next": "Következő",
+    "back": "Vissza",
+    "cancelling": "Megszakítás...",
+    "configuring": "Konfigurálás...",
+    "clear": "Törlés",
+    "import": "Importálás",
+    "connect": "Kapcsolódás",
+    "authorizing": "Hitelesítés...",
+    "processing": "Feldolgozás...",
+    "no_data_available": "Nincs elérhető adat",
+    "from": "ettől: {name}",
+    "authenticated": "Hitelesítve",
+    "select": "Kiválasztás",
+    "upgrade": "Frissítés",
+    "add_seats": "Licencek hozzáadása",
+    "projects": "Projektek",
+    "workspace": "Munkaterület",
+    "workspaces": "Munkaterületek",
+    "team": "Csapat",
+    "teams": "Csapatok",
+    "entity": "Entitás",
+    "entities": "Entitások",
+    "task": "Feladat",
+    "tasks": "Feladatok",
+    "section": "Szakasz",
+    "sections": "Szakaszok",
+    "edit": "Szerkesztés",
+    "connecting": "Kapcsolódás...",
+    "connected": "Kapcsolódva",
+    "disconnect": "Leválasztás",
+    "disconnecting": "Leválasztás...",
+    "installing": "Telepítés...",
+    "install": "Telepítés",
+    "reset": "Alaphelyzetbe állítás",
+    "live": "Élő",
+    "change_history": "Módosítási előzmények",
+    "coming_soon": "Hamarosan",
+    "member": "Tag",
+    "members": "Tagok",
+    "you": "Te",
+    "upgrade_cta": {
+      "higher_subscription": "Válts magasabb csomagra",
+      "talk_to_sales": "Kapcsolatfelvétel az értékesítéssel"
     },
-    category: "Category",
-    categories: "Categories",
-    saving: "Saving",
-    save_changes: "Save changes",
-    delete: "Delete",
-    deleting: "Deleting",
-    pending: "Pending",
-    invite: "Invite",
-    view: "View",
-    deactivated_user: "Deactivated user",
-    apply: "Apply",
-    applying: "Applying",
-    overview: "Overview",
-    no_of: "No. of {entity}",
-    resolved: "Resolved",
+    "category": "Kategória",
+    "categories": "Kategóriák",
+    "saving": "Mentés...",
+    "save_changes": "Módosítások mentése",
+    "delete": "Törlés",
+    "deleting": "Törlés...",
+    "pending": "Függőben",
+    "invite": "Meghívás",
+    "view": "Nézet",
+    "deactivated_user": "Deaktivált felhasználó",
+    "apply": "Alkalmazás",
+    "applying": "Alkalmazás folyamatban",
+    "overview": "Áttekintés",
+    "no_of": "{entity} száma",
+    "resolved": "Megoldva"
   },
-  chart: {
-    x_axis: "X-axis",
-    y_axis: "Y-axis",
-    metric: "Metric",
+  "chart": {
+    "x_axis": "X-tengely",
+    "y_axis": "Y-tengely",
+    "metric": "Metrika"
   },
-  form: {
-    title: {
-      required: "Title is required",
-      max_length: "Title should be less than {length} characters",
-    },
+  "form": {
+    "title": {
+      "required": "A cím megadása kötelező",
+      "max_length": "A cím legfeljebb {length} karakter lehet"
+    }
   },
-  entity: {
-    grouping_title: "{entity} Grouping",
-    priority: "{entity} Priority",
-    all: "All {entity}",
-    drop_here_to_move: "Drop here to move the {entity}",
-    delete: {
-      label: "Delete {entity}",
-      success: "{entity} deleted successfully",
-      failed: "{entity} delete failed",
+  "entity": {
+    "grouping_title": "{entity} csoportosítása",
+    "priority": "{entity} prioritása",
+    "all": "Összes {entity}",
+    "drop_here_to_move": "Húzd ide a(z) {entity} áthelyezéséhez",
+    "delete": {
+      "label": "{entity} törlése",
+      "success": "A(z) {entity} sikeresen törölve",
+      "failed": "A(z) {entity} törlése sikertelen"
     },
-    update: {
-      failed: "{entity} update failed",
-      success: "{entity} updated successfully",
+    "update": {
+      "failed": "A(z) {entity} frissítése sikertelen",
+      "success": "A(z) {entity} sikeresen frissítve"
     },
-    link_copied_to_clipboard: "{entity} link copied to clipboard",
-    fetch: {
-      failed: "Error fetching {entity}",
+    "link_copied_to_clipboard": "A(z) {entity} hivatkozása vágólapra másolva",
+    "fetch": {
+      "failed": "Hiba történt a(z) {entity} betöltésekor"
     },
-    add: {
-      success: "{entity} added successfully",
-      failed: "Error adding {entity}",
+    "add": {
+      "success": "A(z) {entity} sikeresen hozzáadva",
+      "failed": "Hiba történt a(z) {entity} hozzáadásakor"
     },
-    remove: {
-      success: "{entity} removed successfully",
-      failed: "Error removing {entity}",
-    },
+    "remove": {
+      "success": "A(z) {entity} sikeresen eltávolítva",
+      "failed": "Hiba történt a(z) {entity} eltávolításakor"
+    }
   },
-  epic: {
-    all: "All Epics",
-    label: "{count, plural, one {Epic} other {Epics}}",
-    new: "New Epic",
-    adding: "Adding epic",
-    create: {
-      success: "Epic created successfully",
+  "epic": {
+    "all": "Összes epik",
+    "label": "{count, plural, one {Epik} other {Epikek}}",
+    "new": "Új epik",
+    "adding": "Epik hozzáadása",
+    "create": {
+      "success": "Az epik sikeresen létrehozva"
     },
-    add: {
-      press_enter: "Press 'Enter' to add another epic",
-      label: "Add Epic",
+    "add": {
+      "press_enter": "Nyomd meg az 'Enter' billentyűt újabb epik hozzáadásához",
+      "label": "Epik hozzáadása"
     },
-    title: {
-      label: "Epic Title",
-      required: "Epic title is required.",
-    },
+    "title": {
+      "label": "Epik címe",
+      "required": "Az epik címének megadása kötelező."
+    }
   },
-  issue: {
-    label: "{count, plural, one {Work item} other {Work items}}",
-    all: "All Work items",
-    edit: "Edit work item",
-    title: {
-      label: "Work item title",
-      required: "Work item title is required.",
+  "issue": {
+    "label": "{count, plural, one {Munkaelem} other {Munkaelemek}}",
+    "all": "Összes munkaelem",
+    "edit": "Munkaelem szerkesztése",
+    "title": {
+      "label": "Munkaelem címe",
+      "required": "A munkaelem címének megadása kötelező."
     },
-    add: {
-      press_enter: "Press 'Enter' to add another work item",
-      label: "Add work item",
-      cycle: {
-        failed: "Work item could not be added to the cycle. Please try again.",
-        success: "{count, plural, one {Work item} other {Work items}} added to the cycle successfully.",
-        loading: "Adding {count, plural, one {work item} other {work items}} to the cycle",
+    "add": {
+      "press_enter": "Nyomd meg az 'Enter' billentyűt újabb munkaelem hozzáadásához",
+      "label": "Munkaelem hozzáadása",
+      "cycle": {
+        "failed": "A munkaelemet nem sikerült hozzáadni a ciklushoz. Próbáld újra.",
+        "success": "{count, plural, one {A munkaelem} other {A munkaelemek}} sikeresen hozzáadva a ciklushoz.",
+        "loading": "{count, plural, one {Munkaelem} other {Munkaelemek}} hozzáadása a ciklushoz"
       },
-      assignee: "Add assignees",
-      start_date: "Add start date",
-      due_date: "Add due date",
-      parent: "Add parent work item",
-      sub_issue: "Add sub-work item",
-      relation: "Add relation",
-      link: "Add link",
-      existing: "Add existing work item",
+      "assignee": "Felelősök hozzáadása",
+      "start_date": "Kezdődátum hozzáadása",
+      "due_date": "Határidő hozzáadása",
+      "parent": "Szülő munkaelem hozzáadása",
+      "sub_issue": "Almunkaelem hozzáadása",
+      "relation": "Kapcsolat hozzáadása",
+      "link": "Hivatkozás hozzáadása",
+      "existing": "Meglévő munkaelem hozzáadása"
     },
-    remove: {
-      label: "Remove work item",
-      cycle: {
-        loading: "Removing work item from the cycle",
-        success: "Work item removed from the cycle successfully.",
-        failed: "Work item could not be removed from the cycle. Please try again.",
+    "remove": {
+      "label": "Munkaelem eltávolítása",
+      "cycle": {
+        "loading": "Munkaelem eltávolítása a ciklusból",
+        "success": "A munkaelem sikeresen eltávolítva a ciklusból.",
+        "failed": "A munkaelemet nem sikerült eltávolítani a ciklusból. Próbáld újra."
       },
-      module: {
-        loading: "Removing work item from the module",
-        success: "Work item removed from the module successfully.",
-        failed: "Work item could not be removed from the module. Please try again.",
+      "module": {
+        "loading": "Munkaelem eltávolítása a modulból",
+        "success": "A munkaelem sikeresen eltávolítva a modulból.",
+        "failed": "A munkaelemet nem sikerült eltávolítani a modulból. Próbáld újra."
       },
-      parent: {
-        label: "Remove parent work item",
-      },
+      "parent": {
+        "label": "Szülő munkaelem eltávolítása"
+      }
     },
-    new: "New work item",
-    adding: "Adding work item",
-    create: {
-      success: "Work item created successfully",
+    "new": "Új munkaelem",
+    "adding": "Munkaelem hozzáadása",
+    "create": {
+      "success": "A munkaelem sikeresen létrehozva"
     },
-    priority: {
-      urgent: "Urgent",
-      high: "High",
-      medium: "Medium",
-      low: "Low",
+    "priority": {
+      "urgent": "Sürgős",
+      "high": "Magas",
+      "medium": "Közepes",
+      "low": "Alacsony"
     },
-    display: {
-      properties: {
-        label: "Display Properties",
-        id: "ID",
-        issue_type: "Work item Type",
-        sub_issue_count: "Sub-work item count",
-        attachment_count: "Attachment count",
-        created_on: "Created on",
-        sub_issue: "Sub-work item",
-        work_item_count: "Work item count",
+    "display": {
+      "properties": {
+        "label": "Megjelenítési tulajdonságok",
+        "id": "ID",
+        "issue_type": "Munkaelem típusa",
+        "sub_issue_count": "Almunkaelemek száma",
+        "attachment_count": "Mellékletek száma",
+        "created_on": "Létrehozva",
+        "sub_issue": "Almunkaelem",
+        "work_item_count": "Munkaelemek száma"
       },
-      extra: {
-        show_sub_issues: "Show sub-work items",
-        show_empty_groups: "Show empty groups",
-      },
+      "extra": {
+        "show_sub_issues": "Almunkaelemek megjelenítése",
+        "show_empty_groups": "Üres csoportok megjelenítése"
+      }
     },
-    layouts: {
-      ordered_by_label: "This layout is ordered by",
-      list: "List",
-      kanban: "Board",
-      calendar: "Calendar",
-      spreadsheet: "Table",
-      gantt: "Timeline",
-      title: {
-        list: "List Layout",
-        kanban: "Board Layout",
-        calendar: "Calendar Layout",
-        spreadsheet: "Table Layout",
-        gantt: "Timeline Layout",
-      },
+    "layouts": {
+      "ordered_by_label": "Ez az elrendezés a következő szerint van rendezve",
+      "list": "Lista",
+      "kanban": "Tábla",
+      "calendar": "Naptár",
+      "spreadsheet": "Táblázat",
+      "gantt": "Idővonal",
+      "title": {
+        "list": "Lista elrendezés",
+        "kanban": "Tábla elrendezés",
+        "calendar": "Naptár elrendezés",
+        "spreadsheet": "Táblázat elrendezés",
+        "gantt": "Idővonal elrendezés"
+      }
     },
-    states: {
-      active: "Active",
-      backlog: "Backlog",
+    "states": {
+      "active": "Aktív",
+      "backlog": "Backlog"
     },
-    comments: {
-      placeholder: "Add comment",
-      switch: {
-        private: "Switch to private comment",
-        public: "Switch to public comment",
+    "comments": {
+      "placeholder": "Hozzászólás hozzáadása",
+      "switch": {
+        "private": "Váltás privát hozzászólásra",
+        "public": "Váltás nyilvános hozzászólásra"
       },
-      create: {
-        success: "Comment created successfully",
-        error: "Comment creation failed. Please try again later.",
+      "create": {
+        "success": "A hozzászólás sikeresen létrehozva",
+        "error": "A hozzászólás létrehozása sikertelen. Próbáld újra később."
       },
-      update: {
-        success: "Comment updated successfully",
-        error: "Comment update failed. Please try again later.",
+      "update": {
+        "success": "A hozzászólás sikeresen frissítve",
+        "error": "A hozzászólás frissítése sikertelen. Próbáld újra később."
       },
-      remove: {
-        success: "Comment removed successfully",
-        error: "Comment remove failed. Please try again later.",
+      "remove": {
+        "success": "A hozzászólás sikeresen eltávolítva",
+        "error": "A hozzászólás eltávolítása sikertelen. Próbáld újra később."
       },
-      upload: {
-        error: "Asset upload failed. Please try again later.",
+      "upload": {
+        "error": "A fájl feltöltése sikertelen. Próbáld újra később."
       },
-      copy_link: {
-        success: "Comment link copied to clipboard",
-        error: "Error copying comment link. Please try again later.",
-      },
+      "copy_link": {
+        "success": "A hozzászólás hivatkozása vágólapra másolva",
+        "error": "Hiba történt a hozzászólás hivatkozásának másolásakor. Próbáld újra később."
+      }
     },
-    empty_state: {
-      issue_detail: {
-        title: "Work item does not exist",
-        description: "The work item you are looking for does not exist, has been archived, or has been deleted.",
-        primary_button: {
-          text: "View other work items",
-        },
+    "empty_state": {
+      "issue_detail": {
+        "title": "A munkaelem nem létezik",
+        "description": "A keresett munkaelem nem létezik, archiválásra vagy törlésre került.",
+        "primary_button": {
+          "text": "Egyéb munkaelemek megtekintése"
+        }
+      }
+    },
+    "sibling": {
+      "label": "Testvér munkaelemek"
+    },
+    "archive": {
+      "description": "Csak a befejezett vagy visszavont\nmunkaelemek archiválhatók",
+      "label": "Munkaelem archiválása",
+      "confirm_message": "Biztosan archiválod a munkaelemet? Az archivált munkaelemek később visszaállíthatók.",
+      "success": {
+        "label": "Sikeres archiválás",
+        "message": "Az archívumok a projekt archívumában találhatók."
       },
+      "failed": {
+        "message": "A munkaelemet nem sikerült archiválni. Próbáld újra."
+      }
     },
-    sibling: {
-      label: "Sibling work items",
-    },
-    archive: {
-      description: "Only completed or canceled\nwork items can be archived",
-      label: "Archive Work item",
-      confirm_message:
-        "Are you sure you want to archive the work item? All your archived work items can be restored later.",
-      success: {
-        label: "Archive success",
-        message: "Your archives can be found in project archives.",
+    "restore": {
+      "success": {
+        "title": "Sikeres visszaállítás",
+        "message": "A munkaelem megtalálható a projekt munkaelemei között."
       },
-      failed: {
-        message: "Work item could not be archived. Please try again.",
-      },
+      "failed": {
+        "message": "A munkaelemet nem sikerült visszaállítani. Próbáld újra."
+      }
     },
-    restore: {
-      success: {
-        title: "Restore success",
-        message: "Your work item can be found in project work items.",
-      },
-      failed: {
-        message: "Work item could not be restored. Please try again.",
-      },
+    "relation": {
+      "relates_to": "Kapcsolódik ehhez",
+      "duplicate": "Duplikátuma",
+      "blocked_by": "Blokkolva ettől",
+      "blocking": "Blokkolja"
     },
-    relation: {
-      relates_to: "Relates to",
-      duplicate: "Duplicate of",
-      blocked_by: "Blocked by",
-      blocking: "Blocking",
+    "copy_link": "Munkaelem hivatkozásának másolása",
+    "delete": {
+      "label": "Munkaelem törlése",
+      "error": "Hiba történt a munkaelem törlésekor"
     },
-    copy_link: "Copy work item link",
-    delete: {
-      label: "Delete work item",
-      error: "Error deleting work item",
+    "subscription": {
+      "actions": {
+        "subscribed": "Sikeres feliratkozás a munkaelemre",
+        "unsubscribed": "Sikeres leiratkozás a munkaelemről"
+      }
     },
-    subscription: {
-      actions: {
-        subscribed: "Work item subscribed successfully",
-        unsubscribed: "Work item unsubscribed successfully",
-      },
+    "select": {
+      "error": "Válassz ki legalább egy munkaelemet",
+      "empty": "Nincs kiválasztott munkaelem",
+      "add_selected": "Kiválasztott munkaelemek hozzáadása",
+      "select_all": "Összes kijelölése",
+      "deselect_all": "Kijelölés megszüntetése"
     },
-    select: {
-      error: "Please select at least one work item",
-      empty: "No work items selected",
-      add_selected: "Add selected work items",
-      select_all: "Select all",
-      deselect_all: "Deselect all",
-    },
-    open_in_full_screen: "Open work item in full screen",
+    "open_in_full_screen": "Munkaelem megnyitása teljes képernyőn"
   },
-  attachment: {
-    error: "File could not be attached. Try uploading again.",
-    only_one_file_allowed: "Only one file can be uploaded at a time.",
-    file_size_limit: "File must be of {size}MB or less in size.",
-    drag_and_drop: "Drag and drop anywhere to upload",
-    delete: "Delete attachment",
+  "attachment": {
+    "error": "A fájlt nem sikerült csatolni. Próbáld meg újra feltölteni.",
+    "only_one_file_allowed": "Egyszerre csak egy fájl tölthető fel.",
+    "file_size_limit": "A fájl mérete legfeljebb {size}MB lehet.",
+    "drag_and_drop": "Húzd ide bárhová a feltöltéshez",
+    "delete": "Melléklet törlése"
   },
-  label: {
-    select: "Add labels",
-    create: {
-      success: "Label created successfully",
-      failed: "Label creation failed",
-      already_exists: "Label already exists",
-      type: "Type to add a new label",
-    },
+  "label": {
+    "select": "Címkék hozzáadása",
+    "create": {
+      "success": "A címke sikeresen létrehozva",
+      "failed": "A címke létrehozása sikertelen",
+      "already_exists": "A címke már létezik",
+      "type": "Gépelj új címke hozzáadásához"
+    }
   },
-  sub_work_item: {
-    update: {
-      success: "Sub-work item updated successfully",
-      error: "Error updating sub-work item",
+  "sub_work_item": {
+    "update": {
+      "success": "Az almunkaelem sikeresen frissítve",
+      "error": "Hiba történt az almunkaelem frissítésekor"
     },
-    remove: {
-      success: "Sub-work item removed successfully",
-      error: "Error removing sub-work item",
+    "remove": {
+      "success": "Az almunkaelem sikeresen eltávolítva",
+      "error": "Hiba történt az almunkaelem eltávolításakor"
     },
-    empty_state: {
-      sub_list_filters: {
-        title: "You don't have sub-work items that match the filters you've applied.",
-        description: "To see all sub-work items, clear all applied filters.",
-        action: "Clear filters",
+    "empty_state": {
+      "sub_list_filters": {
+        "title": "Nincs az alkalmazott szűrőknek megfelelő almunkaelem.",
+        "description": "Az összes almunkaelem megtekintéséhez töröld az alkalmazott szűrőket.",
+        "action": "Szűrők törlése"
       },
-      list_filters: {
-        title: "You don't have work items that match the filters you've applied.",
-        description: "To see all work items, clear all applied filters.",
-        action: "Clear filters",
-      },
-    },
+      "list_filters": {
+        "title": "Nincs az alkalmazott szűrőknek megfelelő munkaelem.",
+        "description": "Az összes munkaelem megtekintéséhez töröld az alkalmazott szűrőket.",
+        "action": "Szűrők törlése"
+      }
+    }
   },
-  view: {
-    label: "{count, plural, one {View} other {Views}}",
-    create: {
-      label: "Create View",
+  "view": {
+    "label": "{count, plural, one {Nézet} other {Nézetek}}",
+    "create": {
+      "label": "Nézet létrehozása"
     },
-    update: {
-      label: "Update View",
-    },
+    "update": {
+      "label": "Nézet frissítése"
+    }
   },
-  inbox_issue: {
-    status: {
-      pending: {
-        title: "Pending",
-        description: "Pending",
+  "inbox_issue": {
+    "status": {
+      "pending": {
+        "title": "Függőben",
+        "description": "Függőben"
       },
-      declined: {
-        title: "Declined",
-        description: "Declined",
+      "declined": {
+        "title": "Elutasítva",
+        "description": "Elutasítva"
       },
-      snoozed: {
-        title: "Snoozed",
-        description: "{days, plural, one{# day} other{# days}} to go",
+      "snoozed": {
+        "title": "Elhalasztva",
+        "description": "Még {days, plural, one {# nap} other {# nap}} van hátra"
       },
-      accepted: {
-        title: "Accepted",
-        description: "Accepted",
+      "accepted": {
+        "title": "Elfogadva",
+        "description": "Elfogadva"
       },
-      duplicate: {
-        title: "Duplicate",
-        description: "Duplicate",
-      },
+      "duplicate": {
+        "title": "Duplikátum",
+        "description": "Duplikátum"
+      }
     },
-    modals: {
-      decline: {
-        title: "Decline work item",
-        content: "Are you sure you want to decline work item {value}?",
+    "modals": {
+      "decline": {
+        "title": "Munkaelem elutasítása",
+        "content": "Biztosan elutasítod a(z) {value} munkaelemet?"
       },
-      delete: {
-        title: "Delete work item",
-        content: "Are you sure you want to delete work item {value}?",
-        success: "Work item deleted successfully",
+      "delete": {
+        "title": "Munkaelem törlése",
+        "content": "Biztosan törlöd a(z) {value} munkaelemet?",
+        "success": "A munkaelem sikeresen törölve"
+      }
+    },
+    "errors": {
+      "snooze_permission": "Munkaelemeket csak a projekt rendszergazdái tudnak elhalasztani/az elhalasztást visszavonni",
+      "accept_permission": "Munkaelemeket csak a projekt rendszergazdái tudnak elfogadni",
+      "decline_permission": "Munkaelemeket csak a projekt rendszergazdái tudnak elutasítani"
+    },
+    "actions": {
+      "accept": "Elfogadás",
+      "decline": "Elutasítás",
+      "snooze": "Elhalasztás",
+      "unsnooze": "Elhalasztás visszavonása",
+      "copy": "Munkaelem hivatkozásának másolása",
+      "delete": "Törlés",
+      "open": "Munkaelem megnyitása",
+      "mark_as_duplicate": "Megjelölés duplikátumként",
+      "move": "{value} áthelyezése a projekt munkaelemei közé"
+    },
+    "source": {
+      "in-app": "alkalmazáson belül"
+    },
+    "order_by": {
+      "created_at": "Létrehozva",
+      "updated_at": "Frissítve",
+      "id": "ID"
+    },
+    "label": "Beérkezők",
+    "page_label": "{workspace} - Beérkezők",
+    "modal": {
+      "title": "Beérkező munkaelem létrehozása"
+    },
+    "tabs": {
+      "open": "Nyitott",
+      "closed": "Lezárt"
+    },
+    "empty_state": {
+      "sidebar_open_tab": {
+        "title": "Nincs nyitott munkaelem",
+        "description": "Itt találod a nyitott munkaelemeket. Hozz létre új munkaelemet."
       },
-    },
-    errors: {
-      snooze_permission: "Only project admins can snooze/Un-snooze work items",
-      accept_permission: "Only project admins can accept work items",
-      decline_permission: "Only project admins can deny work items",
-    },
-    actions: {
-      accept: "Accept",
-      decline: "Decline",
-      snooze: "Snooze",
-      unsnooze: "Un snooze",
-      copy: "Copy work item link",
-      delete: "Delete",
-      open: "Open work item",
-      mark_as_duplicate: "Mark as duplicate",
-      move: "Move {value} to project work items",
-    },
-    source: {
-      "in-app": "in-app",
-    },
-    order_by: {
-      created_at: "Created at",
-      updated_at: "Updated at",
-      id: "ID",
-    },
-    label: "Intake",
-    page_label: "{workspace} - Intake",
-    modal: {
-      title: "Create intake work item",
-    },
-    tabs: {
-      open: "Open",
-      closed: "Closed",
-    },
-    empty_state: {
-      sidebar_open_tab: {
-        title: "No open work items",
-        description: "Find open work items here. Create new work item.",
+      "sidebar_closed_tab": {
+        "title": "Nincs lezárt munkaelem",
+        "description": "Itt találod az összes elfogadott vagy elutasított munkaelemet."
       },
-      sidebar_closed_tab: {
-        title: "No closed work items",
-        description: "All the work items whether accepted or declined can be found here.",
+      "sidebar_filter": {
+        "title": "Nincs egyező munkaelem",
+        "description": "Egyetlen munkaelem sem felel meg a beérkezőkben alkalmazott szűrőnek. Hozz létre új munkaelemet."
       },
-      sidebar_filter: {
-        title: "No matching work items",
-        description: "No work item matches filter applied in intake. Create a new work item.",
-      },
-      detail: {
-        title: "Select a work item to view its details.",
-      },
-    },
+      "detail": {
+        "title": "Válassz ki egy munkaelemet a részletek megtekintéséhez."
+      }
+    }
   },
-  workspace_creation: {
-    heading: "Create your workspace",
-    subheading: "To start using Plane, you need to create or join a workspace.",
-    form: {
-      name: {
-        label: "Name your workspace",
-        placeholder: "Something familiar and recognizable is always best.",
+  "workspace_creation": {
+    "heading": "Hozd létre a munkaterületed",
+    "subheading": "A Plane használatának megkezdéséhez hozz létre egy munkaterületet, vagy csatlakozz egyhez.",
+    "form": {
+      "name": {
+        "label": "Nevezd el a munkaterületed",
+        "placeholder": "Valami ismerős és könnyen felismerhető mindig jó választás."
       },
-      url: {
-        label: "Set your workspace's URL",
-        placeholder: "Type or paste a URL",
-        edit_slug: "You can only edit the slug of the URL",
+      "url": {
+        "label": "Add meg a munkaterület URL-jét",
+        "placeholder": "Írj be vagy illessz be egy URL-t",
+        "edit_slug": "Csak az URL végződését (slug) szerkesztheted"
       },
-      organization_size: {
-        label: "How many people will use this workspace?",
-        placeholder: "Select a range",
-      },
+      "organization_size": {
+        "label": "Hányan fogják használni ezt a munkaterületet?",
+        "placeholder": "Válassz egy tartományt"
+      }
     },
-    errors: {
-      creation_disabled: {
-        title: "Only your instance admin can create workspaces",
-        description:
-          "If you know your instance admin's email address, click the button below to get in touch with them.",
-        request_button: "Request instance admin",
+    "errors": {
+      "creation_disabled": {
+        "title": "Munkaterületet csak a példány rendszergazdája hozhat létre",
+        "description": "Ha ismered a példány rendszergazdájának e-mail címét, kattints az alábbi gombra a kapcsolatfelvételhez.",
+        "request_button": "Rendszergazda megkeresése"
       },
-      validation: {
-        name_alphanumeric: "Workspaces names can contain only (' '), ('-'), ('_') and alphanumeric characters.",
-        name_length: "Limit your name to 80 characters.",
-        url_alphanumeric: "URLs can contain only ('-') and alphanumeric characters.",
-        url_length: "Limit your URL to 48 characters.",
-        url_already_taken: "Workspace URL is already taken!",
+      "validation": {
+        "name_alphanumeric": "A munkaterület neve csak (' '), ('-'), ('_') és alfanumerikus karaktereket tartalmazhat.",
+        "name_length": "A név legfeljebb 80 karakter lehet.",
+        "url_alphanumeric": "Az URL csak ('-') és alfanumerikus karaktereket tartalmazhat.",
+        "url_length": "Az URL legfeljebb 48 karakter lehet.",
+        "url_already_taken": "Ez a munkaterület URL már foglalt!"
+      }
+    },
+    "request_email": {
+      "subject": "Új munkaterület igénylése",
+      "body": "Üdv rendszergazda(ák)!\n\nKérlek, hozz létre egy új munkaterületet a [/workspace-name] URL-lel a [munkaterület létrehozásának célja] céljából.\n\nKöszönöm,\n{firstName} {lastName}\n{email}"
+    },
+    "button": {
+      "default": "Munkaterület létrehozása",
+      "loading": "Munkaterület létrehozása…"
+    },
+    "toast": {
+      "success": {
+        "title": "Siker",
+        "message": "A munkaterület sikeresen létrejött."
       },
-    },
-    request_email: {
-      subject: "Requesting a new workspace",
-      body: "Hi instance admin(s),\n\nPlease create a new workspace with the URL [/workspace-name] for [purpose of creating the workspace].\n\nThanks,\n{firstName} {lastName}\n{email}",
-    },
-    button: {
-      default: "Create workspace",
-      loading: "Creating workspace",
-    },
-    toast: {
-      success: {
-        title: "Success",
-        message: "Workspace created successfully",
-      },
-      error: {
-        title: "Error",
-        message: "Workspace could not be created. Please try again.",
-      },
-    },
+      "error": {
+        "title": "Hiba",
+        "message": "A munkaterületet nem sikerült létrehozni. Kérjük, próbáld újra."
+      }
+    }
   },
-  workspace_dashboard: {
-    empty_state: {
-      general: {
-        title: "Overview of your projects, activity, and metrics",
-        description:
-          "Welcome to Plane, we are excited to have you here. Create your first project and track your work items, and this page will transform into a space that helps you progress. Admins will also see items which help their team progress.",
-        primary_button: {
-          text: "Build your first project",
-          comic: {
-            title: "Everything starts with a project in Plane",
-            description: "A project could be a product's roadmap, a marketing campaign, or launching a new car.",
-          },
-        },
-      },
-    },
+  "workspace_dashboard": {
+    "empty_state": {
+      "general": {
+        "title": "A projektjeid, tevékenységed és mutatóid áttekintése",
+        "description": "Üdvözlünk a Plane-ben, örülünk, hogy itt vagy! Hozd létre az első projektedet, és kövesd nyomon a munkaelemeidet — ez az oldal ekkor olyan felületté alakul, amely segít a haladásban. A rendszergazdák is látni fogják azokat az elemeket, amelyek segítik a csapatuk előrehaladását.",
+        "primary_button": {
+          "text": "Hozd létre az első projektedet",
+          "comic": {
+            "title": "A Plane-ben minden egy projekttel kezdődik",
+            "description": "Egy projekt lehet egy termék ütemterve, egy marketingkampány, vagy akár egy új autó piacra dobása."
+          }
+        }
+      }
+    }
   },
-  workspace_analytics: {
-    label: "Analytics",
-    page_label: "{workspace} - Analytics",
-    open_tasks: "Total open tasks",
-    error: "There was some error in fetching the data.",
-    work_items_closed_in: "Work items closed in",
-    selected_projects: "Selected projects",
-    total_members: "Total members",
-    total_cycles: "Total cycles",
-    total_modules: "Total modules",
-    pending_work_items: {
-      title: "Pending work items",
-      empty_state: "Analysis of pending work items by co-workers appears here.",
+  "workspace_analytics": {
+    "label": "Elemzés",
+    "page_label": "{workspace} – Elemzés",
+    "open_tasks": "Összes nyitott feladat",
+    "error": "Hiba történt az adatok lekérése közben.",
+    "work_items_closed_in": "Lezárt munkaelemek:",
+    "selected_projects": "Kiválasztott projektek",
+    "total_members": "Összes tag",
+    "total_cycles": "Összes ciklus",
+    "total_modules": "Összes modul",
+    "pending_work_items": {
+      "title": "Függőben lévő munkaelemek",
+      "empty_state": "Itt jelenik meg a függőben lévő munkaelemek elemzése munkatársak szerint."
     },
-    work_items_closed_in_a_year: {
-      title: "Work items closed in a year",
-      empty_state: "Close work items to view analysis of the same in the form of a graph.",
+    "work_items_closed_in_a_year": {
+      "title": "Egy év alatt lezárt munkaelemek",
+      "empty_state": "Zárj le munkaelemeket, hogy grafikon formájában láthasd az elemzésüket."
     },
-    most_work_items_created: {
-      title: "Most work items created",
-      empty_state: "Co-workers and the number of work items created by them appears here.",
+    "most_work_items_created": {
+      "title": "Legtöbb létrehozott munkaelem",
+      "empty_state": "Itt jelennek meg a munkatársak és az általuk létrehozott munkaelemek száma."
     },
-    most_work_items_closed: {
-      title: "Most work items closed",
-      empty_state: "Co-workers and the number of work items closed by them appears here.",
+    "most_work_items_closed": {
+      "title": "Legtöbb lezárt munkaelem",
+      "empty_state": "Itt jelennek meg a munkatársak és az általuk lezárt munkaelemek száma."
     },
-    tabs: {
-      scope_and_demand: "Scope and Demand",
-      custom: "Custom Analytics",
+    "tabs": {
+      "scope_and_demand": "Terjedelem és igény",
+      "custom": "Egyéni elemzés"
     },
-    total: "Total {entity}",
-    started_work_items: "Started {entity}",
-    backlog_work_items: "Backlog {entity}",
-    un_started_work_items: "Unstarted {entity}",
-    completed_work_items: "Completed {entity}",
-    project_insights: "Project Insights",
-    summary_of_projects: "Summary of Projects",
-    all_projects: "All Projects",
-    trend_on_charts: "Trend on charts",
-    active_projects: "Active Projects",
-    customized_insights: "Customized Insights",
-    created_vs_resolved: "Created vs Resolved",
-    empty_state: {
-      project_insights: {
-        title: "No data yet",
-        description: "Work items assigned to you, broken down by state, will show up here.",
+    "total": "Összes {entity}",
+    "started_work_items": "Folyamatban lévő {entity}",
+    "backlog_work_items": "Hátralékban lévő {entity}",
+    "un_started_work_items": "Nem kezdett {entity}",
+    "completed_work_items": "Befejezett {entity}",
+    "project_insights": "Projektbetekintés",
+    "summary_of_projects": "Projektek összefoglalója",
+    "all_projects": "Összes projekt",
+    "trend_on_charts": "Trendek grafikonon",
+    "active_projects": "Aktív projektek",
+    "customized_insights": "Személyre szabott betekintés",
+    "created_vs_resolved": "Létrehozva vs. megoldva",
+    "empty_state": {
+      "project_insights": {
+        "title": "Még nincs adat",
+        "description": "Itt jelennek meg a hozzád rendelt munkaelemek állapot szerinti bontásban."
       },
-      created_vs_resolved: {
-        title: "No data yet",
-        description: "Work items created and resolved over time will show up here.",
+      "created_vs_resolved": {
+        "title": "Még nincs adat",
+        "description": "Itt jelennek meg az idővel létrehozott és megoldott munkaelemek."
       },
-      customized_insights: {
-        title: "No data yet",
-        description: "Work items assigned to you, broken down by state, will show up here.",
+      "customized_insights": {
+        "title": "Még nincs adat",
+        "description": "Itt jelennek meg a hozzád rendelt munkaelemek állapot szerinti bontásban."
       },
-      general: {
-        title: "Track progress, workloads, and allocations. Spot trends, remove blockers, and move work faster",
-        description:
-          "See scope versus demand, estimates, and scope creep. Get performance by team members and teams, and make sure your project runs on time.",
-        primary_button: {
-          text: "Start your first project",
-          comic: {
-            title: "Analytics works best with Cycles + Modules",
-            description:
-              "First, timebox your work items into Cycles and, if you can, group work items that span more than a cycle into Modules. Check out both on the left nav.",
-          },
-        },
-      },
-    },
+      "general": {
+        "title": "Kövesd nyomon a haladást, a terhelést és az erőforrás-elosztást. Ismerd fel a trendeket, hárítsd el az akadályokat, és haladj gyorsabban",
+        "description": "Nézd meg a terjedelmet az igényhez viszonyítva, a becsléseket és a terjedelem-növekedést. Kövesd nyomon a csapattagok és csapatok teljesítményét, és győződj meg róla, hogy a projekted időben halad.",
+        "primary_button": {
+          "text": "Indítsd el az első projektedet",
+          "comic": {
+            "title": "Az elemzés a ciklusokkal és modulokkal működik a legjobban",
+            "description": "Először időkeretezd a munkaelemeidet ciklusokba, majd, ha lehetséges, csoportosítsd az egy ciklusnál hosszabb munkaelemeket modulokba. Mindkettőt megtalálod a bal oldali navigációban."
+          }
+        }
+      }
+    }
   },
-  workspace_projects: {
-    label: "{count, plural, one {Project} other {Projects}}",
-    create: {
-      label: "Add Project",
+  "workspace_projects": {
+    "label": "{count, plural, one {Projekt} other {Projektek}}",
+    "create": {
+      "label": "Projekt hozzáadása"
     },
-    network: {
-      label: "Network",
-      private: {
-        title: "Private",
-        description: "Accessible only by invite",
+    "network": {
+      "label": "Láthatóság",
+      "private": {
+        "title": "Privát",
+        "description": "Csak meghívással érhető el"
       },
-      public: {
-        title: "Public",
-        description: "Anyone in the workspace except Guests can join",
+      "public": {
+        "title": "Nyilvános",
+        "description": "A munkaterület bármely tagja csatlakozhat, a vendégek kivételével"
+      }
+    },
+    "error": {
+      "permission": "Nincs jogosultságod ehhez a művelethez.",
+      "cycle_delete": "A ciklus törlése sikertelen",
+      "module_delete": "A modul törlése sikertelen",
+      "issue_delete": "A munkaelem törlése sikertelen"
+    },
+    "state": {
+      "backlog": "Hátralék",
+      "unstarted": "Nem kezdett",
+      "started": "Folyamatban",
+      "completed": "Kész",
+      "cancelled": "Törölve"
+    },
+    "sort": {
+      "manual": "Kézi",
+      "name": "Név",
+      "created_at": "Létrehozás dátuma",
+      "members_length": "Tagok száma"
+    },
+    "scope": {
+      "my_projects": "Saját projektek",
+      "archived_projects": "Archivált"
+    },
+    "common": {
+      "months_count": "{months, plural, one{# hónap} other{# hónap}}"
+    },
+    "empty_state": {
+      "general": {
+        "title": "Nincs aktív projekt",
+        "description": "Gondolj minden projektre úgy, mint egy célorientált munka szülőjére. A projektekben élnek a feladatok, ciklusok és modulok, amelyek a munkatársaiddal együtt segítenek elérni a célt. Hozz létre új projektet, vagy szűrj az archivált projektekre.",
+        "primary_button": {
+          "text": "Indítsd el az első projektedet",
+          "comic": {
+            "title": "A Plane-ben minden egy projekttel kezdődik",
+            "description": "Egy projekt lehet egy termék ütemterve, egy marketingkampány, vagy akár egy új autó piacra dobása."
+          }
+        }
       },
-    },
-    error: {
-      permission: "You don't have permission to perform this action.",
-      cycle_delete: "Failed to delete cycle",
-      module_delete: "Failed to delete module",
-      issue_delete: "Failed to delete work item",
-    },
-    state: {
-      backlog: "Backlog",
-      unstarted: "Unstarted",
-      started: "Started",
-      completed: "Completed",
-      cancelled: "Cancelled",
-    },
-    sort: {
-      manual: "Manual",
-      name: "Name",
-      created_at: "Created date",
-      members_length: "Number of members",
-    },
-    scope: {
-      my_projects: "My projects",
-      archived_projects: "Archived",
-    },
-    common: {
-      months_count: "{months, plural, one{# month} other{# months}}",
-    },
-    empty_state: {
-      general: {
-        title: "No active projects",
-        description:
-          "Think of each project as the parent for goal-oriented work. Projects are where Jobs, Cycles, and Modules live and, along with your colleagues, help you achieve that goal. Create a new project or filter for archived projects.",
-        primary_button: {
-          text: "Start your first project",
-          comic: {
-            title: "Everything starts with a project in Plane",
-            description: "A project could be a product's roadmap, a marketing campaign, or launching a new car.",
-          },
-        },
+      "no_projects": {
+        "title": "Nincs projekt",
+        "description": "Munkaelemek létrehozásához vagy a munkád kezeléséhez létre kell hoznod egy projektet, vagy tagnak kell lenned egyben.",
+        "primary_button": {
+          "text": "Indítsd el az első projektedet",
+          "comic": {
+            "title": "A Plane-ben minden egy projekttel kezdődik",
+            "description": "Egy projekt lehet egy termék ütemterve, egy marketingkampány, vagy akár egy új autó piacra dobása."
+          }
+        }
       },
-      no_projects: {
-        title: "No project",
-        description: "To create work items or manage your work, you need to create a project or be a part of one.",
-        primary_button: {
-          text: "Start your first project",
-          comic: {
-            title: "Everything starts with a project in Plane",
-            description: "A project could be a product's roadmap, a marketing campaign, or launching a new car.",
-          },
-        },
+      "filter": {
+        "title": "Nincs egyező projekt",
+        "description": "Nem található a keresési feltételeknek megfelelő projekt. \n Hozz létre helyette egy újat."
       },
-      filter: {
-        title: "No matching projects",
-        description: "No projects detected with the matching criteria. \n Create a new project instead.",
-      },
-      search: {
-        description: "No projects detected with the matching criteria.\nCreate a new project instead",
-      },
-    },
+      "search": {
+        "description": "Nem található a keresési feltételeknek megfelelő projekt.\nHozz létre helyette egy újat"
+      }
+    }
   },
-  workspace_views: {
-    add_view: "Add view",
-    empty_state: {
+  "workspace_views": {
+    "add_view": "Nézet hozzáadása",
+    "empty_state": {
       "all-issues": {
-        title: "No work items in the project",
-        description: "First project done! Now, slice your work into trackable pieces with work items. Let's go!",
-        primary_button: {
-          text: "Create new work item",
-        },
+        "title": "Nincs munkaelem a projektben",
+        "description": "Az első projekt kész! Most bontsd a munkádat nyomon követhető darabokra munkaelemek segítségével. Vágjunk bele!",
+        "primary_button": {
+          "text": "Új munkaelem létrehozása"
+        }
       },
-      assigned: {
-        title: "No work items yet",
-        description: "Work items assigned to you can be tracked from here.",
-        primary_button: {
-          text: "Create new work item",
-        },
+      "assigned": {
+        "title": "Még nincs munkaelem",
+        "description": "Innen követheted nyomon a hozzád rendelt munkaelemeket.",
+        "primary_button": {
+          "text": "Új munkaelem létrehozása"
+        }
       },
-      created: {
-        title: "No work items yet",
-        description: "All work items created by you come here, track them here directly.",
-        primary_button: {
-          text: "Create new work item",
-        },
+      "created": {
+        "title": "Még nincs munkaelem",
+        "description": "Az összes általad létrehozott munkaelem ide kerül, itt közvetlenül nyomon követheted őket.",
+        "primary_button": {
+          "text": "Új munkaelem létrehozása"
+        }
       },
-      subscribed: {
-        title: "No work items yet",
-        description: "Subscribe to work items you are interested in, track all of them here.",
+      "subscribed": {
+        "title": "Még nincs munkaelem",
+        "description": "Iratkozz fel azokra a munkaelemekre, amelyek érdekelnek, és kövesd nyomon őket itt."
       },
       "custom-view": {
-        title: "No work items yet",
-        description: "Work items that applies to the filters, track all of them here.",
-      },
+        "title": "Még nincs munkaelem",
+        "description": "A szűrőknek megfelelő munkaelemeket itt követheted nyomon."
+      }
     },
-    delete_view: {
-      title: "Are you sure you want to delete this view?",
-      content:
-        "If you confirm, all the sort, filter, and display options + the layout you have chosen for this view will be permanently deleted without any way to restore them.",
-    },
+    "delete_view": {
+      "title": "Biztosan törlöd ezt a nézetet?",
+      "content": "Ha megerősíted, a nézethez választott összes rendezési, szűrési és megjelenítési beállítás, valamint az elrendezés véglegesen törlődik, és nem lesz visszaállítható."
+    }
   },
-  account_settings: {
-    profile: {
-      change_email_modal: {
-        title: "Change email",
-        description: "Enter a new email address to receive a verification link.",
-        toasts: {
-          success_title: "Success!",
-          success_message: "Email updated successfully. Please sign in again.",
+  "account_settings": {
+    "profile": {
+      "change_email_modal": {
+        "title": "E-mail cím módosítása",
+        "description": "Add meg az új e-mail címet a megerősítő hivatkozás fogadásához.",
+        "toasts": {
+          "success_title": "Siker!",
+          "success_message": "Az e-mail cím sikeresen frissült. Kérjük, jelentkezz be újra."
         },
-        form: {
-          email: {
-            label: "New email",
-            placeholder: "Enter your email",
-            errors: {
-              required: "Email is required",
-              invalid: "Email is invalid",
-              exists: "Email already exists. Please use a different one.",
-              validation_failed: "Email validation failed. Please try again.",
-            },
+        "form": {
+          "email": {
+            "label": "Új e-mail cím",
+            "placeholder": "Add meg az e-mail címed",
+            "errors": {
+              "required": "Az e-mail cím megadása kötelező",
+              "invalid": "Az e-mail cím érvénytelen",
+              "exists": "Ez az e-mail cím már létezik. Kérjük, adj meg egy másikat.",
+              "validation_failed": "Az e-mail cím ellenőrzése sikertelen. Kérjük, próbáld újra."
+            }
           },
-          code: {
-            label: "Unique code",
-            placeholder: "123456",
-            helper_text: "Verification code sent to your new email.",
-            errors: {
-              required: "Unique code is required",
-              invalid: "Invalid verification code. Please try again.",
-            },
-          },
+          "code": {
+            "label": "Egyedi kód",
+            "placeholder": "123456",
+            "helper_text": "A megerősítő kódot elküldtük az új e-mail címedre.",
+            "errors": {
+              "required": "Az egyedi kód megadása kötelező",
+              "invalid": "Érvénytelen megerősítő kód. Kérjük, próbáld újra."
+            }
+          }
         },
-        actions: {
-          continue: "Continue",
-          confirm: "Confirm",
-          cancel: "Cancel",
+        "actions": {
+          "continue": "Folytatás",
+          "confirm": "Megerősítés",
+          "cancel": "Mégse"
         },
-        states: {
-          sending: "Sending",
-        },
-      },
+        "states": {
+          "sending": "Küldés"
+        }
+      }
     },
-    preferences: {
-      heading: "Preferences",
-      description: "Customize your app experience the way you work",
+    "preferences": {
+      "heading": "Beállítások",
+      "description": "Szabd testre az alkalmazást a munkamódodnak megfelelően"
     },
-    notifications: {
-      heading: "Email notifications",
-      description: "Stay in the loop on Work items you are subscribed to. Enable this to get notified.",
+    "notifications": {
+      "heading": "E-mail értesítések",
+      "description": "Maradj naprakész azokról a munkaelemekről, amelyekre feliratkoztál. Kapcsold be az értesítések fogadásához."
     },
-    security: {
-      heading: "Security",
+    "security": {
+      "heading": "Biztonság"
     },
-    api_tokens: {
-      heading: "Personal Access Tokens",
-      description: "Generate secure API tokens to integrate your data with external systems and applications.",
+    "api_tokens": {
+      "heading": "Személyes hozzáférési tokenek",
+      "description": "Hozz létre biztonságos API-tokeneket az adataid külső rendszerekkel és alkalmazásokkal való integrálásához."
     },
-    activity: {
-      heading: "Activity",
-      description: "Track your recent actions and changes across all projects and work items.",
-    },
+    "activity": {
+      "heading": "Tevékenység",
+      "description": "Kövesd nyomon a legutóbbi műveleteidet és változtatásaidat az összes projektben és munkaelemben."
+    }
   },
-  workspace_settings: {
-    label: "Workspace settings",
-    page_label: "{workspace} - General settings",
-    key_created: "Key created",
-    copy_key:
-      "Copy and save this secret key in Plane Pages. You can't see this key after you hit Close. A CSV file containing the key has been downloaded.",
-    token_copied: "Token copied to clipboard.",
-    settings: {
-      general: {
-        title: "General",
-        upload_logo: "Upload logo",
-        edit_logo: "Edit logo",
-        name: "Workspace name",
-        company_size: "Company size",
-        url: "Workspace URL",
-        workspace_timezone: "Workspace Timezone",
-        update_workspace: "Update workspace",
-        delete_workspace: "Delete this workspace",
-        delete_workspace_description:
-          "When deleting a workspace, all of the data and resources within that workspace will be permanently removed and cannot be recovered.",
-        delete_btn: "Delete this workspace",
-        delete_modal: {
-          title: "Are you sure you want to delete this workspace?",
-          description: "You have an active trial to one of our paid plans. Please cancel it first to proceed.",
-          dismiss: "Dismiss",
-          cancel: "Cancel trial",
-          success_title: "Workspace deleted.",
-          success_message: "You will soon go to your profile page.",
-          error_title: "That didn't work.",
-          error_message: "Try again, please.",
+  "workspace_settings": {
+    "label": "Munkaterület beállításai",
+    "page_label": "{workspace} – Általános beállítások",
+    "key_created": "Kulcs létrehozva",
+    "copy_key": "Másold ki, és mentsd el ezt a titkos kulcsot a Plane Oldalakon. A kulcsot a Bezárás gombra kattintás után már nem fogod látni. A kulcsot tartalmazó CSV-fájl letöltésre került.",
+    "token_copied": "A token a vágólapra másolva.",
+    "settings": {
+      "general": {
+        "title": "Általános",
+        "upload_logo": "Logó feltöltése",
+        "edit_logo": "Logó szerkesztése",
+        "name": "Munkaterület neve",
+        "company_size": "Cég mérete",
+        "url": "Munkaterület URL-je",
+        "workspace_timezone": "Munkaterület időzónája",
+        "update_workspace": "Munkaterület frissítése",
+        "delete_workspace": "Munkaterület törlése",
+        "delete_workspace_description": "A munkaterület törlésekor az abban lévő összes adat és erőforrás véglegesen törlődik, és nem állítható vissza.",
+        "delete_btn": "Munkaterület törlése",
+        "delete_modal": {
+          "title": "Biztosan törlöd ezt a munkaterületet?",
+          "description": "Aktív próbaidőszakod van az egyik fizetős csomagunkhoz. A folytatáshoz előbb mondd le azt.",
+          "dismiss": "Elvetés",
+          "cancel": "Próbaidőszak lemondása",
+          "success_title": "A munkaterület törölve.",
+          "success_message": "Hamarosan átirányítunk a profilodhoz.",
+          "error_title": "Ez nem sikerült.",
+          "error_message": "Kérjük, próbáld újra."
         },
-        errors: {
-          name: {
-            required: "Name is required",
-            max_length: "Workspace name should not exceed 80 characters",
+        "errors": {
+          "name": {
+            "required": "A név megadása kötelező",
+            "max_length": "A munkaterület neve legfeljebb 80 karakter lehet"
           },
-          company_size: {
-            required: "Company size is required",
-            select_a_range: "Select organization size",
-          },
-        },
+          "company_size": {
+            "required": "A cég méretének megadása kötelező",
+            "select_a_range": "Válaszd ki a szervezet méretét"
+          }
+        }
       },
-      members: {
-        title: "Members",
-        add_member: "Add member",
-        pending_invites: "Pending invites",
-        invitations_sent_successfully: "Invitations sent successfully",
-        leave_confirmation:
-          "Are you sure you want to leave the workspace? You will no longer have access to this workspace. This action cannot be undone.",
-        details: {
-          full_name: "Full name",
-          display_name: "Display name",
-          email_address: "Email address",
-          account_type: "Account type",
-          authentication: "Authentication",
-          joining_date: "Joining date",
+      "members": {
+        "title": "Tagok",
+        "add_member": "Tag hozzáadása",
+        "pending_invites": "Függőben lévő meghívók",
+        "invitations_sent_successfully": "A meghívók sikeresen elküldve",
+        "leave_confirmation": "Biztosan elhagyod a munkaterületet? Ezután már nem férsz hozzá ehhez a munkaterülethez. Ez a művelet nem vonható vissza.",
+        "details": {
+          "full_name": "Teljes név",
+          "display_name": "Megjelenített név",
+          "email_address": "E-mail cím",
+          "account_type": "Fiók típusa",
+          "authentication": "Hitelesítés",
+          "joining_date": "Csatlakozás dátuma"
         },
-        modal: {
-          title: "Invite people to collaborate",
-          description: "Invite people to collaborate on your workspace.",
-          button: "Send invitations",
-          button_loading: "Sending invitations",
-          placeholder: "name@company.com",
-          errors: {
-            required: "We need an email address to invite them.",
-            invalid: "Email is invalid",
-          },
-        },
+        "modal": {
+          "title": "Munkatársak meghívása",
+          "description": "Hívj meg embereket, hogy együttműködjenek a munkaterületeden.",
+          "button": "Meghívók küldése",
+          "button_loading": "Meghívók küldése…",
+          "placeholder": "name@company.com",
+          "errors": {
+            "required": "Az e-mail cím megadása szükséges a meghíváshoz.",
+            "invalid": "Az e-mail cím érvénytelen"
+          }
+        }
       },
-      billing_and_plans: {
-        heading: "Billing & Plans",
-        description: "Choose your plan, manage subscriptions, and easily upgrade as your needs grow.",
-        title: "Billing & Plans",
-        current_plan: "Current plan",
-        free_plan: "You are currently using the free plan",
-        view_plans: "View plans",
+      "billing_and_plans": {
+        "heading": "Számlázás és csomagok",
+        "description": "Válaszd ki a csomagodat, kezeld az előfizetéseket, és egyszerűen válts magasabb szintre, ha nőnek az igényeid.",
+        "title": "Számlázás és csomagok",
+        "current_plan": "Jelenlegi csomag",
+        "free_plan": "Jelenleg az ingyenes csomagot használod",
+        "view_plans": "Csomagok megtekintése"
       },
-      exports: {
-        heading: "Exports",
-        description: "Export your project data in various formats and access your export history with download links.",
-        title: "Exports",
-        exporting: "Exporting",
-        previous_exports: "Previous exports",
-        export_separate_files: "Export the data into separate files",
-        exporting_projects: "Exporting project",
-        format: "Format",
-        filters_info: "Apply filters to export specific work items based on your criteria.",
-        modal: {
-          title: "Export to",
-          toasts: {
-            success: {
-              title: "Export successful",
-              message: "You will be able to download the exported {entity} from the previous export.",
+      "exports": {
+        "heading": "Exportálások",
+        "description": "Exportáld a projektadataidat különféle formátumokban, és tekintsd meg az exportálási előzményeidet letöltési hivatkozásokkal.",
+        "title": "Exportálások",
+        "exporting": "Exportálás",
+        "previous_exports": "Korábbi exportálások",
+        "export_separate_files": "Adatok exportálása külön fájlokba",
+        "exporting_projects": "Projekt exportálása",
+        "format": "Formátum",
+        "filters_info": "Alkalmazz szűrőket, hogy a megadott feltételek alapján exportálj bizonyos munkaelemeket.",
+        "modal": {
+          "title": "Exportálás ide",
+          "toasts": {
+            "success": {
+              "title": "Sikeres exportálás",
+              "message": "Az exportált {entity} elemet a korábbi exportálások között töltheted le."
             },
-            error: {
-              title: "Export failed",
-              message: "Export was unsuccessful. Please try again.",
-            },
-          },
-        },
+            "error": {
+              "title": "Sikertelen exportálás",
+              "message": "Az exportálás sikertelen volt. Kérjük, próbáld újra."
+            }
+          }
+        }
       },
-      webhooks: {
-        heading: "Webhooks",
-        description: "Automate notifications to external services when project events occur.",
-        title: "Webhooks",
-        add_webhook: "Add webhook",
-        modal: {
-          title: "Create webhook",
-          details: "Webhook details",
-          payload: "Payload URL",
-          question: "Which events would you like to trigger this webhook?",
-          error: "URL is required",
+      "webhooks": {
+        "heading": "Webhookok",
+        "description": "Automatizált értesítések küldése külső szolgáltatásoknak, amikor projektesemények történnek.",
+        "title": "Webhookok",
+        "add_webhook": "Webhook hozzáadása",
+        "modal": {
+          "title": "Webhook létrehozása",
+          "details": "Webhook részletei",
+          "payload": "Payload URL",
+          "question": "Mely eseményeknél szeretnéd, hogy ez a webhook aktiválódjon?",
+          "error": "Az URL megadása kötelező"
         },
-        secret_key: {
-          title: "Secret key",
-          message: "Generate a token to sign-in to the webhook payload",
+        "secret_key": {
+          "title": "Titkos kulcs",
+          "message": "Hozz létre egy tokent, amellyel aláírhatod a webhook payloadját"
         },
-        options: {
-          all: "Send me everything",
-          individual: "Select individual events",
+        "options": {
+          "all": "Küldj mindent",
+          "individual": "Egyedi események kiválasztása"
         },
-        toasts: {
-          created: {
-            title: "Webhook created",
-            message: "The webhook has been successfully created",
+        "toasts": {
+          "created": {
+            "title": "Webhook létrehozva",
+            "message": "A webhook sikeresen létrejött"
           },
-          not_created: {
-            title: "Webhook not created",
-            message: "The webhook could not be created",
+          "not_created": {
+            "title": "A webhook nem jött létre",
+            "message": "A webhook nem hozható létre."
           },
-          updated: {
-            title: "Webhook updated",
-            message: "The webhook has been successfully updated",
+          "updated": {
+            "title": "Webhook frissítve",
+            "message": "A webhook sikeresen frissült."
           },
-          not_updated: {
-            title: "Webhook not updated",
-            message: "The webhook could not be updated",
+          "not_updated": {
+            "title": "Webhook nem lett frissítve",
+            "message": "A webhook nem frissíthető."
           },
-          removed: {
-            title: "Webhook removed",
-            message: "The webhook has been successfully removed",
+          "removed": {
+            "title": "Webhook eltávolítva",
+            "message": "A webhook sikeresen eltávolítva."
           },
-          not_removed: {
-            title: "Webhook not removed",
-            message: "The webhook could not be removed",
+          "not_removed": {
+            "title": "Webhook nem lett eltávolítva",
+            "message": "A webhook nem távolítható el."
           },
-          secret_key_copied: {
-            message: "Secret key copied to clipboard.",
+          "secret_key_copied": {
+            "message": "A titkos kulcs a vágólapra másolva."
           },
-          secret_key_not_copied: {
-            message: "Error occurred while copying secret key.",
-          },
-        },
+          "secret_key_not_copied": {
+            "message": "Hiba történt a titkos kulcs másolása közben."
+          }
+        }
       },
-      api_tokens: {
-        title: "Personal Access Tokens",
-        add_token: "Add personal access token",
-        create_token: "Create token",
-        never_expires: "Never expires",
-        generate_token: "Generate token",
-        generating: "Generating",
-        delete: {
-          title: "Delete personal access token",
-          description:
-            "Any application using this token will no longer have the access to Plane data. This action cannot be undone.",
-          success: {
-            title: "Success!",
-            message: "The token has been successfully deleted",
+      "api_tokens": {
+        "title": "Személyes hozzáférési tokenek",
+        "add_token": "Személyes hozzáférési token hozzáadása",
+        "create_token": "Token létrehozása",
+        "never_expires": "Soha nem jár le",
+        "generate_token": "Token generálása",
+        "generating": "Generálás",
+        "delete": {
+          "title": "Személyes hozzáférési token törlése",
+          "description": "Az ezt a tokent használó alkalmazások többé nem férnek hozzá a Plane adataihoz. Ez a művelet nem vonható vissza.",
+          "success": {
+            "title": "Siker!",
+            "message": "A token sikeresen törölve."
           },
-          error: {
-            title: "Error!",
-            message: "The token could not be deleted",
-          },
-        },
-      },
+          "error": {
+            "title": "Hiba!",
+            "message": "A token nem törölhető."
+          }
+        }
+      }
     },
-    empty_state: {
-      api_tokens: {
-        title: "No personal access tokens created",
-        description:
-          "Plane APIs can be used to integrate your data in Plane with any external system. Create a token to get started.",
+    "empty_state": {
+      "api_tokens": {
+        "title": "Nincs létrehozott személyes hozzáférési token",
+        "description": "A Plane API-k segítségével a Plane-ben lévő adataid bármely külső rendszerrel integrálhatók. Hozz létre egy tokent a kezdéshez."
       },
-      webhooks: {
-        title: "No webhooks added",
-        description: "Create webhooks to receive real-time updates and automate actions.",
+      "webhooks": {
+        "title": "Nincs hozzáadott webhook",
+        "description": "Hozz létre webhookokat valós idejű frissítések fogadásához és a műveletek automatizálásához."
       },
-      exports: {
-        title: "No exports yet",
-        description: "Anytime you export, you will also have a copy here for reference.",
+      "exports": {
+        "title": "Még nincs exportálás",
+        "description": "Minden exportáláskor itt is található majd egy másolat referenciaként."
       },
-      imports: {
-        title: "No imports yet",
-        description: "Find all your previous imports here and download them.",
-      },
-    },
+      "imports": {
+        "title": "Még nincs importálás",
+        "description": "Itt találod az összes korábbi importálásodat, és letöltheted őket."
+      }
+    }
   },
-  profile: {
-    label: "Profile",
-    page_label: "Your work",
-    work: "Work",
-    details: {
-      joined_on: "Joined on",
-      time_zone: "Timezone",
+  "profile": {
+    "label": "Profil",
+    "page_label": "A munkád",
+    "work": "Munka",
+    "details": {
+      "joined_on": "Csatlakozás dátuma",
+      "time_zone": "Időzóna"
     },
-    stats: {
-      workload: "Workload",
-      overview: "Overview",
-      created: "Work items created",
-      assigned: "Work items assigned",
-      subscribed: "Work items subscribed",
-      state_distribution: {
-        title: "Work items by state",
-        empty: "Create work items to view the them by states in the graph for better analysis.",
+    "stats": {
+      "workload": "Munkaterhelés",
+      "overview": "Áttekintés",
+      "created": "Létrehozott munkaelemek",
+      "assigned": "Hozzád rendelt munkaelemek",
+      "subscribed": "Követett munkaelemek",
+      "state_distribution": {
+        "title": "Munkaelemek állapot szerint",
+        "empty": "Hozz létre munkaelemeket, hogy a grafikonon állapot szerint tekinthesd meg őket a jobb elemzés érdekében."
       },
-      priority_distribution: {
-        title: "Work items by Priority",
-        empty: "Create work items to view the them by priority in the graph for better analysis.",
+      "priority_distribution": {
+        "title": "Munkaelemek prioritás szerint",
+        "empty": "Hozz létre munkaelemeket, hogy a grafikonon prioritás szerint tekinthesd meg őket a jobb elemzés érdekében."
       },
-      recent_activity: {
-        title: "Recent activity",
-        empty: "We couldn't find data. Kindly view your inputs",
-        button: "Download today's activity",
-        button_loading: "Downloading",
-      },
+      "recent_activity": {
+        "title": "Legutóbbi tevékenység",
+        "empty": "Nem találtunk adatot. Kérjük, ellenőrizd a bevitt adataidat.",
+        "button": "Mai tevékenység letöltése",
+        "button_loading": "Letöltés"
+      }
     },
-    actions: {
-      profile: "Profile",
-      security: "Security",
-      activity: "Activity",
-      preferences: "Preferences",
-      notifications: "Notifications",
-      "api-tokens": "Personal Access Tokens",
+    "actions": {
+      "profile": "Profil",
+      "security": "Biztonság",
+      "activity": "Tevékenység",
+      "preferences": "Preferenciák",
+      "notifications": "Értesítések",
+      "api-tokens": "Személyes hozzáférési tokenek"
     },
-    tabs: {
-      summary: "Summary",
-      assigned: "Assigned",
-      created: "Created",
-      subscribed: "Subscribed",
-      activity: "Activity",
+    "tabs": {
+      "summary": "Összegzés",
+      "assigned": "Hozzárendelt",
+      "created": "Létrehozott",
+      "subscribed": "Követett",
+      "activity": "Tevékenység"
     },
-    empty_state: {
-      activity: {
-        title: "No activities yet",
-        description:
-          "Get started by creating a new work item! Add details and properties to it. Explore more in Plane to see your activity.",
+    "empty_state": {
+      "activity": {
+        "title": "Még nincs tevékenység",
+        "description": "Kezdd egy új munkaelem létrehozásával! Adj hozzá részleteket és tulajdonságokat. Fedezd fel tovább a Plane-t, hogy lásd a tevékenységedet."
       },
-      assigned: {
-        title: "No work items are assigned to you",
-        description: "Work items assigned to you can be tracked from here.",
+      "assigned": {
+        "title": "Nincs hozzád rendelt munkaelem",
+        "description": "A hozzád rendelt munkaelemeket innen követheted nyomon."
       },
-      created: {
-        title: "No work items yet",
-        description: "All work items created by you come here, track them here directly.",
+      "created": {
+        "title": "Még nincs munkaelem",
+        "description": "Az összes általad létrehozott munkaelem itt jelenik meg, itt közvetlenül nyomon követheted őket."
       },
-      subscribed: {
-        title: "No work items yet",
-        description: "Subscribe to work items you are interested in, track all of them here.",
-      },
-    },
+      "subscribed": {
+        "title": "Még nincs munkaelem",
+        "description": "Iratkozz fel az érdeklődésre számot tartó munkaelemekre, és kövesd nyomon őket mind itt."
+      }
+    }
   },
-  project_settings: {
-    general: {
-      enter_project_id: "Enter project ID",
-      please_select_a_timezone: "Please select a timezone",
-      archive_project: {
-        title: "Archive project",
-        description:
-          "Archiving a project will unlist your project from your side navigation although you will still be able to access it from your projects page. You can restore the project or delete it whenever you want.",
-        button: "Archive project",
+  "project_settings": {
+    "general": {
+      "enter_project_id": "Add meg a projekt azonosítóját",
+      "please_select_a_timezone": "Válassz egy időzónát",
+      "archive_project": {
+        "title": "Projekt archiválása",
+        "description": "A projekt archiválása eltávolítja azt az oldalsó navigációból, de továbbra is elérheted a projektek oldaladról. A projektet bármikor visszaállíthatod vagy törölheted.",
+        "button": "Projekt archiválása"
       },
-      delete_project: {
-        title: "Delete project",
-        description:
-          "When deleting a project, all of the data and resources within that project will be permanently removed and cannot be recovered.",
-        button: "Delete my project",
+      "delete_project": {
+        "title": "Projekt törlése",
+        "description": "A projekt törlésekor a projekten belüli összes adat és erőforrás véglegesen eltávolításra kerül, és nem állítható vissza.",
+        "button": "Projektem törlése"
       },
-      toast: {
-        success: "Project updated successfully",
-        error: "Project could not be updated. Please try again.",
-      },
+      "toast": {
+        "success": "A projekt sikeresen frissült.",
+        "error": "A projekt nem frissíthető. Kérjük, próbáld újra."
+      }
     },
-    members: {
-      label: "Members",
-      project_lead: "Project lead",
-      default_assignee: "Default assignee",
-      guest_super_permissions: {
-        title: "Grant view access to all work items for guest users:",
-        sub_heading: "This will allow guests to have view access to all the project work items.",
+    "members": {
+      "label": "Tagok",
+      "project_lead": "Projektvezető",
+      "default_assignee": "Alapértelmezett felelős",
+      "guest_super_permissions": {
+        "title": "Megtekintési hozzáférés biztosítása minden munkaelemhez a vendég felhasználók számára:",
+        "sub_heading": "Ez lehetővé teszi a vendégek számára, hogy megtekintési hozzáférést kapjanak a projekt összes munkaeleméhez."
       },
-      invite_members: {
-        title: "Invite members",
-        sub_heading: "Invite members to work on your project.",
-        select_co_worker: "Select co-worker",
-      },
+      "invite_members": {
+        "title": "Tagok meghívása",
+        "sub_heading": "Hívj meg tagokat, hogy dolgozzanak a projekteden.",
+        "select_co_worker": "Munkatárs kiválasztása"
+      }
     },
-    states: {
-      heading: "States",
-      description: "Define and customize workflow states to track the progress of your work items.",
-      describe_this_state_for_your_members: "Describe this state for your members.",
-      empty_state: {
-        title: "No states available for the {groupKey} group",
-        description: "Please create a new state",
-      },
+    "states": {
+      "heading": "Állapotok",
+      "description": "Határozd meg és szabd testre a munkafolyamat-állapotokat a munkaelemeid előrehaladásának nyomon követéséhez.",
+      "describe_this_state_for_your_members": "Írd le ezt az állapotot a tagjaid számára.",
+      "empty_state": {
+        "title": "Nincs elérhető állapot a(z) {groupKey} csoporthoz",
+        "description": "Hozz létre egy új állapotot"
+      }
     },
-    labels: {
-      heading: "Labels",
-      description: "Create custom labels to categorize and organize your work items",
-      label_title: "Label title",
-      label_title_is_required: "Label title is required",
-      label_max_char: "Label name should not exceed 255 characters",
-      toast: {
-        error: "Error while updating the label",
-      },
+    "labels": {
+      "heading": "Címkék",
+      "description": "Hozz létre egyedi címkéket a munkaelemeid kategorizálásához és rendszerezéséhez",
+      "label_title": "Címke neve",
+      "label_title_is_required": "A címke neve kötelező",
+      "label_max_char": "A címke neve nem lehet hosszabb 255 karakternél",
+      "toast": {
+        "error": "Hiba történt a címke frissítése közben"
+      }
     },
-    estimates: {
-      heading: "Estimates",
-      description: "Set up estimation systems to track and communicate the effort required for each work item.",
-      label: "Estimates",
-      title: "Enable estimates for my project",
-      enable_description: "They help you in communicating complexity and workload of the team.",
-      no_estimate: "No estimate",
-      new: "New estimate system",
-      create: {
-        custom: "Custom",
-        start_from_scratch: "Start from scratch",
-        choose_template: "Choose a template",
-        choose_estimate_system: "Choose an estimate system",
-        enter_estimate_point: "Enter estimate",
-        step: "Step {step} of {total}",
-        label: "Create estimate",
+    "estimates": {
+      "heading": "Becslések",
+      "description": "Állíts be becslési rendszereket az egyes munkaelemekhez szükséges erőfeszítés nyomon követéséhez és kommunikálásához.",
+      "label": "Becslések",
+      "title": "Becslések engedélyezése a projektemhez",
+      "enable_description": "Segítenek a csapat komplexitásának és munkaterhelésének kommunikálásában.",
+      "no_estimate": "Nincs becslés",
+      "new": "Új becslési rendszer",
+      "create": {
+        "custom": "Egyéni",
+        "start_from_scratch": "Kezdés nulláról",
+        "choose_template": "Válassz egy sablont",
+        "choose_estimate_system": "Válassz egy becslési rendszert",
+        "enter_estimate_point": "Add meg a becslést",
+        "step": "{step}. lépés / {total}",
+        "label": "Becslés létrehozása"
       },
-      toasts: {
-        created: {
-          success: {
-            title: "Estimate created",
-            message: "The estimate has been created successfully",
+      "toasts": {
+        "created": {
+          "success": {
+            "title": "Becslés létrehozva",
+            "message": "A becslés sikeresen létrejött."
           },
-          error: {
-            title: "Estimate creation failed",
-            message: "We were unable to create the new estimate, please try again.",
-          },
+          "error": {
+            "title": "A becslés létrehozása sikertelen",
+            "message": "Nem sikerült létrehozni az új becslést, kérjük, próbáld újra."
+          }
         },
-        updated: {
-          success: {
-            title: "Estimate modified",
-            message: "The estimate has been updated in your project.",
+        "updated": {
+          "success": {
+            "title": "Becslés módosítva",
+            "message": "A becslés frissült a projektedben."
           },
-          error: {
-            title: "Estimate modification failed",
-            message: "We were unable to modify the estimate, please try again",
-          },
+          "error": {
+            "title": "A becslés módosítása sikertelen",
+            "message": "Nem sikerült módosítani a becslést, kérjük, próbáld újra"
+          }
         },
-        enabled: {
-          success: {
-            title: "Success!",
-            message: "Estimates have been enabled.",
-          },
+        "enabled": {
+          "success": {
+            "title": "Siker!",
+            "message": "A becslések engedélyezve lettek."
+          }
         },
-        disabled: {
-          success: {
-            title: "Success!",
-            message: "Estimates have been disabled.",
+        "disabled": {
+          "success": {
+            "title": "Siker!",
+            "message": "A becslések letiltásra kerültek."
           },
-          error: {
-            title: "Error!",
-            message: "Estimate could not be disabled. Please try again",
-          },
-        },
+          "error": {
+            "title": "Hiba!",
+            "message": "A becslés nem tiltható le. Kérjük, próbáld újra"
+          }
+        }
       },
-      validation: {
-        min_length: "Estimate needs to be greater than 0.",
-        unable_to_process: "We are unable to process your request, please try again.",
-        numeric: "Estimate needs to be a numeric value.",
-        character: "Estimate needs to be a character value.",
-        empty: "Estimate value cannot be empty.",
-        already_exists: "Estimate value already exists.",
-        unsaved_changes: "You have some unsaved changes, Please save them before clicking on done",
-        remove_empty: "Estimate can't be empty. Enter a value in each field or remove those you don't have values for.",
+      "validation": {
+        "min_length": "A becslésnek nagyobbnak kell lennie 0-nál.",
+        "unable_to_process": "Nem tudjuk feldolgozni a kérésedet, kérjük, próbáld újra.",
+        "numeric": "A becslésnek numerikus értéknek kell lennie.",
+        "character": "A becslésnek szöveges értéknek kell lennie.",
+        "empty": "A becslés értéke nem lehet üres.",
+        "already_exists": "A becslés értéke már létezik.",
+        "unsaved_changes": "Vannak nem mentett módosításaid. Kérjük, mentsd el őket, mielőtt a Kész gombra kattintasz",
+        "remove_empty": "A becslés nem lehet üres. Adj meg egy értéket minden mezőben, vagy távolítsd el azokat, amelyeknek nincs értékük."
       },
-      systems: {
-        points: {
-          label: "Points",
-          fibonacci: "Fibonacci",
-          linear: "Linear",
-          squares: "Squares",
-          custom: "Custom",
+      "systems": {
+        "points": {
+          "label": "Pontok",
+          "fibonacci": "Fibonacci",
+          "linear": "Lineáris",
+          "squares": "Négyzetek",
+          "custom": "Egyéni"
         },
-        categories: {
-          label: "Categories",
-          t_shirt_sizes: "T-Shirt Sizes",
-          easy_to_hard: "Easy to hard",
-          custom: "Custom",
+        "categories": {
+          "label": "Kategóriák",
+          "t_shirt_sizes": "Póló méretek",
+          "easy_to_hard": "Könnyűtől nehézig",
+          "custom": "Egyéni"
         },
-        time: {
-          label: "Time",
-          hours: "Hours",
-        },
-      },
+        "time": {
+          "label": "Idő",
+          "hours": "Órák"
+        }
+      }
     },
-    automations: {
-      label: "Automations",
-      heading: "Automations",
-      description:
-        "Configure automated actions to streamline your project management workflow and reduce manual tasks.",
+    "automations": {
+      "label": "Automatizálások",
+      "heading": "Automatizálások",
+      "description": "Állíts be automatizált műveleteket a projektmenedzsment-folyamat egyszerűsítéséhez és a manuális feladatok csökkentéséhez.",
       "auto-archive": {
-        title: "Auto-archive closed work items",
-        description: "Plane will auto archive work items that have been completed or canceled.",
-        duration: "Auto-archive work items that are closed for",
+        "title": "Lezárt munkaelemek automatikus archiválása",
+        "description": "A Plane automatikusan archiválja a befejezett vagy törölt munkaelemeket.",
+        "duration": "Automatikusan archiválja a munkaelemeket, amelyek ennyi ideje lezártak"
       },
       "auto-close": {
-        title: "Auto-close work items",
-        description: "Plane will automatically close work items that haven't been completed or canceled.",
-        duration: "Auto-close work items that are inactive for",
-        auto_close_status: "Auto-close status",
-      },
+        "title": "Munkaelemek automatikus lezárása",
+        "description": "A Plane automatikusan lezárja azokat a munkaelemeket, amelyek nem lettek befejezve vagy törölve.",
+        "duration": "Automatikusan lezárja a munkaelemeket, amelyek ennyi ideje inaktívak",
+        "auto_close_status": "Automatikus lezárás állapota"
+      }
     },
-    empty_state: {
-      labels: {
-        title: "No labels yet",
-        description: "Create labels to help organize and filter work items in you project.",
+    "empty_state": {
+      "labels": {
+        "title": "Még nincs címke",
+        "description": "Hozz létre címkéket a projekted munkaelemeinek rendszerezéséhez és szűréséhez."
       },
-      estimates: {
-        title: "No estimate systems yet",
-        description: "Create a set of estimates to communicate the amount of work per work item.",
-        primary_button: "Add estimate system",
-      },
+      "estimates": {
+        "title": "Még nincs becslési rendszer",
+        "description": "Hozz létre egy becslési készletet az egyes munkaelemekhez szükséges munka mennyiségének kommunikálásához.",
+        "primary_button": "Becslési rendszer hozzáadása"
+      }
     },
-    features: {
-      cycles: {
-        title: "Cycles",
-        short_title: "Cycles",
-        description: "Schedule work in flexible periods that adapt to this project's unique rhythm and pace.",
-        toggle_title: "Enable cycles",
-        toggle_description: "Plan work in focused timeframes.",
+    "features": {
+      "cycles": {
+        "title": "Ciklusok",
+        "short_title": "Ciklusok",
+        "description": "Ütemezd a munkát rugalmas időszakokban, amelyek illeszkednek a projekt egyedi ritmusához és tempójához.",
+        "toggle_title": "Ciklusok engedélyezése",
+        "toggle_description": "Tervezd a munkát fókuszált időkeretekben."
       },
-      modules: {
-        title: "Modules",
-        short_title: "Modules",
-        description: "Organize work into sub-projects with dedicated leads and assignees.",
-        toggle_title: "Enable modules",
-        toggle_description: "Project members will be able to create and edit modules.",
+      "modules": {
+        "title": "Modulok",
+        "short_title": "Modulok",
+        "description": "Szervezd a munkát alprojektekbe, dedikált vezetőkkel és felelősökkel.",
+        "toggle_title": "Modulok engedélyezése",
+        "toggle_description": "A projekt tagjai létrehozhatnak és szerkeszthetnek modulokat."
       },
-      views: {
-        title: "Views",
-        short_title: "Views",
-        description: "Save custom sorts, filters, and display options or share them with your team.",
-        toggle_title: "Enable views",
-        toggle_description: "Project members will be able to create and edit views.",
+      "views": {
+        "title": "Nézetek",
+        "short_title": "Nézetek",
+        "description": "Mentsd el az egyéni rendezéseket, szűrőket és megjelenítési beállításokat, vagy oszd meg őket a csapatoddal.",
+        "toggle_title": "Nézetek engedélyezése",
+        "toggle_description": "A projekt tagjai létrehozhatnak és szerkeszthetnek nézeteket."
       },
-      pages: {
-        title: "Pages",
-        short_title: "Pages",
-        description: "Create and edit free-form content; notes, docs, anything.",
-        toggle_title: "Enable pages",
-        toggle_description: "Project members will be able to create and edit pages.",
+      "pages": {
+        "title": "Oldalak",
+        "short_title": "Oldalak",
+        "description": "Hozz létre és szerkessz szabadformátumú tartalmat; jegyzeteket, dokumentumokat, bármit.",
+        "toggle_title": "Oldalak engedélyezése",
+        "toggle_description": "A projekt tagjai létrehozhatnak és szerkeszthetnek oldalakat."
       },
-      intake: {
-        title: "Intake",
-        short_title: "Intake",
-        description: "Let non-members share bugs, feedback, and suggestions; without disrupting your workflow.",
-        toggle_title: "Enable intake",
-        toggle_description: "Let project members create in app intake requests.",
-      },
-    },
+      "intake": {
+        "title": "Beérkezők",
+        "short_title": "Beérkezők",
+        "description": "Engedd, hogy nem tagok is megosszák a hibákat, visszajelzéseket és javaslatokat, anélkül hogy megzavarnák a munkafolyamatodat.",
+        "toggle_title": "Beérkezők engedélyezése",
+        "toggle_description": "Engedd, hogy a projekt tagjai alkalmazáson belüli beérkező kéréseket hozzanak létre."
+      }
+    }
   },
-  project_cycles: {
-    add_cycle: "Add cycle",
-    more_details: "More details",
-    cycle: "Cycle",
-    update_cycle: "Update cycle",
-    create_cycle: "Create cycle",
-    no_matching_cycles: "No matching cycles",
-    remove_filters_to_see_all_cycles: "Remove the filters to see all cycles",
-    remove_search_criteria_to_see_all_cycles: "Remove the search criteria to see all cycles",
-    only_completed_cycles_can_be_archived: "Only completed cycles can be archived",
-    start_date: "Start date",
-    end_date: "End date",
-    in_your_timezone: "In your timezone",
-    transfer_work_items: "Transfer {count} work items",
-    date_range: "Date range",
-    add_date: "Add date",
-    active_cycle: {
-      label: "Active cycle",
-      progress: "Progress",
-      chart: "Burndown chart",
-      priority_issue: "Priority work items",
-      assignees: "Assignees",
-      issue_burndown: "Work item burndown",
-      ideal: "Ideal",
-      current: "Current",
-      labels: "Labels",
+  "project_cycles": {
+    "add_cycle": "Ciklus hozzáadása",
+    "more_details": "További részletek",
+    "cycle": "Ciklus",
+    "update_cycle": "Ciklus frissítése",
+    "create_cycle": "Ciklus létrehozása",
+    "no_matching_cycles": "Nincs egyező ciklus",
+    "remove_filters_to_see_all_cycles": "Távolítsd el a szűrőket az összes ciklus megtekintéséhez",
+    "remove_search_criteria_to_see_all_cycles": "Távolítsd el a keresési feltételeket az összes ciklus megtekintéséhez",
+    "only_completed_cycles_can_be_archived": "Csak a befejezett ciklusok archiválhatók",
+    "start_date": "Kezdődátum",
+    "end_date": "Befejezés dátuma",
+    "in_your_timezone": "A te időzónádban",
+    "transfer_work_items": "{count} munkaelem áthelyezése",
+    "date_range": "Dátumtartomány",
+    "add_date": "Dátum hozzáadása",
+    "active_cycle": {
+      "label": "Aktív ciklus",
+      "progress": "Előrehaladás",
+      "chart": "Leégési diagram",
+      "priority_issue": "Prioritásos munkaelemek",
+      "assignees": "Felelősök",
+      "issue_burndown": "Munkaelemek leégése",
+      "ideal": "Ideális",
+      "current": "Jelenlegi",
+      "labels": "Címkék"
     },
-    upcoming_cycle: {
-      label: "Upcoming cycle",
+    "upcoming_cycle": {
+      "label": "Következő ciklus"
     },
-    completed_cycle: {
-      label: "Completed cycle",
+    "completed_cycle": {
+      "label": "Befejezett ciklus"
     },
-    status: {
-      days_left: "Days left",
-      completed: "Completed",
-      yet_to_start: "Yet to start",
-      in_progress: "In progress",
-      draft: "Draft",
+    "status": {
+      "days_left": "Hátralévő napok",
+      "completed": "Befejezve",
+      "yet_to_start": "Még nem kezdődött el",
+      "in_progress": "Folyamatban",
+      "draft": "Piszkozat"
     },
-    action: {
-      restore: {
-        title: "Restore cycle",
-        success: {
-          title: "Cycle restored",
-          description: "The cycle has been restored.",
+    "action": {
+      "restore": {
+        "title": "Ciklus visszaállítása",
+        "success": {
+          "title": "Ciklus visszaállítva",
+          "description": "A ciklus visszaállítva."
         },
-        failed: {
-          title: "Cycle restore failed",
-          description: "The cycle could not be restored. Please try again.",
-        },
+        "failed": {
+          "title": "A ciklus visszaállítása sikertelen",
+          "description": "A ciklust nem sikerült visszaállítani. Próbáld újra."
+        }
       },
-      favorite: {
-        loading: "Adding cycle to favorites",
-        success: {
-          description: "Cycle added to favorites.",
-          title: "Success!",
+      "favorite": {
+        "loading": "Ciklus hozzáadása a kedvencekhez",
+        "success": {
+          "description": "A ciklus hozzáadva a kedvencekhez.",
+          "title": "Siker!"
         },
-        failed: {
-          description: "Couldn't add the cycle to favorites. Please try again.",
-          title: "Error!",
-        },
+        "failed": {
+          "description": "Nem sikerült hozzáadni a ciklust a kedvencekhez. Próbáld újra.",
+          "title": "Hiba!"
+        }
       },
-      unfavorite: {
-        loading: "Removing cycle from favorites",
-        success: {
-          description: "Cycle removed from favorites.",
-          title: "Success!",
+      "unfavorite": {
+        "loading": "Ciklus eltávolítása a kedvencek közül",
+        "success": {
+          "description": "A ciklus eltávolítva a kedvencek közül.",
+          "title": "Siker!"
         },
-        failed: {
-          description: "Couldn't remove the cycle from favorites. Please try again.",
-          title: "Error!",
-        },
+        "failed": {
+          "description": "Nem sikerült eltávolítani a ciklust a kedvencek közül. Próbáld újra.",
+          "title": "Hiba!"
+        }
       },
-      update: {
-        loading: "Updating cycle",
-        success: {
-          description: "Cycle updated successfully.",
-          title: "Success!",
+      "update": {
+        "loading": "Ciklus frissítése",
+        "success": {
+          "description": "A ciklus sikeresen frissítve.",
+          "title": "Siker!"
         },
-        failed: {
-          description: "Error updating the cycle. Please try again.",
-          title: "Error!",
+        "failed": {
+          "description": "Hiba történt a ciklus frissítésekor. Próbáld újra.",
+          "title": "Hiba!"
         },
-        error: {
-          already_exists:
-            "You already have a cycle on the given dates, if you want to create a draft cycle, you can do that by removing both the dates.",
-        },
-      },
+        "error": {
+          "already_exists": "Már van ciklusod a megadott dátumokon. Ha piszkozat ciklust szeretnél létrehozni, ezt mindkét dátum eltávolításával teheted meg."
+        }
+      }
     },
-    empty_state: {
-      general: {
-        title: "Group and timebox your work in Cycles.",
-        description:
-          "Break work down by timeboxed chunks, work backwards from your project deadline to set dates, and make tangible progress as a team.",
-        primary_button: {
-          text: "Set your first cycle",
-          comic: {
-            title: "Cycles are repetitive time-boxes.",
-            description:
-              "A sprint, an iteration, and or any other term you use for weekly or fortnightly tracking of work is a cycle.",
-          },
+    "empty_state": {
+      "general": {
+        "title": "Csoportosítsd és időkeretezd a munkádat ciklusokban.",
+        "description": "Bontsd fel a munkát időkeretes szakaszokra, a projekt határidejéből visszafelé haladva állítsd be a dátumokat, és érj el kézzelfogható eredményeket csapatban.",
+        "primary_button": {
+          "text": "Első ciklusod beállítása",
+          "comic": {
+            "title": "A ciklusok ismétlődő időkeretek.",
+            "description": "Egy sprint, egy iteráció, vagy bármi más kifejezés, amit a heti vagy kétheti munkakövetésre használsz, valójában egy ciklus."
+          }
+        }
+      },
+      "no_issues": {
+        "title": "Nincs munkaelem hozzáadva a ciklushoz",
+        "description": "Add hozzá vagy hozz létre munkaelemeket, amelyeket ebben a ciklusban szeretnél időkeretezni és leszállítani",
+        "primary_button": {
+          "text": "Új munkaelem létrehozása"
         },
+        "secondary_button": {
+          "text": "Meglévő munkaelem hozzáadása"
+        }
       },
-      no_issues: {
-        title: "No work items added to the cycle",
-        description: "Add or create work items you wish to timebox and deliver within this cycle",
-        primary_button: {
-          text: "Create new work item",
-        },
-        secondary_button: {
-          text: "Add existing work item",
-        },
+      "completed_no_issues": {
+        "title": "Nincs munkaelem a ciklusban",
+        "description": "Nincs munkaelem a ciklusban. A munkaelemek vagy át lettek helyezve, vagy el vannak rejtve. A rejtett munkaelemek megtekintéséhez módosítsd ennek megfelelően a megjelenítési tulajdonságokat."
       },
-      completed_no_issues: {
-        title: "No work items in the cycle",
-        description:
-          "No work items in the cycle. Work items are either transferred or hidden. To see hidden work items if any, update your display properties accordingly.",
+      "active": {
+        "title": "Nincs aktív ciklus",
+        "description": "Az aktív ciklus az az időszak, amely magában foglalja a mai dátumot. Itt találod az aktív ciklus előrehaladását és részleteit."
       },
-      active: {
-        title: "No active cycle",
-        description:
-          "An active cycle includes any period that encompasses today's date within its range. Find the progress and details of the active cycle here.",
-      },
-      archived: {
-        title: "No archived cycles yet",
-        description: "To tidy up your project, archive completed cycles. Find them here once archived.",
-      },
-    },
+      "archived": {
+        "title": "Még nincs archivált ciklus",
+        "description": "A projekted rendben tartásához archiváld a befejezett ciklusokat. Archiválás után itt találod őket."
+      }
+    }
   },
-  project_issues: {
-    empty_state: {
-      no_issues: {
-        title: "Create a work item and assign it to someone, even yourself",
-        description:
-          "Think of work items as jobs, tasks, work, or JTBD. Which we like. A work item and its sub-work items are usually time-based actionables assigned to members of your team. Your team creates, assigns, and completes work items to move your project towards its goal.",
-        primary_button: {
-          text: "Create your first work item",
-          comic: {
-            title: "Work items are building blocks in Plane.",
-            description:
-              "Redesign the Plane UI, Rebrand the company, or Launch the new fuel injection system are examples of work items that likely have sub-work items.",
-          },
+  "project_issues": {
+    "empty_state": {
+      "no_issues": {
+        "title": "Hozz létre egy munkaelemet, és rendeld hozzá valakihez, akár magadhoz is",
+        "description": "Gondolj a munkaelemekre úgy, mint feladatokra, teendőkre, munkára vagy JTBD-re (ezt szeretjük). A munkaelemek és almunkaelemeik általában időhöz kötött, a csapatod tagjaihoz rendelt feladatok. A csapatod munkaelemeket hoz létre, rendel hozzá és fejez be, hogy előrébb vigye a projektet a célja felé.",
+        "primary_button": {
+          "text": "Első munkaelemed létrehozása",
+          "comic": {
+            "title": "A munkaelemek a Plane építőkövei.",
+            "description": "A Plane felhasználói felületének újratervezése, a cég márkaváltása vagy az új üzemanyag-befecskendező rendszer elindítása mind olyan munkaelemek, amelyeknek valószínűleg vannak almunkaelemeik."
+          }
+        }
+      },
+      "no_archived_issues": {
+        "title": "Még nincs archivált munkaelem",
+        "description": "Manuálisan vagy automatizálással archiválhatod a befejezett vagy visszavont munkaelemeket. Archiválás után itt találod őket.",
+        "primary_button": {
+          "text": "Automatizálás beállítása"
+        }
+      },
+      "issues_empty_filter": {
+        "title": "Nincs a beállított szűrőknek megfelelő munkaelem",
+        "secondary_button": {
+          "text": "Összes szűrő törlése"
+        }
+      }
+    }
+  },
+  "project_module": {
+    "add_module": "Modul hozzáadása",
+    "update_module": "Modul frissítése",
+    "create_module": "Modul létrehozása",
+    "archive_module": "Modul archiválása",
+    "restore_module": "Modul visszaállítása",
+    "delete_module": "Modul törlése",
+    "empty_state": {
+      "general": {
+        "title": "Rendeld hozzá a projekted mérföldköveit a modulokhoz, és kövesd könnyedén az összesített munkát.",
+        "description": "Egy modult azok a munkaelemek alkotnak, amelyek egy logikus, hierarchikus szülőhöz tartoznak. Gondolj rájuk úgy, mint a munka mérföldkövek szerinti követésének módjára. Saját időszakokkal és határidőkkel, valamint elemzésekkel rendelkeznek, amelyek segítenek látni, milyen közel vagy távol vagy egy mérföldkőtől.",
+        "primary_button": {
+          "text": "Első modulod felépítése",
+          "comic": {
+            "title": "A modulok segítenek hierarchia szerint csoportosítani a munkát.",
+            "description": "Egy kosár modul, egy alváz modul és egy raktár modul mind jó példák erre a csoportosításra."
+          }
+        }
+      },
+      "no_issues": {
+        "title": "Nincs munkaelem a modulban",
+        "description": "Hozz létre vagy adj hozzá munkaelemeket, amelyeket ennek a modulnak a részeként szeretnél megvalósítani",
+        "primary_button": {
+          "text": "Új munkaelemek létrehozása"
         },
+        "secondary_button": {
+          "text": "Meglévő munkaelem hozzáadása"
+        }
       },
-      no_archived_issues: {
-        title: "No archived work items yet",
-        description:
-          "Manually or through automation, you can archive work items that are completed or cancelled. Find them here once archived.",
-        primary_button: {
-          text: "Set automation",
+      "archived": {
+        "title": "Még nincs archivált modul",
+        "description": "A projekted rendben tartásához archiváld a befejezett vagy visszavont modulokat. Archiválás után itt találod őket."
+      },
+      "sidebar": {
+        "in_active": "Ez a modul még nem aktív.",
+        "invalid_date": "Érvénytelen dátum. Adj meg érvényes dátumot."
+      }
+    },
+    "quick_actions": {
+      "archive_module": "Modul archiválása",
+      "archive_module_description": "Csak befejezett vagy visszavont\nmodul archiválható.",
+      "delete_module": "Modul törlése"
+    },
+    "toast": {
+      "copy": {
+        "success": "A modul hivatkozása a vágólapra másolva"
+      },
+      "delete": {
+        "success": "A modul sikeresen törölve",
+        "error": "Nem sikerült törölni a modult"
+      }
+    }
+  },
+  "project_views": {
+    "empty_state": {
+      "general": {
+        "title": "Mentsd el a szűrt nézeteket a projektedhez. Hozz létre annyit, amennyire szükséged van",
+        "description": "A nézetek olyan mentett szűrőkészletek, amelyeket gyakran használsz, vagy amelyekhez könnyen hozzá szeretnél férni. A projekt minden kollégája láthatja mindenki nézeteit, és kiválaszthatja azt, amelyik leginkább megfelel az igényeinek.",
+        "primary_button": {
+          "text": "Első nézeted létrehozása",
+          "comic": {
+            "title": "A nézetek a munkaelem-tulajdonságokra épülnek.",
+            "description": "Innen tetszőleges számú tulajdonsággal és szűrővel hozhatsz létre nézetet."
+          }
+        }
+      },
+      "filter": {
+        "title": "Nincs egyező nézet",
+        "description": "Egyetlen nézet sem felel meg a keresési feltételeknek. \n Hozz létre helyette egy új nézetet."
+      }
+    },
+    "delete_view": {
+      "title": "Biztosan törölni szeretnéd ezt a nézetet?",
+      "content": "Ha megerősíted, az ehhez a nézethez választott összes rendezési, szűrési és megjelenítési beállítás, valamint az elrendezés véglegesen törlődik, és nem lesz mód a visszaállításukra."
+    }
+  },
+  "project_page": {
+    "empty_state": {
+      "general": {
+        "title": "Írj egy jegyzetet, egy dokumentumot vagy akár egy teljes tudásbázist. Kérd Galileo, a Plane AI-asszisztensének segítségét a kezdéshez",
+        "description": "Az oldalak a gondolataid otthonai a Plane-ben. Készíts jegyzeteket a megbeszélésekről, formázd őket egyszerűen, ágyazz be munkaelemeket, rendezd el őket egy komponentkönyvtár segítségével, és tartsd mindezt a projekted kontextusában. Bármely dokumentum gyors elkészítéséhez hívd elő Galileo-t, a Plane AI-ját, egy billentyűparanccsal vagy egy gombnyomással.",
+        "primary_button": {
+          "text": "Első oldalad létrehozása"
+        }
+      },
+      "private": {
+        "title": "Még nincs privát oldal",
+        "description": "Tartsd itt a privát gondolataidat. Ha készen állsz a megosztásra, a csapat csak egy kattintásnyira van.",
+        "primary_button": {
+          "text": "Első oldalad létrehozása"
+        }
+      },
+      "public": {
+        "title": "Még nincs nyilvános oldal",
+        "description": "Itt láthatod a projekted minden tagjával megosztott oldalakat.",
+        "primary_button": {
+          "text": "Első oldalad létrehozása"
+        }
+      },
+      "archived": {
+        "title": "Még nincs archivált oldal",
+        "description": "Archiváld azokat az oldalakat, amelyekre most nincs szükséged. Szükség esetén itt éred el őket."
+      }
+    }
+  },
+  "command_k": {
+    "empty_state": {
+      "search": {
+        "title": "Nincs találat"
+      }
+    }
+  },
+  "issue_relation": {
+    "empty_state": {
+      "search": {
+        "title": "Nincs egyező munkaelem"
+      },
+      "no_issues": {
+        "title": "Nincs munkaelem"
+      }
+    }
+  },
+  "issue_comment": {
+    "empty_state": {
+      "general": {
+        "title": "Még nincs hozzászólás",
+        "description": "A hozzászólások a munkaelemekkel kapcsolatos megbeszélésre és nyomon követésre használhatók"
+      }
+    }
+  },
+  "notification": {
+    "label": "Beérkezők",
+    "page_label": "{workspace} - Beérkezők",
+    "options": {
+      "mark_all_as_read": "Összes megjelölése olvasottként",
+      "mark_read": "Megjelölés olvasottként",
+      "mark_unread": "Megjelölés olvasatlanként",
+      "refresh": "Frissítés",
+      "filters": "Beérkezők szűrői",
+      "show_unread": "Olvasatlanok megjelenítése",
+      "show_snoozed": "Elhalasztottak megjelenítése",
+      "show_archived": "Archiváltak megjelenítése",
+      "mark_archive": "Archiválás",
+      "mark_unarchive": "Archiválás visszavonása",
+      "mark_snooze": "Elhalasztás",
+      "mark_unsnooze": "Elhalasztás visszavonása"
+    },
+    "toasts": {
+      "read": "Az értesítés megjelölve olvasottként",
+      "unread": "Az értesítés megjelölve olvasatlanként",
+      "archived": "Az értesítés archiválva",
+      "unarchived": "Az értesítés archiválása visszavonva",
+      "snoozed": "Az értesítés elhalasztva",
+      "unsnoozed": "Az értesítés elhalasztása visszavonva"
+    },
+    "empty_state": {
+      "detail": {
+        "title": "Válassz ki egyet a részletek megtekintéséhez."
+      },
+      "all": {
+        "title": "Nincs hozzád rendelt munkaelem",
+        "description": "A hozzád rendelt munkaelemek frissítései \n itt láthatók"
+      },
+      "mentions": {
+        "title": "Nincs hozzád rendelt munkaelem",
+        "description": "A hozzád rendelt munkaelemek frissítései \n itt láthatók"
+      }
+    },
+    "tabs": {
+      "all": "Összes",
+      "mentions": "Említések"
+    },
+    "filter": {
+      "assigned": "Hozzám rendelve",
+      "created": "Általam létrehozva",
+      "subscribed": "Általam feliratkozva"
+    },
+    "snooze": {
+      "1_day": "1 nap",
+      "3_days": "3 nap",
+      "5_days": "5 nap",
+      "1_week": "1 hét",
+      "2_weeks": "2 hét",
+      "custom": "Egyéni"
+    }
+  },
+  "active_cycle": {
+    "empty_state": {
+      "progress": {
+        "title": "Adj hozzá munkaelemeket a ciklushoz az előrehaladás megtekintéséhez"
+      },
+      "chart": {
+        "title": "Adj hozzá munkaelemeket a ciklushoz a burndown diagram megtekintéséhez."
+      },
+      "priority_issue": {
+        "title": "Egy pillantással áttekintheted a ciklusban kezelt magas prioritású munkaelemeket."
+      },
+      "assignee": {
+        "title": "Rendelj felelősöket a munkaelemekhez, hogy lásd a munka felelősök szerinti megoszlását."
+      },
+      "label": {
+        "title": "Adj címkéket a munkaelemekhez, hogy lásd a munka címkék szerinti megoszlását."
+      }
+    }
+  },
+  "disabled_project": {
+    "empty_state": {
+      "inbox": {
+        "title": "A beérkezők funkció nincs engedélyezve ehhez a projekthez.",
+        "description": "A beérkezők segítségével kezelheted a projektedhez érkező kéréseket, és munkaelemként adhatod hozzá őket a munkafolyamatodhoz. Engedélyezd a beérkezőket a projekt beállításaiban a kérések kezeléséhez.",
+        "primary_button": {
+          "text": "Funkciók kezelése"
+        }
+      },
+      "cycle": {
+        "title": "A ciklusok funkció nincs engedélyezve ehhez a projekthez.",
+        "description": "Bontsd fel a munkát időkeretes szakaszokra, a projekt határidejéből visszafelé haladva állítsd be a dátumokat, és érj el kézzelfogható eredményeket csapatban. Engedélyezd a ciklusok funkciót a projektedhez, hogy elkezdhesd használni őket.",
+        "primary_button": {
+          "text": "Funkciók kezelése"
+        }
+      },
+      "module": {
+        "title": "A modulok funkció nincs engedélyezve ehhez a projekthez.",
+        "description": "A modulok a projekted építőkövei. Engedélyezd a modulokat a projekt beállításaiban, hogy elkezdhesd használni őket.",
+        "primary_button": {
+          "text": "Funkciók kezelése"
+        }
+      },
+      "page": {
+        "title": "Az oldalak funkció nincs engedélyezve ehhez a projekthez.",
+        "description": "Az oldalak a projekted építőkövei. Engedélyezd az oldalakat a projekt beállításaiban, hogy elkezdhesd használni őket.",
+        "primary_button": {
+          "text": "Funkciók kezelése"
+        }
+      },
+      "view": {
+        "title": "A nézetek funkció nincs engedélyezve ehhez a projekthez.",
+        "description": "A nézetek a projekted építőkövei. Engedélyezd a nézeteket a projekt beállításaiban, hogy elkezdhesd használni őket.",
+        "primary_button": {
+          "text": "Funkciók kezelése"
+        }
+      }
+    }
+  },
+  "workspace_draft_issues": {
+    "draft_an_issue": "Munkaelem piszkozat készítése",
+    "empty_state": {
+      "title": "A félig megírt munkaelemek, és hamarosan a hozzászólások is itt jelennek meg.",
+      "description": "Ha ki szeretnéd próbálni, kezdj el hozzáadni egy munkaelemet, és hagyd félbe, vagy hozd létre az első piszkozatodat alább. 😉",
+      "primary_button": {
+        "text": "Első piszkozatod létrehozása"
+      }
+    },
+    "delete_modal": {
+      "title": "Piszkozat törlése",
+      "description": "Biztosan törölni szeretnéd ezt a piszkozatot? Ez nem vonható vissza."
+    },
+    "toasts": {
+      "created": {
+        "success": "Piszkozat létrehozva",
+        "error": "A munkaelemet nem sikerült létrehozni. Próbáld újra."
+      },
+      "deleted": {
+        "success": "Piszkozat törölve"
+      }
+    }
+  },
+  "stickies": {
+    "title": "Cetlijeid",
+    "placeholder": "kattints ide a gépeléshez",
+    "all": "Összes cetli",
+    "no-data": "Jegyezz le egy ötletet, egy aha-élményt vagy egy hirtelen jött gondolatot. Adj hozzá egy cetlit a kezdéshez.",
+    "add": "Cetli hozzáadása",
+    "search_placeholder": "Keresés cím alapján",
+    "delete": "Cetli törlése",
+    "delete_confirmation": "Biztosan törölni szeretnéd ezt a cetlit?",
+    "empty_state": {
+      "simple": "Jegyezz le egy ötletet, egy aha-élményt vagy egy hirtelen jött gondolatot. Adj hozzá egy cetlit a kezdéshez.",
+      "general": {
+        "title": "A cetlik gyors jegyzetek és tennivalók, amelyeket menet közben rögzíthetsz.",
+        "description": "Rögzítsd gondolataidat és ötleteidet könnyedén olyan cetlik létrehozásával, amelyekhez bármikor és bárhonnan hozzáférhetsz.",
+        "primary_button": {
+          "text": "Cetli hozzáadása"
+        }
+      },
+      "search": {
+        "title": "Ez egyik cetliddel sem egyezik.",
+        "description": "Próbálj meg más kifejezést, vagy jelezd nekünk,\nha biztos vagy benne, hogy a keresésed helyes. ",
+        "primary_button": {
+          "text": "Cetli hozzáadása"
+        }
+      }
+    },
+    "toasts": {
+      "errors": {
+        "wrong_name": "A cetli neve nem lehet hosszabb 100 karakternél.",
+        "already_exists": "Már létezik egy leírás nélküli cetli"
+      },
+      "created": {
+        "title": "Cetli létrehozva",
+        "message": "A cetli sikeresen létrejött"
+      },
+      "not_created": {
+        "title": "A cetli nem jött létre",
+        "message": "A cetlit nem sikerült létrehozni"
+      },
+      "updated": {
+        "title": "Cetli frissítve",
+        "message": "A cetli sikeresen frissítve lett"
+      },
+      "not_updated": {
+        "title": "A cetli nem frissült",
+        "message": "A cetlit nem sikerült frissíteni"
+      },
+      "removed": {
+        "title": "Cetli eltávolítva",
+        "message": "A cetli sikeresen eltávolítva lett"
+      },
+      "not_removed": {
+        "title": "A cetli nem lett eltávolítva",
+        "message": "A cetlit nem sikerült eltávolítani"
+      }
+    }
+  },
+  "role_details": {
+    "guest": {
+      "title": "Vendég",
+      "description": "A szervezetek külső tagjai vendégként hívhatók meg."
+    },
+    "member": {
+      "title": "Tag",
+      "description": "Lehetőség a projekteken, ciklusokon és modulokon belüli elemek olvasására, írására, szerkesztésére és törlésére"
+    },
+    "admin": {
+      "title": "Rendszergazda",
+      "description": "A munkaterületen belül minden jogosultság engedélyezve van."
+    }
+  },
+  "user_roles": {
+    "product_or_project_manager": "Termék- / Projektmenedzser",
+    "development_or_engineering": "Fejlesztés / Mérnöki munka",
+    "founder_or_executive": "Alapító / Vezető",
+    "freelancer_or_consultant": "Szabadúszó / Tanácsadó",
+    "marketing_or_growth": "Marketing / Növekedés",
+    "sales_or_business_development": "Értékesítés / Üzletfejlesztés",
+    "support_or_operations": "Ügyfélszolgálat / Üzemeltetés",
+    "student_or_professor": "Diák / Oktató",
+    "human_resources": "Emberi erőforrások",
+    "other": "Egyéb"
+  },
+  "importer": {
+    "github": {
+      "title": "GitHub",
+      "description": "Munkaelemek importálása GitHub-tárolókból és szinkronizálásuk."
+    },
+    "jira": {
+      "title": "Jira",
+      "description": "Munkaelemek és epikek importálása Jira-projektekből és epikekből."
+    }
+  },
+  "exporter": {
+    "csv": {
+      "title": "CSV",
+      "description": "Munkaelemek exportálása CSV-fájlba.",
+      "short_description": "Exportálás CSV-ként"
+    },
+    "excel": {
+      "title": "Excel",
+      "description": "Munkaelemek exportálása Excel-fájlba.",
+      "short_description": "Exportálás Excelbe"
+    },
+    "xlsx": {
+      "title": "Excel",
+      "description": "Munkaelemek exportálása Excel-fájlba.",
+      "short_description": "Exportálás Excelbe"
+    },
+    "json": {
+      "title": "JSON",
+      "description": "Munkaelemek exportálása JSON-fájlba.",
+      "short_description": "Exportálás JSON-ba"
+    }
+  },
+  "default_global_view": {
+    "all_issues": "Összes munkaelem",
+    "assigned": "Hozzám rendelt",
+    "created": "Általam létrehozott",
+    "subscribed": "Feliratkozott"
+  },
+  "themes": {
+    "theme_options": {
+      "system_preference": {
+        "label": "Rendszerbeállítás"
+      },
+      "light": {
+        "label": "Világos"
+      },
+      "dark": {
+        "label": "Sötét"
+      },
+      "light_contrast": {
+        "label": "Világos, nagy kontrasztú"
+      },
+      "dark_contrast": {
+        "label": "Sötét, nagy kontrasztú"
+      },
+      "custom": {
+        "label": "Egyéni téma"
+      }
+    }
+  },
+  "project_modules": {
+    "status": {
+      "backlog": "Backlog",
+      "planned": "Tervezett",
+      "in_progress": "Folyamatban",
+      "paused": "Szüneteltetve",
+      "completed": "Befejezve",
+      "cancelled": "Törölve"
+    },
+    "layout": {
+      "list": "Lista elrendezés",
+      "board": "Galéria elrendezés",
+      "timeline": "Idővonal elrendezés"
+    },
+    "order_by": {
+      "name": "Név",
+      "progress": "Előrehaladás",
+      "issues": "Munkaelemek száma",
+      "due_date": "Határidő",
+      "created_at": "Létrehozás dátuma",
+      "manual": "Kézi"
+    }
+  },
+  "cycle": {
+    "label": "{count, plural, one {Ciklus} other {Ciklus}}",
+    "no_cycle": "Nincs ciklus"
+  },
+  "module": {
+    "label": "{count, plural, one {Modul} other {Modul}}",
+    "no_module": "Nincs modul"
+  },
+  "description_versions": {
+    "last_edited_by": "Utoljára szerkesztette",
+    "previously_edited_by": "Korábban szerkesztette",
+    "edited_by": "Szerkesztette"
+  },
+  "self_hosted_maintenance_message": {
+    "plane_didnt_start_up_this_could_be_because_one_or_more_plane_services_failed_to_start": "A Plane nem indult el. Ennek az lehet az oka, hogy egy vagy több Plane szolgáltatás nem indult el.",
+    "choose_view_logs_from_setup_sh_and_docker_logs_to_be_sure": "A biztonság kedvéért válaszd a setup.sh „Naplók megtekintése” lehetőségét, és ellenőrizd a Docker naplókat."
+  },
+  "page_navigation_pane": {
+    "tabs": {
+      "outline": {
+        "label": "Vázlat",
+        "empty_state": {
+          "title": "Hiányzó címsorok",
+          "description": "Adj hozzá néhány címsort ehhez az oldalhoz, hogy itt megjelenjenek."
+        }
+      },
+      "info": {
+        "label": "Információ",
+        "document_info": {
+          "words": "Szavak",
+          "characters": "Karakterek",
+          "paragraphs": "Bekezdések",
+          "read_time": "Olvasási idő"
         },
-      },
-      issues_empty_filter: {
-        title: "No work items found matching the filters applied",
-        secondary_button: {
-          text: "Clear all filters",
+        "actors_info": {
+          "edited_by": "Szerkesztette",
+          "created_by": "Létrehozta"
         },
+        "version_history": {
+          "label": "Verzióelőzmények",
+          "current_version": "Jelenlegi verzió"
+        }
       },
+      "assets": {
+        "label": "Eszközök",
+        "download_button": "Letöltés",
+        "empty_state": {
+          "title": "Hiányzó képek",
+          "description": "Adj hozzá képeket, hogy itt megjelenjenek."
+        }
+      }
     },
+    "open_button": "Navigációs panel megnyitása",
+    "close_button": "Navigációs panel bezárása",
+    "outline_floating_button": "Vázlat megnyitása"
   },
-  project_module: {
-    add_module: "Add Module",
-    update_module: "Update Module",
-    create_module: "Create Module",
-    archive_module: "Archive Module",
-    restore_module: "Restore Module",
-    delete_module: "Delete module",
-    empty_state: {
-      general: {
-        title: "Map your project milestones to Modules and track aggregated work easily.",
-        description:
-          "A group of work items that belong to a logical, hierarchical parent form a module. Think of them as a way to track work by project milestones. They have their own periods and deadlines as well as analytics to help you see how close or far you are from a milestone.",
-        primary_button: {
-          text: "Build your first module",
-          comic: {
-            title: "Modules help group work by hierarchy.",
-            description:
-              "A cart module, a chassis module, and a warehouse module are all good example of this grouping.",
-          },
+  "project_members": {
+    "full_name": "Teljes név",
+    "display_name": "Megjelenített név",
+    "email": "E-mail",
+    "joining_date": "Csatlakozás dátuma",
+    "role": "Szerepkör"
+  },
+  "power_k": {
+    "contextual_actions": {
+      "work_item": {
+        "title": "Munkaelem-műveletek",
+        "indicator": "Munkaelem",
+        "change_state": "Állapot módosítása",
+        "change_priority": "Prioritás módosítása",
+        "change_assignees": "Felelős hozzárendelése",
+        "assign_to_me": "Hozzárendelés magamhoz",
+        "unassign_from_me": "Hozzárendelés eltávolítása magamtól",
+        "change_estimate": "Becslés módosítása",
+        "add_to_cycle": "Hozzáadás ciklushoz",
+        "add_to_modules": "Hozzáadás modulokhoz",
+        "add_labels": "Címkék hozzáadása",
+        "subscribe": "Feliratkozás értesítésekre",
+        "unsubscribe": "Leiratkozás értesítésekről",
+        "delete": "Törlés",
+        "copy_id": "Azonosító másolása",
+        "copy_id_toast_success": "A munkaelem azonosítója a vágólapra másolva.",
+        "copy_id_toast_error": "Hiba történt a munkaelem azonosítójának vágólapra másolása közben.",
+        "copy_title": "Cím másolása",
+        "copy_title_toast_success": "A munkaelem címe a vágólapra másolva.",
+        "copy_title_toast_error": "Hiba történt a munkaelem címének vágólapra másolása közben.",
+        "copy_url": "URL másolása",
+        "copy_url_toast_success": "A munkaelem URL-je a vágólapra másolva.",
+        "copy_url_toast_error": "Hiba történt a munkaelem URL-jének vágólapra másolása közben."
+      },
+      "cycle": {
+        "title": "Ciklus-műveletek",
+        "indicator": "Ciklus",
+        "add_to_favorites": "Hozzáadás kedvencekhez",
+        "remove_from_favorites": "Eltávolítás a kedvencekből",
+        "copy_url": "URL másolása",
+        "copy_url_toast_success": "A ciklus URL-je a vágólapra másolva.",
+        "copy_url_toast_error": "Hiba történt a ciklus URL-jének vágólapra másolása közben."
+      },
+      "module": {
+        "title": "Modul-műveletek",
+        "indicator": "Modul",
+        "add_remove_members": "Tagok hozzáadása/eltávolítása",
+        "change_status": "Állapot módosítása",
+        "add_to_favorites": "Hozzáadás kedvencekhez",
+        "remove_from_favorites": "Eltávolítás a kedvencekből",
+        "copy_url": "URL másolása",
+        "copy_url_toast_success": "A modul URL-je a vágólapra másolva.",
+        "copy_url_toast_error": "Hiba történt a modul URL-jének vágólapra másolása közben."
+      },
+      "page": {
+        "title": "Oldal-műveletek",
+        "indicator": "Oldal",
+        "lock": "Zárolás",
+        "unlock": "Zárolás feloldása",
+        "make_private": "Priváttá tétel",
+        "make_public": "Nyilvánossá tétel",
+        "archive": "Archiválás",
+        "restore": "Visszaállítás",
+        "add_to_favorites": "Hozzáadás kedvencekhez",
+        "remove_from_favorites": "Eltávolítás a kedvencekből",
+        "copy_url": "URL másolása",
+        "copy_url_toast_success": "Az oldal URL-je a vágólapra másolva.",
+        "copy_url_toast_error": "Hiba történt az oldal URL-jének vágólapra másolása közben."
+      }
+    },
+    "creation_actions": {
+      "create_work_item": "Új munkaelem",
+      "create_page": "Új oldal",
+      "create_view": "Új nézet",
+      "create_cycle": "Új ciklus",
+      "create_module": "Új modul",
+      "create_project": "Új projekt",
+      "create_workspace": "Új munkaterület"
+    },
+    "navigation_actions": {
+      "open_workspace": "Munkaterület megnyitása",
+      "nav_home": "Ugrás a főoldalra",
+      "nav_inbox": "Ugrás a beérkezőkhöz",
+      "nav_your_work": "Ugrás a saját munkáimhoz",
+      "nav_account_settings": "Ugrás a fiókbeállításokhoz",
+      "open_project": "Projekt megnyitása",
+      "nav_projects_list": "Ugrás a projektek listájához",
+      "nav_all_workspace_work_items": "Ugrás az összes munkaelemhez",
+      "nav_assigned_workspace_work_items": "Ugrás a hozzám rendelt munkaelemekhez",
+      "nav_created_workspace_work_items": "Ugrás az általam létrehozott munkaelemekhez",
+      "nav_subscribed_workspace_work_items": "Ugrás a feliratkozott munkaelemekhez",
+      "nav_workspace_analytics": "Ugrás a munkaterület elemzéseihez",
+      "nav_workspace_drafts": "Ugrás a munkaterület piszkozataihoz",
+      "nav_workspace_archives": "Ugrás a munkaterület archívumához",
+      "open_workspace_setting": "Munkaterület-beállítás megnyitása",
+      "nav_workspace_settings": "Ugrás a munkaterület beállításaihoz",
+      "nav_project_work_items": "Ugrás a munkaelemekhez",
+      "open_project_cycle": "Ciklus megnyitása",
+      "nav_project_cycles": "Ugrás a ciklusokhoz",
+      "open_project_module": "Modul megnyitása",
+      "nav_project_modules": "Ugrás a modulokhoz",
+      "open_project_view": "Projektnézet megnyitása",
+      "nav_project_views": "Ugrás a projektnézetekhez",
+      "nav_project_pages": "Ugrás az oldalakhoz",
+      "nav_project_intake": "Ugrás a beérkezőkhöz",
+      "nav_project_archives": "Ugrás a projekt archívumához",
+      "open_project_setting": "Projektbeállítás megnyitása",
+      "nav_project_settings": "Ugrás a projektbeállításokhoz"
+    },
+    "account_actions": {
+      "sign_out": "Kijelentkezés",
+      "workspace_invites": "Munkaterület-meghívók"
+    },
+    "miscellaneous_actions": {
+      "toggle_app_sidebar": "Alkalmazás oldalsávjának be- és kikapcsolása",
+      "copy_current_page_url": "Jelenlegi oldal URL-jének másolása",
+      "copy_current_page_url_toast_success": "A jelenlegi oldal URL-je a vágólapra másolva.",
+      "copy_current_page_url_toast_error": "Hiba történt a jelenlegi oldal URL-jének vágólapra másolása közben.",
+      "focus_top_nav_search": "Ugrás a keresőmezőre"
+    },
+    "preferences_actions": {
+      "update_theme": "Felület témájának módosítása",
+      "update_timezone": "Időzóna módosítása",
+      "update_start_of_week": "Hét első napjának módosítása",
+      "update_language": "Felület nyelvének módosítása",
+      "toast": {
+        "theme": {
+          "success": "A téma sikeresen frissítve.",
+          "error": "Nem sikerült frissíteni a témát. Próbáld újra."
         },
-      },
-      no_issues: {
-        title: "No work items in the module",
-        description: "Create or add work items which you want to accomplish as part of this module",
-        primary_button: {
-          text: "Create new work items",
+        "timezone": {
+          "success": "Az időzóna sikeresen frissítve.",
+          "error": "Nem sikerült frissíteni az időzónát. Próbáld újra."
         },
-        secondary_button: {
-          text: "Add an existing work item",
-        },
-      },
-      archived: {
-        title: "No archived Modules yet",
-        description: "To tidy up your project, archive completed or cancelled modules. Find them here once archived.",
-      },
-      sidebar: {
-        in_active: "This module isn't active yet.",
-        invalid_date: "Invalid date. Please enter valid date.",
-      },
+        "generic": {
+          "success": "A beállítások sikeresen frissítve.",
+          "error": "Nem sikerült frissíteni a beállításokat. Próbáld újra."
+        }
+      }
     },
-    quick_actions: {
-      archive_module: "Archive module",
-      archive_module_description: "Only completed or canceled\nmodule can be archived.",
-      delete_module: "Delete module",
+    "help_actions": {
+      "open_keyboard_shortcuts": "Billentyűparancsok megnyitása",
+      "open_plane_documentation": "Plane dokumentáció megnyitása",
+      "join_forum": "Csatlakozz a fórumunkhoz",
+      "report_bug": "Hiba jelentése"
     },
-    toast: {
-      copy: {
-        success: "Module link copied to clipboard",
-      },
-      delete: {
-        success: "Module deleted successfully",
-        error: "Failed to delete module",
-      },
+    "page_placeholders": {
+      "default": "Írj be egy parancsot, vagy keress",
+      "open_workspace": "Munkaterület megnyitása",
+      "open_project": "Projekt megnyitása",
+      "open_workspace_setting": "Munkaterület-beállítás megnyitása",
+      "open_project_cycle": "Ciklus megnyitása",
+      "open_project_module": "Modul megnyitása",
+      "open_project_view": "Projektnézet megnyitása",
+      "open_project_setting": "Projektbeállítás megnyitása",
+      "update_work_item_state": "Állapot módosítása",
+      "update_work_item_priority": "Prioritás módosítása",
+      "update_work_item_assignee": "Felelős hozzárendelése",
+      "update_work_item_estimate": "Becslés módosítása",
+      "update_work_item_cycle": "Hozzáadás ciklushoz",
+      "update_work_item_module": "Hozzáadás modulokhoz",
+      "update_work_item_labels": "Címkék hozzáadása",
+      "update_module_member": "Tagok módosítása",
+      "update_module_status": "Állapot módosítása",
+      "update_theme": "Téma módosítása",
+      "update_timezone": "Időzóna módosítása",
+      "update_start_of_week": "Hét első napjának módosítása",
+      "update_language": "Nyelv módosítása"
     },
+    "search_menu": {
+      "no_results": "Nincs találat",
+      "clear_search": "Keresés törlése"
+    },
+    "footer": {
+      "workspace_level": "Munkaterület szintje"
+    },
+    "group_titles": {
+      "contextual": "Kontextuális",
+      "navigation": "Navigáció",
+      "create": "Létrehozás",
+      "general": "Általános",
+      "settings": "Beállítások",
+      "account": "Fiók",
+      "miscellaneous": "Egyéb",
+      "preferences": "Preferenciák",
+      "help": "Súgó"
+    }
   },
-  project_views: {
-    empty_state: {
-      general: {
-        title: "Save filtered views for your project. Create as many as you need",
-        description:
-          "Views are a set of saved filters that you use frequently or want easy access to. All your colleagues in a project can see everyone’s views and choose whichever suits their needs best.",
-        primary_button: {
-          text: "Create your first view",
-          comic: {
-            title: "Views work atop Work item properties.",
-            description: "You can create a view from here with as many properties as filters as you see fit.",
-          },
-        },
-      },
-      filter: {
-        title: "No matching views",
-        description: "No views match the search criteria. \n Create a new view instead.",
-      },
-    },
-    delete_view: {
-      title: "Are you sure you want to delete this view?",
-      content:
-        "If you confirm, all the sort, filter, and display options + the layout you have chosen for this view will be permanently deleted without any way to restore them.",
-    },
-  },
-  project_page: {
-    empty_state: {
-      general: {
-        title:
-          "Write a note, a doc, or a full knowledge base. Get Galileo, Plane's AI assistant, to help you get started",
-        description:
-          "Pages are thoughts potting space in Plane. Take down meeting notes, format them easily, embed work items, lay them out using a library of components, and keep them all in your project's context. To make short work of any doc, invoke Galileo, Plane's AI, with a shortcut or the click of a button.",
-        primary_button: {
-          text: "Create your first page",
-        },
-      },
-      private: {
-        title: "No private pages yet",
-        description: "Keep your private thoughts here. When you're ready to share, the team's just a click away.",
-        primary_button: {
-          text: "Create your first page",
-        },
-      },
-      public: {
-        title: "No public pages yet",
-        description: "See pages shared with everyone in your project right here.",
-        primary_button: {
-          text: "Create your first page",
-        },
-      },
-      archived: {
-        title: "No archived pages yet",
-        description: "Archive pages not on your radar. Access them here when needed.",
-      },
-    },
-  },
-  command_k: {
-    empty_state: {
-      search: {
-        title: "No results found",
-      },
-    },
-  },
-  issue_relation: {
-    empty_state: {
-      search: {
-        title: "No matching work items found",
-      },
-      no_issues: {
-        title: "No work items found",
-      },
-    },
-  },
-  issue_comment: {
-    empty_state: {
-      general: {
-        title: "No comments yet",
-        description: "Comments can be used as a discussion and follow-up space for the work items",
-      },
-    },
-  },
-  notification: {
-    label: "Inbox",
-    page_label: "{workspace} - Inbox",
-    options: {
-      mark_all_as_read: "Mark all as read",
-      mark_read: "Mark as read",
-      mark_unread: "Mark as unread",
-      refresh: "Refresh",
-      filters: "Inbox Filters",
-      show_unread: "Show unread",
-      show_snoozed: "Show snoozed",
-      show_archived: "Show archived",
-      mark_archive: "Archive",
-      mark_unarchive: "Un archive",
-      mark_snooze: "Snooze",
-      mark_unsnooze: "Un snooze",
-    },
-    toasts: {
-      read: "Notification marked as read",
-      unread: "Notification marked as unread",
-      archived: "Notification marked as archived",
-      unarchived: "Notification marked as un archived",
-      snoozed: "Notification snoozed",
-      unsnoozed: "Notification un snoozed",
-    },
-    empty_state: {
-      detail: {
-        title: "Select to view details.",
-      },
-      all: {
-        title: "No work items assigned",
-        description: "Updates for work items assigned to you can be \n seen here",
-      },
-      mentions: {
-        title: "No work items assigned",
-        description: "Updates for work items assigned to you can be \n seen here",
-      },
-    },
-    tabs: {
-      all: "All",
-      mentions: "Mentions",
-    },
-    filter: {
-      assigned: "Assigned to me",
-      created: "Created by me",
-      subscribed: "Subscribed by me",
-    },
-    snooze: {
-      "1_day": "1 day",
-      "3_days": "3 days",
-      "5_days": "5 days",
-      "1_week": "1 week",
-      "2_weeks": "2 weeks",
-      custom: "Custom",
-    },
-  },
-  active_cycle: {
-    empty_state: {
-      progress: {
-        title: "Add work items to the cycle to view it's progress",
-      },
-      chart: {
-        title: "Add work items to the cycle to view the burndown chart.",
-      },
-      priority_issue: {
-        title: "Observe high priority work items tackled in the cycle at a glance.",
-      },
-      assignee: {
-        title: "Add assignees to work items to see a breakdown of work by assignees.",
-      },
-      label: {
-        title: "Add labels to work items to see the breakdown of work by labels.",
-      },
-    },
-  },
-  disabled_project: {
-    empty_state: {
-      inbox: {
-        title: "Intake is not enabled for the project.",
-        description:
-          "Intake helps you manage incoming requests to your project and add them as work items in your workflow. Enable intake from project settings to manage requests.",
-        primary_button: {
-          text: "Manage features",
-        },
-      },
-      cycle: {
-        title: "Cycles is not enabled for this project.",
-        description:
-          "Break work down by timeboxed chunks, work backwards from your project deadline to set dates, and make tangible progress as a team. Enable the cycles feature for your project to start using them.",
-        primary_button: {
-          text: "Manage features",
-        },
-      },
-      module: {
-        title: "Modules are not enabled for the project.",
-        description:
-          "Modules are the building blocks of your project. Enable modules from project settings to start using them.",
-        primary_button: {
-          text: "Manage features",
-        },
-      },
-      page: {
-        title: "Pages are not enabled for the project.",
-        description:
-          "Pages are the building blocks of your project. Enable pages from project settings to start using them.",
-        primary_button: {
-          text: "Manage features",
-        },
-      },
-      view: {
-        title: "Views are not enabled for the project.",
-        description:
-          "Views are the building blocks of your project. Enable views from project settings to start using them.",
-        primary_button: {
-          text: "Manage features",
-        },
-      },
-    },
-  },
-  workspace_draft_issues: {
-    draft_an_issue: "Draft a work item",
-    empty_state: {
-      title: "Half-written work items, and soon, comments will show up here.",
-      description:
-        "To try this out, start adding a work item and leave it mid-way or create your first draft below. 😉",
-      primary_button: {
-        text: "Create your first draft",
-      },
-    },
-    delete_modal: {
-      title: "Delete draft",
-      description: "Are you sure you want to delete this draft? This can't be undone.",
-    },
-    toasts: {
-      created: {
-        success: "Draft created",
-        error: "Work item could not be created. Please try again.",
-      },
-      deleted: {
-        success: "Draft deleted",
-      },
-    },
-  },
-  stickies: {
-    title: "Your stickies",
-    placeholder: "click to type here",
-    all: "All stickies",
-    "no-data": "Jot down an idea, capture an aha, or record a brainwave. Add a sticky to get started.",
-    add: "Add sticky",
-    search_placeholder: "Search by title",
-    delete: "Delete sticky",
-    delete_confirmation: "Are you sure you want to delete this sticky?",
-    empty_state: {
-      simple: "Jot down an idea, capture an aha, or record a brainwave. Add a sticky to get started.",
-      general: {
-        title: "Stickies are quick notes and to-dos you take down on the fly.",
-        description:
-          "Capture your thoughts and ideas effortlessly by creating stickies that you can access anytime and from anywhere.",
-        primary_button: {
-          text: "Add sticky",
-        },
-      },
-      search: {
-        title: "That doesn't match any of your stickies.",
-        description: "Try a different term or let us know\nif you are sure your search is right. ",
-        primary_button: {
-          text: "Add sticky",
-        },
-      },
-    },
-    toasts: {
-      errors: {
-        wrong_name: "The sticky name cannot be longer than 100 characters.",
-        already_exists: "There already exists a sticky with no description",
-      },
-      created: {
-        title: "Sticky created",
-        message: "The sticky has been successfully created",
-      },
-      not_created: {
-        title: "Sticky not created",
-        message: "The sticky could not be created",
-      },
-      updated: {
-        title: "Sticky updated",
-        message: "The sticky has been successfully updated",
-      },
-      not_updated: {
-        title: "Sticky not updated",
-        message: "The sticky could not be updated",
-      },
-      removed: {
-        title: "Sticky removed",
-        message: "The sticky has been successfully removed",
-      },
-      not_removed: {
-        title: "Sticky not removed",
-        message: "The sticky could not be removed",
-      },
-    },
-  },
-  role_details: {
-    guest: {
-      title: "Guest",
-      description: "External members of organizations can be invited as guests.",
-    },
-    member: {
-      title: "Member",
-      description: "Ability to read, write, edit, and delete entities inside projects, cycles, and modules",
-    },
-    admin: {
-      title: "Admin",
-      description: "All permissions set to true within the workspace.",
-    },
-  },
-  user_roles: {
-    product_or_project_manager: "Product / Project Manager",
-    development_or_engineering: "Development / Engineering",
-    founder_or_executive: "Founder / Executive",
-    freelancer_or_consultant: "Freelancer / Consultant",
-    marketing_or_growth: "Marketing / Growth",
-    sales_or_business_development: "Sales / Business Development",
-    support_or_operations: "Support / Operations",
-    student_or_professor: "Student / Professor",
-    human_resources: "Human / Resources",
-    other: "Other",
-  },
-  importer: {
-    github: {
-      title: "Github",
-      description: "Import work items from GitHub repositories and sync them.",
-    },
-    jira: {
-      title: "Jira",
-      description: "Import work items and epics from Jira projects and epics.",
-    },
-  },
-  exporter: {
-    csv: {
-      title: "CSV",
-      description: "Export work items to a CSV file.",
-      short_description: "Export as csv",
-    },
-    excel: {
-      title: "Excel",
-      description: "Export work items to a Excel file.",
-      short_description: "Export as excel",
-    },
-    xlsx: {
-      title: "Excel",
-      description: "Export work items to a Excel file.",
-      short_description: "Export as excel",
-    },
-    json: {
-      title: "JSON",
-      description: "Export work items to a JSON file.",
-      short_description: "Export as json",
-    },
-  },
-  default_global_view: {
-    all_issues: "All work items",
-    assigned: "Assigned",
-    created: "Created",
-    subscribed: "Subscribed",
-  },
-  themes: {
-    theme_options: {
-      system_preference: {
-        label: "System preference",
-      },
-      light: {
-        label: "Light",
-      },
-      dark: {
-        label: "Dark",
-      },
-      light_contrast: {
-        label: "Light high contrast",
-      },
-      dark_contrast: {
-        label: "Dark high contrast",
-      },
-      custom: {
-        label: "Custom theme",
-      },
-    },
-  },
-  project_modules: {
-    status: {
-      backlog: "Backlog",
-      planned: "Planned",
-      in_progress: "In Progress",
-      paused: "Paused",
-      completed: "Completed",
-      cancelled: "Cancelled",
-    },
-    layout: {
-      list: "List layout",
-      board: "Gallery layout",
-      timeline: "Timeline layout",
-    },
-    order_by: {
-      name: "Name",
-      progress: "Progress",
-      issues: "Number of work items",
-      due_date: "Due date",
-      created_at: "Created date",
-      manual: "Manual",
-    },
-  },
-  cycle: {
-    label: "{count, plural, one {Cycle} other {Cycles}}",
-    no_cycle: "No cycle",
-  },
-  module: {
-    label: "{count, plural, one {Module} other {Modules}}",
-    no_module: "No module",
-  },
-  description_versions: {
-    last_edited_by: "Last edited by",
-    previously_edited_by: "Previously edited by",
-    edited_by: "Edited by",
-  },
-  self_hosted_maintenance_message: {
-    plane_didnt_start_up_this_could_be_because_one_or_more_plane_services_failed_to_start:
-      "Plane didn't start up. This could be because one or more Plane services failed to start.",
-    choose_view_logs_from_setup_sh_and_docker_logs_to_be_sure:
-      "Choose View Logs from setup.sh and Docker logs to be sure.",
-  },
-  page_navigation_pane: {
-    tabs: {
-      outline: {
-        label: "Outline",
-        empty_state: {
-          title: "Missing headings",
-          description: "Let's put some headings in this page to see them here.",
-        },
-      },
-      info: {
-        label: "Info",
-        document_info: {
-          words: "Words",
-          characters: "Characters",
-          paragraphs: "Paragraphs",
-          read_time: "Read time",
-        },
-        actors_info: {
-          edited_by: "Edited by",
-          created_by: "Created by",
-        },
-        version_history: {
-          label: "Version history",
-          current_version: "Current version",
-        },
-      },
-      assets: {
-        label: "Assets",
-        download_button: "Download",
-        empty_state: {
-          title: "Missing images",
-          description: "Add images to see them here.",
-        },
-      },
-    },
-    open_button: "Open navigation pane",
-    close_button: "Close navigation pane",
-    outline_floating_button: "Open outline",
-  },
-  project_members: {
-    full_name: "Full name",
-    display_name: "Display name",
-    email: "Email",
-    joining_date: "Joining date",
-    role: "Role",
-  },
-  power_k: {
-    contextual_actions: {
-      work_item: {
-        title: "Work item actions",
-        indicator: "Work item",
-        change_state: "Change state",
-        change_priority: "Change priority",
-        change_assignees: "Assign to",
-        assign_to_me: "Assign to me",
-        unassign_from_me: "Un-assign from me",
-        change_estimate: "Change estimate",
-        add_to_cycle: "Add to cycle",
-        add_to_modules: "Add to modules",
-        add_labels: "Add labels",
-        subscribe: "Subscribe to notifications",
-        unsubscribe: "Unsubscribe from notifications",
-        delete: "Delete",
-        copy_id: "Copy ID",
-        copy_id_toast_success: "Work item ID copied to clipboard.",
-        copy_id_toast_error: "Some error occurred while copying the work item ID to clipboard.",
-        copy_title: "Copy title",
-        copy_title_toast_success: "Work item title copied to clipboard.",
-        copy_title_toast_error: "Some error occurred while copying the work item title to clipboard.",
-        copy_url: "Copy URL",
-        copy_url_toast_success: "Work item URL copied to clipboard.",
-        copy_url_toast_error: "Some error occurred while copying the work item URL to clipboard.",
-      },
-      cycle: {
-        title: "Cycle actions",
-        indicator: "Cycle",
-        add_to_favorites: "Add to favorites",
-        remove_from_favorites: "Remove from favorites",
-        copy_url: "Copy URL",
-        copy_url_toast_success: "Cycle URL copied to clipboard.",
-        copy_url_toast_error: "Some error occurred while copying the cycle URL to clipboard.",
-      },
-      module: {
-        title: "Module actions",
-        indicator: "Module",
-        add_remove_members: "Add/remove members",
-        change_status: "Change status",
-        add_to_favorites: "Add to favorites",
-        remove_from_favorites: "Remove from favorites",
-        copy_url: "Copy URL",
-        copy_url_toast_success: "Module URL copied to clipboard.",
-        copy_url_toast_error: "Some error occurred while copying the module URL to clipboard.",
-      },
-      page: {
-        title: "Page actions",
-        indicator: "Page",
-        lock: "Lock",
-        unlock: "Unlock",
-        make_private: "Make private",
-        make_public: "Make public",
-        archive: "Archive",
-        restore: "Restore",
-        add_to_favorites: "Add to favorites",
-        remove_from_favorites: "Remove from favorites",
-        copy_url: "Copy URL",
-        copy_url_toast_success: "Page URL copied to clipboard.",
-        copy_url_toast_error: "Some error occurred while copying the page URL to clipboard.",
-      },
-    },
-    creation_actions: {
-      create_work_item: "New work item",
-      create_page: "New page",
-      create_view: "New view",
-      create_cycle: "New cycle",
-      create_module: "New module",
-      create_project: "New project",
-      create_workspace: "New workspace",
-    },
-    navigation_actions: {
-      open_workspace: "Open a workspace",
-      nav_home: "Go to home",
-      nav_inbox: "Go to inbox",
-      nav_your_work: "Go to your work",
-      nav_account_settings: "Go to account settings",
-      open_project: "Open a project",
-      nav_projects_list: "Go to projects list",
-      nav_all_workspace_work_items: "Go to all work items",
-      nav_assigned_workspace_work_items: "Go to assigned work items",
-      nav_created_workspace_work_items: "Go to created work items",
-      nav_subscribed_workspace_work_items: "Go to subscribed work items",
-      nav_workspace_analytics: "Go to workspace analytics",
-      nav_workspace_drafts: "Go to workspace drafts",
-      nav_workspace_archives: "Go to workspace archives",
-      open_workspace_setting: "Open a workspace setting",
-      nav_workspace_settings: "Go to workspace settings",
-      nav_project_work_items: "Go to work items",
-      open_project_cycle: "Open a cycle",
-      nav_project_cycles: "Go to cycles",
-      open_project_module: "Open a module",
-      nav_project_modules: "Go to modules",
-      open_project_view: "Open a project view",
-      nav_project_views: "Go to project views",
-      nav_project_pages: "Go to pages",
-      nav_project_intake: "Go to intake",
-      nav_project_archives: "Go to project archives",
-      open_project_setting: "Open a project setting",
-      nav_project_settings: "Go to project settings",
-    },
-    account_actions: {
-      sign_out: "Sign out",
-      workspace_invites: "Workspace invites",
-    },
-    miscellaneous_actions: {
-      toggle_app_sidebar: "Toggle app sidebar",
-      copy_current_page_url: "Copy current page URL",
-      copy_current_page_url_toast_success: "Current page URL copied to clipboard.",
-      copy_current_page_url_toast_error: "Some error occurred while copying the current page URL to clipboard.",
-      focus_top_nav_search: "Focus search input",
-    },
-    preferences_actions: {
-      update_theme: "Change interface theme",
-      update_timezone: "Change timezone",
-      update_start_of_week: "Change first day of week",
-      update_language: "Change interface language",
-      toast: {
-        theme: {
-          success: "Theme updated successfully.",
-          error: "Failed to update theme. Please try again.",
-        },
-        timezone: {
-          success: "Timezone updated successfully.",
-          error: "Failed to update timezone. Please try again.",
-        },
-        generic: {
-          success: "Preferences updated successfully.",
-          error: "Failed to update preferences. Please try again.",
-        },
-      },
-    },
-    help_actions: {
-      open_keyboard_shortcuts: "Open keyboard shortcuts",
-      open_plane_documentation: "Open Plane documentation",
-      join_forum: "Join our Forum",
-      report_bug: "Report a bug",
-    },
-    page_placeholders: {
-      default: "Type a command or search",
-      open_workspace: "Open a workspace",
-      open_project: "Open a project",
-      open_workspace_setting: "Open a workspace setting",
-      open_project_cycle: "Open a cycle",
-      open_project_module: "Open a module",
-      open_project_view: "Open a project view",
-      open_project_setting: "Open a project setting",
-      update_work_item_state: "Change state",
-      update_work_item_priority: "Change priority",
-      update_work_item_assignee: "Assign to",
-      update_work_item_estimate: "Change estimate",
-      update_work_item_cycle: "Add to cycle",
-      update_work_item_module: "Add to modules",
-      update_work_item_labels: "Add labels",
-      update_module_member: "Change members",
-      update_module_status: "Change status",
-      update_theme: "Change theme",
-      update_timezone: "Change timezone",
-      update_start_of_week: "Change first day of week",
-      update_language: "Change language",
-    },
-    search_menu: {
-      no_results: "No results found",
-      clear_search: "Clear search",
-    },
-    footer: {
-      workspace_level: "Workspace level",
-    },
-    group_titles: {
-      contextual: "Contextual",
-      navigation: "Navigate",
-      create: "Create",
-      general: "General",
-      settings: "Settings",
-      account: "Account",
-      miscellaneous: "Miscellaneous",
-      preferences: "Preferences",
-      help: "Help",
-    },
-  },
-  // Navigation customization
-  customize_navigation: "Customize navigation",
-  personal: "Personal",
-  accordion_navigation_control: "Accordion sidebar navigation",
-  horizontal_navigation_bar: "Tabbed Navigation",
-  show_limited_projects_on_sidebar: "Show limited projects on sidebar",
-  enter_number_of_projects: "Enter number of projects",
-  pin: "Pin",
-  unpin: "Unpin",
+  "customize_navigation": "Navigáció testreszabása",
+  "personal": "Személyes",
+  "accordion_navigation_control": "Harmonika típusú oldalsáv-navigáció",
+  "horizontal_navigation_bar": "Lapfüles navigáció",
+  "show_limited_projects_on_sidebar": "Korlátozott számú projekt megjelenítése az oldalsávon",
+  "enter_number_of_projects": "Add meg a projektek számát",
+  "pin": "Kitűzés",
+  "unpin": "Kitűzés megszüntetése"
 } as const;
