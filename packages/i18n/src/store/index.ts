@@ -10,7 +10,7 @@ import { makeAutoObservable, runInAction } from "mobx";
 // constants
 import { FALLBACK_LANGUAGE, SUPPORTED_LANGUAGES, LANGUAGE_STORAGE_KEY, ETranslationFiles } from "../constants";
 // core translations imports
-import { enCore, locales } from "../locales";
+import { enCore, huCore, locales } from "../locales";
 // types
 import type { TLanguage, ILanguageOption, ITranslations } from "../types";
 
@@ -23,6 +23,7 @@ export class TranslationStore {
   // Core translations that are always loaded
   private coreTranslations: ITranslations = {
     en: enCore,
+    hu: huCore,
   };
   // List of translations for each language
   private translations: ITranslations = {};

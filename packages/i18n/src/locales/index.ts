@@ -6,6 +6,7 @@
 
 // Export all locale files to make them accessible from the package root
 export { default as enCore } from "./en/core";
+export { default as huCore } from "./hu/core";
 export { default as enTranslations } from "./en/translations";
 export { default as enAccessibility } from "./en/accessibility";
 export { default as enEditor } from "./en/editor";
